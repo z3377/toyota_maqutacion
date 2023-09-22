@@ -1,59 +1,30 @@
-<!DOCTYPE html>
-<html>
 
 <head>
-  <style>
-    /* Estilo para el encabezado blanco */
-    header {
-      background-color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .titulo-toyotoshi {
-      text-decoration: none !important;
-      /* Elimina el subrayado */
-      color: #000;
-      /* Cambia el color del texto del enlace */
-    }
-
-    .titulo-toyotoshi:visited {
-      color: #000;
-      text-decoration: none !important;
-      /* Cambia el color del texto del enlace visitado */
-    }
-
-    /* Estilo para el enlace cuando está enfocado (al hacer clic) */
-    .titulo-toyotoshi:focus {
-      outline: none !important;
-      color: #000;
-      text-decoration: none !important;
-      /* Elimina el borde de enfoque predeterminado (puedes personalizarlo según tus necesidades) */
-      /* Cambia otros estilos según tus preferencias */
-    }
-
-    .titulo-toyotoshi:hover {
-      outline: none !important;
-      color: #000;
-      text-decoration: none !important;
-      /* Elimina el borde de enfoque predeterminado (puedes personalizarlo según tus necesidades) */
-      /* Cambia otros estilos según tus preferencias */
-    }
-
-  </style>
+  
 </head>
 
-<body>
-  <!-- Encabezado blanco -->
-  <header>
-
-    <a href="./toyota_maqutacion/index.html">
-      <h2 class="titulo-toyotoshi" style="font-weight: bold;">TOYOTOSHI</h2>
-    </a>
-
-    <h1>Mi Encabezado Blanco</h1>
-    <p>Este es un ejemplo de un encabezado blanco en HTML y CSS.</p>
-  </header>
-</body>
-
-</html>
+<nav class="navbar navbar-expand-lg navbar-light bg-light espacio-abajo">
+  <a class="navbar-brand" href="./index.html"><img src="./imagenes/veterinary_icon_180324.png" style="max-width: 40px;"
+      alt="">
+    TOYOTOSHI</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./agregar_gatos.html">Agregar Gatos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
