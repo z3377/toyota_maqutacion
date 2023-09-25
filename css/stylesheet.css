@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Toyota Type';
-    src: url('ToyotaType-Bold.woff2') format('woff2'),
-        url('ToyotaType-Bold.woff') format('woff');
+    src: url('fonts/ToyotaType-Bold.woff2') format('woff2'),
+        url('fonts/ToyotaType-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Toyota Type';
-    src: url('ToyotaType-Semibold.woff2') format('woff2'),
-        url('ToyotaType-Semibold.woff') format('woff');
+    src: url('fonts/ToyotaType-Semibold.woff2') format('woff2'),
+        url('fonts/ToyotaType-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -18,4 +18,12 @@
 
 body{
     background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor-global{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }

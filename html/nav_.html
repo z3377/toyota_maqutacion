@@ -1,6 +1,16 @@
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+
 </head>
+
 
 <style>
   .contenedor {
@@ -17,25 +27,26 @@
 
   }
 
-  .custom-button {
-    /* background-color: #FF5733; */
-    color: #FFFFFF;
-    /* border: 2px solid #FF5733; */
-    border-radius: 40px;
-    padding: 10px 20px;
-    font-size: 16px;
-    width: 200px;
-    padding: 16px 20px;
-    position: relative;
-    top: -9px;
+  .custom-button{
+    color: #FFFFFF !important;
+    border-radius: 40px !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    width: 186px !important;
+    padding: 16px 20px !important;
+    position: relative !important;
+    top: -9px !important;
+    font-weight: 1000 !important;
   }
 
   .navbar-nav .nav-link {
     margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   nav {
-    width: 82%;
+    width: 95%;
+    color: black;
   }
 
   .div-titulo-principal {
@@ -57,7 +68,7 @@
 
   .titulo-toyotoshi {
     margin-left: 10px;
-    font-weight: bold;
+    font-weight: bolder;
   }
 </style>
 
@@ -79,13 +90,29 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./index.html">Institucional</a>
+          <a class="nav-link" href="#">Institucional</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./agregar_gatos.html">Marcas</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="marcasDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Marcas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="marcasDropdown">
+            <a class="dropdown-item" href="#">Marca 1</a>
+            <a class="dropdown-item" href="#">Marca 2</a>
+            <a class="dropdown-item" href="#">Marca 3</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="serviciosDropdown">
+            <a class="dropdown-item" href="#">Servicio 1</a>
+            <a class="dropdown-item" href="#">Servicio 2</a>
+            <a class="dropdown-item" href="#">Servicio 3</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">RSE</a>
@@ -99,12 +126,15 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Sucursales</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <div class="button-container">
             <a class="btn btn-danger custom-button" href="#">PAGO DE CUOTAS</a>
           </div>
-        </li>
+        </li> -->
       </ul>
+    </div>
+    <div class="button-container">
+      <a class="btn btn-danger custom-button" href="#">PAGO DE CUOTAS</a>
     </div>
   </nav>
 </div>
