@@ -27,7 +27,11 @@
 
   }
 
-  .custom-button{
+  .texto-negro{
+    color: black !important;
+  }
+
+  .boton-cuota{
     color: #FFFFFF !important;
     border-radius: 40px !important;
     padding: 10px 20px !important;
@@ -45,8 +49,9 @@
   }
 
   nav {
-    width: 95%;
+    width: 87%;
     color: black;
+    background-color: white;
   }
 
   .div-titulo-principal {
@@ -72,12 +77,12 @@
   }
 </style>
 
-<div class="contenedor">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light espacio-abajo">
+<div style="width: 100%;" class="contenedor ">
+  <nav  class="navbar navbar-expand-lg  espacio-abajo ">
     <a class="navbar-brand" href="./index.html">
       <div class="div-titulo-principal">
         <img src="./img/logo_toyota_insignia_.png" class="logo-toyotoshi" alt="">
-        <h1 class="titulo-toyotoshi">TOYOTOSHI<br><span>
+        <h1 class="titulo-toyotoshi texto-negro">TOYOTOSHI<br><span>
             <p class="titulo-sociedad-anonima">SOCIEDAD ANONIMA</p>
           </span></h1>
       </div>
@@ -90,10 +95,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Institucional</a>
+          <a class="nav-link texto-negro" href="#">Institucional</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="marcasDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle texto-negro" href="#" id="marcasDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Marcas
           </a>
@@ -104,7 +109,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle texto-negro" href="#" id="serviciosDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Servicios
           </a>
@@ -115,16 +120,16 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">RSE</a>
+          <a class="nav-link texto-negro" href="#">RSE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link texto-negro" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link texto-negro" href="#">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sucursales</a>
+          <a class="nav-link texto-negro" href="#">Sucursales</a>
         </li>
         <!-- <li class="nav-item">
           <div class="button-container">
@@ -134,7 +139,7 @@
       </ul>
     </div>
     <div class="button-container">
-      <a class="btn btn-danger custom-button" href="#">PAGO DE CUOTAS</a>
+      <a class="btn btn-danger boton-cuota" href="#">PAGO DE CUOTAS</a>
     </div>
   </nav>
 </div>
