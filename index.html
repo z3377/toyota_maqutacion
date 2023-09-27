@@ -34,12 +34,20 @@
       </div>
     </div>
 
-    <div style="margin-bottom: 180px;">
+    <div class="margen-entre-divs-2">
       <div id="quiero_info"></div>
     </div>
 
-    <div>
+    <div class="margen-entre-divs-2">
       <div id="mantenimiento_prepago"></div>
+    </div>
+
+    <div class="margen-entre-divs-3">
+      <div id="plan_mantenimiento"></div>
+    </div>
+
+    <div>
+      <div id="beneficios"></div>
     </div>
 
     <!-- <h1>hola mundo</h1> -->
@@ -102,6 +110,32 @@
         .then(data => {
           // Insertar el contenido en el div con id "contenido"
           document.getElementById('mantenimiento_prepago').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error al cargar el archivo HTML:', error);
+        });
+    </script>
+
+    <script>
+      // Utilizar fetch para cargar el contenido del otro archivo HTML
+      fetch('html/plan_mantenimiento_.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insertar el contenido en el div con id "contenido"
+          document.getElementById('plan_mantenimiento').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error al cargar el archivo HTML:', error);
+        });
+    </script>
+
+    <script>
+      // Utilizar fetch para cargar el contenido del otro archivo HTML
+      fetch('html/beneficios_.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insertar el contenido en el div con id "contenido"
+          document.getElementById('beneficios').innerHTML = data;
         })
         .catch(error => {
           console.error('Error al cargar el archivo HTML:', error);
