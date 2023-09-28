@@ -22,6 +22,16 @@ body {
     padding: 0%;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+
 .contenedor-global {
     max-width: 100%;
     margin-left: auto;
@@ -57,6 +67,16 @@ ol {
     /* También puedes eliminar el espacio izquierdo predeterminado */
 }
 
+.flotar-derecha {
+    float: right;
+}
+
+.custom-dropdown-toggle::after {
+    content: url('img/flecha-icon.svg');
+    /* Ruta a tu imagen SVG */
+    margin-left: 10px;
+    /* Ajusta el espaciado según sea necesario */
+}
 
 /* .div-contenidos {
     max-width: 100%;

@@ -11,27 +11,139 @@
 </head>
 
 <style>
-
-  .fondo{
+  .fondo {
     background-color: #d7dcd5;
   }
 
-  .pading-top{
+  .pading-top {
     padding-top: 60px;
   }
 
-  .margen-abajo{
+  .margen-abajo {
     margin-bottom: 60px;
   }
 
+  .container-tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* Espaciado interno entre las columnas */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    margin-right: 17px;
+    margin-left: 17px;
+    /* Espaciado entre las tarjetas */
+    border-radius: 10px;
+  }
+
+  .tamanho-imagen {
+    width: 125px;
+  }
+
+  .estilo-imagen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
 </style>
 
 <div id="beneficios">
   <div class="fondo pading-top">
 
-    <h2 style="font-weight: bolder; text-align: center; margin-bottom: 70px;" class="margen-abajo">
+    <h2 style="text-align: center; margin-bottom: 70px;" class="margen-abajo font-weight-bolder">
       Cuales son los beneficios que obtengo?
     </h2>
+
+    <div>
+
+      <div class="container-tarjetas">
+        <div class="card">
+          <div class="estilo-imagen">
+            <img class="tamanho-imagen" src="img/repuestos.svg" alt="repuesto">
+          </div>
+          <div class="text-center">
+            <h4 class="font-weight-bold espacio-abajo">
+              Congelamiento de
+              Precios
+            </h4>
+
+            <p>
+              Congelamiento del precio de
+              repuestos al momento de la
+              firma de contrato
+            </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="estilo-imagen">
+            <img class="tamanho-imagen" src="img/mantenimiento.svg" alt="repuesto">
+          </div>
+          <div class="text-center">
+            <h4 class="font-weight-bold espacio-abajo">
+              Ahorro en
+              mantenimiento
+            </h4>
+
+            <p>
+              Ahorro de hasta un <span style="color: red;" class="font-weight-bold">20%
+                (veinte por ciento)</span> en los
+              talleres por servicios de
+              mantenimiento del vehiculo
+            </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="estilo-imagen">
+            <img class="tamanho-imagen" src="img/cuponera.svg" alt="repuesto">
+          </div>
+          <div class="text-center">
+            <h4 class="font-weight-bold espacio-abajo">
+              Cuponera de <br>
+              descuentos
+            </h4>
+
+            <p>
+              Una cuponera de beneficios
+              que incluyen <span style="color: red;" class="font-weight-bold">descuentos de
+                hasta 35%</span> para repuestos,
+              bateria y neumaticos
+            </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="estilo-imagen">
+            <img class="tamanho-imagen" src="img/kinto.svg" alt="repuesto">
+          </div>
+          <div class="text-center">
+            <h4 class="font-weight-bold espacio-abajo">
+              Descuento especial
+            </h4>
+
+            <p>
+              Descuento especial para el
+              servicio KINTO en caso de
+              necesidad de un vehiculo en
+              alquiler (sujeto ala
+              disponibilidad)
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
 
   </div>
 </div>

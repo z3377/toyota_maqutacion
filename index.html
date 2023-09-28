@@ -29,6 +29,10 @@
     </div>
 
     <div>
+      <div id="relleno"></div>
+    </div>
+
+    <div>
       <div style="width: 100%;" class="margen-entre-divs">
         <img style="max-width: 100%;" src="img/header.jpg" alt="">
       </div>
@@ -63,6 +67,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+
+    <script>
+      // Utilizar fetch para cargar el contenido del otro archivo HTML
+      fetch('html/relleno_.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insertar el contenido en el div con id "contenido"
+          document.getElementById('relleno').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error al cargar el archivo HTML:', error);
+        });
+    </script>
 
     <script>
       // Utilizar fetch para cargar el contenido del otro archivo HTML
