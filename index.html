@@ -54,6 +54,10 @@
       <div id="beneficios"></div>
     </div>
 
+    <div>
+      <div id="preguntas_frecuentes"></div>
+    </div>
+
     <!-- <h1>hola mundo</h1> -->
 
     <!-- Optional JavaScript -->
@@ -153,6 +157,19 @@
         .then(data => {
           // Insertar el contenido en el div con id "contenido"
           document.getElementById('beneficios').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error al cargar el archivo HTML:', error);
+        });
+    </script>
+
+    <script>
+      // Utilizar fetch para cargar el contenido del otro archivo HTML
+      fetch('html/preguntas_frecuentes_.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insertar el contenido en el div con id "contenido"
+          document.getElementById('preguntas_frecuentes').innerHTML = data;
         })
         .catch(error => {
           console.error('Error al cargar el archivo HTML:', error);
