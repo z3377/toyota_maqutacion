@@ -81,20 +81,10 @@
     display: flex;
     justify-content: center;
   }
-
-  .margen-especial {
-    margin-left: 18%;
-  }
-
-  @media screen and (max-width: 1370px) {
-    .margen-especial {
-      margin-left: 6%;
-    }
-  }
 </style>
 
-<div class="container-fluid d-flex align-items-center">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light margen-especial">
+<div style="width: 100%;" class="contenedor navbar-container">
+  <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="./index.html">
       <div class="div-titulo-principal">
         <img src="./img/logo_toyota_insignia_.png" class="logo-toyotoshi" alt="">
@@ -148,10 +138,10 @@
           <a class="nav-link texto-negro" href="#">Sucursales</a>
         </li>
         <!-- <li class="nav-item">
-                  <div class="button-container">
-                      <a class="btn btn-danger custom-button" href="#">PAGO DE CUOTAS</a>
-                  </div>
-              </li> -->
+          <div class="button-container">
+            <a class="btn btn-danger custom-button" href="#">PAGO DE CUOTAS</a>
+          </div>
+        </li> -->
       </ul>
     </div>
     <div class="button-container">
