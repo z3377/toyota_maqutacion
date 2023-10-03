@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Toyota Type';
-  src: url('fonts/ToyotaType-Bold.woff2') format('woff2'),
-    url('fonts/ToyotaType-Bold.woff') format('woff');
+  src: url('/fonts/ToyotaType-Bold.woff2') format('woff2'),
+    url('/fonts/ToyotaType-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Toyota Type';
-  src: url('fonts/ToyotaType-Semibold.woff2') format('woff2'),
-    url('fonts/ToyotaType-Semibold.woff') format('woff');
+  src: url('/fonts/ToyotaType-Semibold.woff2') format('woff2'),
+    url('/fonts/ToyotaType-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -20,6 +20,7 @@ body {
   background-color: white;
   margin: 0%;
   padding: 0%;
+  font-family: Toyota Type;
 }
 
 #navbar {
@@ -86,15 +87,10 @@ ol {
   /* Ajusta el espaciado según sea necesario */
 }
 
-/* .div-contenidos {
-    max-width: 100%;
-    /* Establece el ancho máximo para evitar que se desborde horizontalmente */
-/* max-height: 400px; */
-/* Establece la altura máxima */
-/* overflow: auto; */
-/* Agrega scroll si el contenido es más grande que la altura máxima */
-word-wrap: break-word;
-/* Evita que las palabras largas rompan el diseño */
+@media screen and (max-width:1366px) {
+  
 }
 
-*/
+@media screen and (max-width:450px) {
+  
+}
