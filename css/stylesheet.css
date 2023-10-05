@@ -259,6 +259,26 @@ nav {
   background-color: #342e21;
   font-family: Toyota Type;
   color: white;
+  /* height: 430px; */
+}
+
+.hr-footer {
+  background-color: #4a4233;
+  width: 100%;
+  margin-bottom: -9px;
+}
+
+.boton-cuota-footer {
+  color: #000 !important;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 186px !important;
+  padding: 16px 20px !important;
+  position: relative !important;
+  top: -9px !important;
+  font-weight: 1000 !important;
+  background-color: white !important;
 }
 
 .columnas {
@@ -274,14 +294,27 @@ nav {
   width: 35px;
 }
 
+.div-titulo-principal-footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 127px;
+}
+
 .logo-toyotoshi-footer {
   max-width: 70px;
   margin-bottom: 31px;
   color: white !important;
 }
 
+.logo-toyotoshi-footer-img {
+  max-width: 69px;
+  margin-bottom: 54px;
+  margin-right: 10px;
+}
+
 .titulo-sociedad-anonima-footer {
-  font-size: 8px;
+  font-size: 9px;
   font-weight: normal;
   letter-spacing: 8px;
   margin-left: 8px;
@@ -377,9 +410,17 @@ nav {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* FOOTER */
+
+  .hr-footer {
+    background-color: #4a4233;
+    width: 100%;
+    margin-bottom: -9px;
+  }
+
 }
 
 /* 450 */
 
-@media screen and (max-width: 450px) {
-}
+@media screen and (max-width: 450px) {}
