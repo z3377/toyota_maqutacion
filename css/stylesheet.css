@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Toyota Type';
-  src: url('/fonts/ToyotaType-Bold.woff2') format('woff2'),
-    url('/fonts/ToyotaType-Bold.woff') format('woff');
+  font-family: "Toyota Type";
+  src: url("/fonts/ToyotaType-Bold.woff2") format("woff2"),
+    url("/fonts/ToyotaType-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Toyota Type';
-  src: url('/fonts/ToyotaType-Semibold.woff2') format('woff2'),
-    url('/fonts/ToyotaType-Semibold.woff') format('woff');
+  font-family: "Toyota Type";
+  src: url("/fonts/ToyotaType-Semibold.woff2") format("woff2"),
+    url("/fonts/ToyotaType-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,6 @@ body {
   background-color: white;
   z-index: 1000;
 }
-
 
 .contenedor-global {
   max-width: 100%;
@@ -66,7 +65,7 @@ body {
 }
 
 .espacio-arriba {
-  margin-top: 25px
+  margin-top: 25px;
 }
 
 ul,
@@ -81,16 +80,306 @@ ol {
 }
 
 .custom-dropdown-toggle::after {
-  content: url('img/flecha-icon.svg');
+  content: url("img/flecha-icon.svg");
   /* Ruta a tu imagen SVG */
   margin-left: 10px;
   /* Ajusta el espaciado según sea necesario */
 }
 
-@media screen and (max-width:1366px) {
-  
+/* NAVBAR */
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  height: 137px;
 }
 
-@media screen and (max-width:450px) {
-  
+.button-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* Ajusta la altura del botón al 100% del contenedor */
+}
+
+.texto-negro {
+  color: black !important;
+}
+
+.boton-cuota {
+  color: #ffffff !important;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 186px !important;
+  padding: 16px 20px !important;
+  position: relative !important;
+  top: -9px !important;
+  font-weight: 1000 !important;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  width: 63%;
+  color: black;
+  background-color: white;
+}
+
+.div-titulo-principal {
+  display: flex;
+  align-items: center;
+}
+
+.logo-toyotoshi {
+  max-width: 70px;
+  margin-bottom: 31px;
+}
+
+.titulo-sociedad-anonima {
+  font-size: 10px;
+  font-weight: normal;
+  letter-spacing: 8px;
+  margin-left: 8px;
+}
+
+.titulo-toyotoshi {
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.margen-especial {
+  margin-left: 18%;
+}
+
+#nav {
+  font-family: Toyota Type;
+}
+
+/* MANTENIMIENTO PREPAGO */
+
+#mantenimiento-prepago {
+  padding: 10px;
+  font-family: Toyota Type !important;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+/* Estilo para el acordeón */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion.active,
+.accordion:hover {
+  background-color: #ddd;
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\2796";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
+  opacity: 0;
+}
+
+.panel.show {
+  opacity: 1;
+  max-height: 500px;
+  /* Cambia esto según sea necesario */
+}
+
+#preguntas_frecuentes {
+  font-family: Toyota Type;
+}
+
+/* QUIERO INFO */
+
+.button-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* Ajusta la altura del botón al 100% del contenedor */
+}
+
+.boton-info {
+  color: #ffffff;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 250px !important;
+  padding: 16px 20px !important;
+  /* position: relative !important; */
+  /* top: -9px !important; */
+  font-weight: 1000 !important;
+}
+
+#quiero_info {
+  font-family: Toyota Type;
+}
+
+/* PLAN MANTENIMIENTO */
+
+#plan_mantenimiento {
+  font-family: Toyota Type;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #342e21;
+  font-family: Toyota Type;
+  color: white;
+}
+
+.columnas {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.iconos-redes {
+  width: 35px;
+}
+
+.logo-toyotoshi-footer {
+  max-width: 70px;
+  margin-bottom: 31px;
+  color: white !important;
+}
+
+.titulo-sociedad-anonima-footer {
+  font-size: 8px;
+  font-weight: normal;
+  letter-spacing: 8px;
+  margin-left: 8px;
+}
+
+/* RELLENO */
+
+.relleno {
+  height: 137px;
+  background-color: white;
+}
+
+/* BENEFICIOS */
+
+.fondo {
+  background-color: #d7dcd5;
+}
+
+.pading-top {
+  padding-top: 60px;
+}
+
+.margen-abajo {
+  margin-bottom: 60px;
+}
+
+.container-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* Espaciado interno entre las columnas */
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid white;
+  margin-right: 17px;
+  margin-left: 17px;
+  /* Espaciado entre las tarjetas */
+  border-radius: 10px !important;
+  margin-bottom: 76px;
+}
+
+.tamanho-imagen {
+  width: 125px;
+}
+
+.estilo-imagen {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+#beneficios {
+  font-family: Toyota Type;
+}
+
+/* 1366 */
+
+@media screen and (max-width: 1366px) {
+  /* NAVBAR */
+
+  .margen-especial {
+    margin-left: 6%;
+  }
+
+  /* BENEFICIOS */
+
+  .card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 17px;
+    /* Espaciado entre las tarjetas */
+    border-radius: 10px !important;
+    margin-bottom: 76px;
+  }
+
+  .container-tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* Espaciado interno entre las columnas */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* 450 */
+
+@media screen and (max-width: 450px) {
 }
