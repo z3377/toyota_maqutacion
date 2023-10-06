@@ -1,0 +1,70 @@
+.fondo {
+    background-color: #d7dcd5;
+}
+
+.pading-top {
+    padding-top: 60px;
+}
+
+.margen-abajo {
+    margin-bottom: 60px;
+}
+
+.container-tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* Espaciado interno entre las columnas */
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    margin-right: 17px;
+    margin-left: 17px;
+    /* Espaciado entre las tarjetas */
+    border-radius: 10px !important;
+    margin-bottom: 76px;
+}
+
+.tamanho-imagen {
+    width: 125px;
+}
+
+.estilo-imagen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#beneficios {}
+
+@media screen and (max-width:1366px) {
+    .card {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid white;
+        margin-right: 10px;
+        margin-left: 17px;
+        /* Espaciado entre las tarjetas */
+        border-radius: 10px !important;
+        margin-bottom: 76px;
+    }
+
+    .container-tarjetas {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        /* Espaciado interno entre las columnas */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

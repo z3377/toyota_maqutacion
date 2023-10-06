@@ -23,7 +23,9 @@ body {
   font-family: "Toyota Type" !important;
 }
 
-
+.texto-blanco{
+  color: white;
+}
 
 .contenedor-global {
   max-width: 100%;
@@ -80,197 +82,6 @@ ol {
 }
 
 
-
-
-/* MANTENIMIENTO PREPAGO */
-
-#mantenimiento-prepago {
-  padding: 10px;
-}
-
-/* PREGUNTAS FRECUENTES */
-
-/* Estilo para el acordeón */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.accordion.active,
-.accordion:hover {
-  background-color: #ddd;
-}
-
-.accordion:after {
-  content: "\02795";
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.accordion.active:after {
-  content: "\2796";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.6s ease-in-out;
-  opacity: 0;
-}
-
-.panel.show {
-  opacity: 1;
-  max-height: 500px;
-  /* Cambia esto según sea necesario */
-}
-
-#preguntas_frecuentes {
-}
-
-/* QUIERO INFO */
-
-
-
-/* PLAN MANTENIMIENTO */
-
-#plan_mantenimiento {
-}
-
-/* FOOTER */
-
-#footer {
-  background-color: #342e21;
-  color: white;
-  /* height: 430px; */
-}
-
-.hr-footer {
-  background-color: #4a4233;
-  width: 100%;
-  margin-bottom: -9px;
-}
-
-.boton-cuota-footer {
-  color: #000 !important;
-  border-radius: 40px !important;
-  padding: 10px 20px !important;
-  font-size: 16px !important;
-  width: 186px !important;
-  padding: 16px 20px !important;
-  position: relative !important;
-  top: -9px !important;
-  font-weight: 1000 !important;
-  background-color: white !important;
-}
-
-.columnas {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-}
-
-.iconos-redes {
-  width: 35px;
-}
-
-.div-titulo-principal-footer {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 127px;
-}
-
-.logo-toyotoshi-footer {
-  max-width: 70px;
-  margin-bottom: 31px;
-  color: white !important;
-}
-
-.logo-toyotoshi-footer-img {
-  max-width: 69px;
-  margin-bottom: 54px;
-  margin-right: 10px;
-}
-
-.titulo-sociedad-anonima-footer {
-  font-size: 9px;
-  font-weight: normal;
-  letter-spacing: 8px;
-  margin-left: 8px;
-}
-
-/* RELLENO */
-
-.relleno {
-  height: 137px;
-  background-color: white;
-}
-
-/* BENEFICIOS */
-
-.fondo {
-  background-color: #d7dcd5;
-}
-
-.pading-top {
-  padding-top: 60px;
-}
-
-.margen-abajo {
-  margin-bottom: 60px;
-}
-
-.container-tarjetas {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  /* Espaciado interno entre las columnas */
-  width: 78%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card {
-  flex: 1;
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid white;
-  margin-right: 17px;
-  margin-left: 17px;
-  /* Espaciado entre las tarjetas */
-  border-radius: 10px !important;
-  margin-bottom: 76px;
-}
-
-.tamanho-imagen {
-  width: 125px;
-}
-
-.estilo-imagen {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 35px;
-}
-
-#beneficios {
-}
-
 /* 1366 */
 
 @media screen and (max-width: 1366px) {
@@ -278,35 +89,11 @@ ol {
 
   /* BENEFICIOS */
 
-  .card {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid white;
-    margin-right: 10px;
-    margin-left: 17px;
-    /* Espaciado entre las tarjetas */
-    border-radius: 10px !important;
-    margin-bottom: 76px;
-  }
-
-  .container-tarjetas {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    /* Espaciado interno entre las columnas */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+ 
 
   /* FOOTER */
 
-  .hr-footer {
-    background-color: #4a4233;
-    width: 100%;
-    margin-bottom: -9px;
-  }
+  
 
 }
 
