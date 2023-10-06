@@ -6,7 +6,6 @@
   /* Borde inferior */
   padding: 10px 0;
   /* Espaciado interno superior e inferior */
-  font-family: "Tayota Type" !important;
 
   position: fixed;
   top: 0;
@@ -37,28 +36,30 @@
 
 
 .logo-toyotoshi {
-  max-width: 40px;
-  /* Ancho máximo para el logotipo */
-  margin-right: 10px;
-  /* Espacio a la derecha del logotipo */
+  max-width: 69px;
+  margin-right: 2px;
+  margin-bottom: 26px;
+  margin-left: -28px;
 }
 
 .titulo-toyotoshi {
-  font-size: 24px;
+  font-size: 36px;
   /* Tamaño de fuente para el título */
   font-weight: bold;
   /* Peso de la fuente */
   margin: 0;
   /* Eliminar el margen superior e inferior del título */
-  line-height: 1;
+  line-height: 16px;
   /* Espaciado entre líneas */
+
+  font-weight: normal;
 }
 
 .titulo-sociedad-anonima {
-  font-size: 14px;
-  /* Tamaño de fuente para el subtítulo */
+  font-size: 11px;
   margin: 0;
-  /* Eliminar el margen del subtítulo */
+  letter-spacing: 5.5px;
+  margin-left: 6px;
 }
 
 /* Estilos para los enlaces del menú */

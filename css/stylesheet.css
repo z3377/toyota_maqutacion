@@ -20,7 +20,7 @@ body {
   background-color: white;
   margin: 0%;
   padding: 0%;
-  font-family: Toyota Type !important;
+  font-family: "Toyota Type" !important;
 }
 
 
@@ -86,7 +86,6 @@ ol {
 
 #mantenimiento-prepago {
   padding: 10px;
-  font-family: Toyota Type !important;
 }
 
 /* PREGUNTAS FRECUENTES */
@@ -138,7 +137,6 @@ ol {
 }
 
 #preguntas_frecuentes {
-  font-family: Toyota Type;
 }
 
 /* QUIERO INFO */
@@ -148,14 +146,12 @@ ol {
 /* PLAN MANTENIMIENTO */
 
 #plan_mantenimiento {
-  font-family: Toyota Type;
 }
 
 /* FOOTER */
 
 #footer {
   background-color: #342e21;
-  font-family: Toyota Type;
   color: white;
   /* height: 430px; */
 }
@@ -273,7 +269,6 @@ ol {
 }
 
 #beneficios {
-  font-family: Toyota Type;
 }
 
 /* 1366 */

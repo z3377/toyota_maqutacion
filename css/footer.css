@@ -1,10 +1,10 @@
 /* Generic styling */
-* {
+/* * {
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
-  }
+  } */
   ul {
     list-style: none;
     padding-left: 0;
@@ -17,7 +17,6 @@
   footer a {
     text-decoration: none;
     color: #eee;
-    font-family: Toyota Type !important;
   }
   a:hover {
     text-decoration: none;
@@ -25,7 +24,6 @@
   }
   .ft-title {
     color: #fff;
-    font-family: Toyota Type !important;
     font-size: 1rem;
     padding-bottom: 0.625rem;
     font-weight: bold;
@@ -35,7 +33,6 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: Toyota Type !important;
   }
   .container {
     flex: 1;
@@ -80,9 +77,7 @@
     margin-top: 0.3125rem;
   }
 
-  span{
-    font-family: Toyota Type;
-  }
+
 
   /* Footer social */
   .ft-social {

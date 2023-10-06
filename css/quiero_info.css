@@ -3,7 +3,6 @@
     align-items: center;
     height: 100%;
     /* Ajusta la altura del botón al 100% del contenedor */
-    font-family: Toyota Type !important;
   }
   
   .boton-info {
@@ -16,9 +15,4 @@
     /* position: relative !important; */
     /* top: -9px !important; */
     font-weight: 1000 !important;
-    font-family: Toyota Type !important;
-  }
-  
-  #quiero_info {
-    font-family: Toyota Type !important;
   }
