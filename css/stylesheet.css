@@ -23,14 +23,7 @@ body {
   font-family: Toyota Type;
 }
 
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  z-index: 1000;
-}
+
 
 .contenedor-global {
   max-width: 100%;
@@ -86,82 +79,8 @@ ol {
   /* Ajusta el espaciado según sea necesario */
 }
 
-/* NAVBAR */
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-  height: 137px;
-}
 
-.button-container {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  /* Ajusta la altura del botón al 100% del contenedor */
-}
-
-.texto-negro {
-  color: black !important;
-}
-
-.boton-cuota {
-  color: #ffffff !important;
-  border-radius: 40px !important;
-  padding: 10px 20px !important;
-  font-size: 16px !important;
-  width: 186px !important;
-  padding: 16px 20px !important;
-  position: relative !important;
-  top: -9px !important;
-  font-weight: 1000 !important;
-}
-
-.navbar-nav .nav-link {
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-
-nav {
-  width: 63%;
-  color: black;
-  background-color: white;
-}
-
-.div-titulo-principal {
-  display: flex;
-  align-items: center;
-}
-
-.logo-toyotoshi {
-  max-width: 70px;
-  margin-bottom: 31px;
-}
-
-.titulo-sociedad-anonima {
-  font-size: 10px;
-  font-weight: normal;
-  letter-spacing: 8px;
-  margin-left: 8px;
-}
-
-.titulo-toyotoshi {
-  margin-left: 10px;
-  font-weight: bolder;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: center;
-}
-
-.margen-especial {
-  margin-left: 18%;
-}
-
-#nav {
-  font-family: Toyota Type;
-}
 
 /* MANTENIMIENTO PREPAGO */
 
@@ -381,11 +300,7 @@ nav {
 /* 1366 */
 
 @media screen and (max-width: 1366px) {
-  /* NAVBAR */
-
-  .margen-especial {
-    margin-left: 6%;
-  }
+  
 
   /* BENEFICIOS */
 

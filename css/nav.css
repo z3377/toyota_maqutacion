@@ -1,0 +1,100 @@
+/* Estilos generales para la barra de navegación */
+#nav {
+  background-color: #ffffff;
+  /* Color de fondo de la barra de navegación */
+  border-bottom: 2px solid #e0e0e0;
+  /* Borde inferior */
+  padding: 10px 0;
+  /* Espaciado interno superior e inferior */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Estilos para el logotipo y el título */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-toyotoshi {
+  max-width: 40px;
+  /* Ancho máximo para el logotipo */
+  margin-right: 10px;
+  /* Espacio a la derecha del logotipo */
+}
+
+.titulo-toyotoshi {
+  font-size: 24px;
+  /* Tamaño de fuente para el título */
+  font-weight: bold;
+  /* Peso de la fuente */
+  margin: 0;
+  /* Eliminar el margen superior e inferior del título */
+  line-height: 1;
+  /* Espaciado entre líneas */
+}
+
+.titulo-sociedad-anonima {
+  font-size: 14px;
+  /* Tamaño de fuente para el subtítulo */
+  margin: 0;
+  /* Eliminar el margen del subtítulo */
+}
+
+/* Estilos para los enlaces del menú */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  font-size: 10px;
+  /* Espacio entre elementos del menú */
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  /* Color del texto del enlace */
+  font-weight: bold;
+  /* Peso de la fuente para los enlaces */
+  text-transform: uppercase;
+  /* Convertir el texto a mayúsculas */
+  transition: color 0.3s;
+  /* Transición suave del color del texto */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dc3545;
+  /* Cambio de color al pasar el mouse sobre el enlace */
+}
+
+/* Estilos para el botón de "PAGO DE CUOTAS" */
+.boton-cuota {
+  font-weight: bolder !important;
+  width: 191px;
+  border-radius: 18px !important;
+  /* Peso de la fuente para el botón */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+  background-color: #ffffff;
+  /* Color de fondo del menú desplegable */
+  border: none;
+  /* Sin borde en el menú desplegable */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+}
+
+.dropdown-item {
+  color: #333;
+  /* Color del texto del elemento del menú desplegable */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  /* Cambio de color al pasar el mouse sobre el elemento */
+  color: #333;
+  /* Color del texto al pasar el mouse sobre el elemento */
+}
