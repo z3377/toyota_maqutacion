@@ -137,3 +137,34 @@ input[type="submit"] {
 .ft-legal-list li:nth-last-child(2) {
   flex: 1;
 }
+
+#logo-footer-toyotoshi{
+
+}
+
+.titulo-toyotoshi-footer {
+  font-size: 36px;
+  /* Tamaño de fuente para el título */
+  font-weight: bold;
+  /* Peso de la fuente */
+  margin: 0;
+  /* Eliminar el margen superior e inferior del título */
+  line-height: 16px;
+  /* Espaciado entre líneas */
+
+  font-weight: normal;
+}
+
+.titulo-sociedad-anonima-footer {
+  font-size: 11px;
+  margin: 0;
+  letter-spacing: 5.5px;
+  margin-left: 6px;
+}
+
+.logo-toyotoshi-footer {
+  max-width: 60px;
+  margin-right: 2px;
+  margin-bottom: 26px;
+  margin-left: -36px;
+}
