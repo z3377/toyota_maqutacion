@@ -138,8 +138,9 @@ input[type="submit"] {
   flex: 1;
 }
 
-#logo-footer-toyotoshi{
-
+#logo-footer-toyotoshi {
+  margin-top: -25px;
+  margin-right: -34px;
 }
 
 .titulo-toyotoshi-footer {
