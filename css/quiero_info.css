@@ -1,0 +1,24 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* Ajusta la altura del botón al 100% del contenedor */
+    font-family: Toyota Type !important;
+  }
+  
+  .boton-info {
+    color: #ffffff;
+    border-radius: 40px !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    width: 250px !important;
+    padding: 16px 20px !important;
+    /* position: relative !important; */
+    /* top: -9px !important; */
+    font-weight: 1000 !important;
+    font-family: Toyota Type !important;
+  }
+  
+  #quiero_info {
+    font-family: Toyota Type !important;
+  }

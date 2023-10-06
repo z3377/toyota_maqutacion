@@ -2,10 +2,11 @@
 #nav {
   background-color: #ffffff;
   /* Color de fondo de la barra de navegación */
-  border-bottom: 2px solid #e0e0e0;
+  /* border-bottom: 2px solid #e0e0e0; */
   /* Borde inferior */
   padding: 10px 0;
   /* Espaciado interno superior e inferior */
+  font-family: "Tayota Type" !important;
 
   position: fixed;
   top: 0;
@@ -20,6 +21,20 @@
   align-items: center;
   text-decoration: none;
 }
+
+/* Estilos para centrar verticalmente el botón */
+.boton-cuotas {
+  color: #ffffff;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 186px !important;
+  padding: 16px 20px !important;
+  /* position: relative !important; */
+  /* top: -9px !important; */
+  font-weight: 1000 !important;
+}
+
 
 .logo-toyotoshi {
   max-width: 40px;
@@ -49,7 +64,7 @@
 /* Estilos para los enlaces del menú */
 .navbar-nav .nav-item {
   margin-right: 15px;
-  font-size: 10px;
+  font-size: 15px;
   /* Espacio entre elementos del menú */
 }
 
@@ -58,7 +73,7 @@
   /* Color del texto del enlace */
   font-weight: bold;
   /* Peso de la fuente para los enlaces */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* Convertir el texto a mayúsculas */
   transition: color 0.3s;
   /* Transición suave del color del texto */
@@ -74,6 +89,8 @@
   font-weight: bolder !important;
   width: 191px;
   border-radius: 18px !important;
+  height: 50px;
+
   /* Peso de la fuente para el botón */
 }
 
