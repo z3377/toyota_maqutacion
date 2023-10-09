@@ -94,6 +94,10 @@ ol {
   font-weight: 1000 !important;
 }
 
+/* #mantenimiento-prepago{
+  display: none;
+} */
+
 /* 1366 */
 
 @media screen and (max-width: 1366px) {
@@ -111,4 +115,16 @@ ol {
 
 /* 450 */
 
-@media screen and (max-width: 450px) {}
+@media screen and (max-width: 450px) {
+
+  #relleno{
+    display: none;
+  }
+
+  #imagen-header-img{
+    content: url('./img/persona_arreglando_auto_.png');
+  }
+
+  
+
+}

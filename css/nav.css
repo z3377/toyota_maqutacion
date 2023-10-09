@@ -116,3 +116,58 @@
   color: black;
   /* Color del texto al pasar el mouse sobre el elemento */
 }
+
+@media screen and (max-width:450px) {
+  #nav {
+    background-color: #ffffff;
+    /* Color de fondo de la barra de navegación */
+    /* border-bottom: 2px solid #e0e0e0; */
+    /* Borde inferior */
+    /* padding: 10px 0; */
+    /* Espaciado interno superior e inferior */
+
+    position: static;
+
+   /*  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; */
+  }
+
+  .logo-toyotoshi {
+    max-width: 38px;
+    margin-right: 2px;
+    margin-bottom: 16px;
+    margin-left: -36px;
+  }
+
+  .titulo-toyotoshi {
+    font-size: 25px;
+    font-weight: bold;
+    /* margin: 0; */
+    line-height: 8px !important;
+    line-height: 16px;
+    margin-bottom: 1px;
+    font-weight: normal;
+  }
+
+  .titulo-sociedad-anonima {
+    font-size: 5px;
+    margin: 0;
+    letter-spacing: 5.5px;
+    margin-left: 6px;
+  }
+
+  .boton-cuotas {
+    color: #ffffff;
+    border-radius: 40px !important;
+    padding: 8px 0px !important;
+    font-size: 8px !important;
+    width: 111px !important;
+    font-weight: 1000 !important;
+    margin-bottom: 11px;
+    margin-right: 40px;
+  }
+
+}

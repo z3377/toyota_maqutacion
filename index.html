@@ -32,9 +32,9 @@
       <div id="relleno"></div>
     </div>
 
-    <div>
+    <div id="imagen-heder">
       <div style="width: 100%;" class="margen-entre-divs">
-        <img style="width: 100%;" src="img/header.jpg" alt="">
+        <img id="imagen-header-img" style="width: 100%;" src="img/header.jpg" alt="">
       </div>
     </div>
 
@@ -179,6 +179,23 @@
           console.error('Error al cargar el archivo HTML:', error);
         });
     </script>
+
+    <script>
+      // Función para cambiar la imagen en pantalla móvil
+      function cambiarImagenEnMovil() {
+        const imagenHeader = document.getElementById("imagen-header-img");
+        if (window.innerWidth < 451) { // Cambia el número según tu punto de corte para móviles
+          imagenHeader.src = "img/persona_arreglando_auto_.png"; // Ruta de la imagen para móviles
+        } else {
+          imagenHeader.src = "img/header.jpg"; // Ruta de la imagen para escritorio
+        }
+      }
+
+      // Llama a la función cuando la página se carga y cuando cambia el tamaño de la ventana
+      window.onload = cambiarImagenEnMovil;
+      window.addEventListener("resize", cambiarImagenEnMovil);
+    </script>
+
 
   </div>
 

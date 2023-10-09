@@ -1,3 +1,21 @@
-#mantenimiento-prepago {
-    padding: 10px;
+/* #mantenimiento-prepago {
+  padding: 10px;
+} */
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media screen and (max-width:450px) {
+  #mantenimiento-prepago img {
+    max-width: 100%;
+    /* Hacer que la imagen sea responsiva */
+    margin-bottom: 20px;
+    /* Agregar espacio entre la imagen y el texto */
+
+
   }
+
+ /*  #mantenimiento-prepago {
+    padding: 0%;
+  } */
+
+
+}
