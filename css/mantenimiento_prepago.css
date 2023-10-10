@@ -35,4 +35,8 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  #titulo-cuanto-ahorro{
+    margin-top: 50px;
+  }
 }
