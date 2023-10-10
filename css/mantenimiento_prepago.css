@@ -17,7 +17,22 @@
     max-width: 100% !important;
     margin-bottom: 50px;
     margin-top: -65px;
+    /*  padding-left: 8px;
+    padding-right: 8px; */
+  }
+
+  #mantenimiento-prepago {
+
+    width: 95%;
 
   }
 
+  .pading-columna-derecha {
+    padding-left: 0 !important;
+  }
+
+  .pading-columna-izquierda {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }

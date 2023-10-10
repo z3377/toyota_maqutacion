@@ -1,12 +1,27 @@
 .button-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    /* Ajusta la altura del botón al 100% del contenedor */
-  }
-  
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* Ajusta la altura del botón al 100% del contenedor */
+}
+
+.cosas-generales {
+  text-align: center;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media screen and (max-width:450px) {
-  #quiero_info-mantenimiento-prepago{
+  #quiero_info-mantenimiento-prepago {
     font-size: 34px;
   }
+
+  .cosas-generales {
+    text-align: center;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
 }
