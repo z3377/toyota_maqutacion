@@ -2,20 +2,22 @@
   padding: 10px;
 } */
 
+.pading-columna-izquierda {
+  padding-left: 30px !important;
+  padding-right: 25px !important;
+}
+
+.pading-columna-derecha {
+  padding-left: 25px !important;
+}
+
 /* Estilos para pantallas más pequeñas (móviles) */
 @media screen and (max-width:450px) {
   #mantenimiento-prepago img {
-    max-width: 100%;
-    /* Hacer que la imagen sea responsiva */
-    margin-bottom: 20px;
-    /* Agregar espacio entre la imagen y el texto */
-
+    max-width: 100% !important;
+    margin-bottom: 50px;
+    margin-top: -65px;
 
   }
-
- /*  #mantenimiento-prepago {
-    padding: 0%;
-  } */
-
 
 }
