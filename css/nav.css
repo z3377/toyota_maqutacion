@@ -137,8 +137,8 @@
   }
 
   .nav-toggler-icon-custom {
-    position: fixed;
-    top: 26px;
+    position: absolute;
+    top: 17px;
     right: 17px;
     width: 28px;
     z-index: 999;
@@ -173,15 +173,15 @@
   .boton-cuotas {
     color: #ffffff;
     border-radius: 40px !important;
-    padding: 8px 0px !important;
-    font-size: 8px !important;
+    padding: 10px 0px !important;
+    font-size: 10px !important;
     width: 111px !important;
     font-weight: 1000 !important;
     margin-bottom: 11px;
     margin-right: 40px;
-    position: fixed;
-    top: 28px;
-    right: 26px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
   }
 
 }

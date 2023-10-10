@@ -5,4 +5,8 @@
     /* Ajusta la altura del botón al 100% del contenedor */
   }
   
-
+@media screen and (max-width:450px) {
+  #quiero_info-mantenimiento-prepago{
+    font-size: 34px;
+  }
+}
