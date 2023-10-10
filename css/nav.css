@@ -128,6 +128,24 @@
     /* Eliminar la imagen de fondo predeterminada */
   }
 
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    /* Elimina el contorno al enfocar */
+    box-shadow: none;
+    /* Elimina la sombra al hacer clic */
+  }
+
+  .nav-toggler-icon-custom {
+    position: fixed;
+    top: 26px;
+    right: 17px;
+    width: 28px;
+    z-index: 999;
+    text-decoration: none;
+    border-color: none;
+  }
+
   .logo-toyotoshi {
     max-width: 38px;
     margin-right: 2px;
@@ -161,9 +179,9 @@
     font-weight: 1000 !important;
     margin-bottom: 11px;
     margin-right: 40px;
-    position: relative;
-    bottom: 54px;
-    right: -198px;
+    position: fixed;
+    top: 28px;
+    right: 26px;
   }
 
 }
