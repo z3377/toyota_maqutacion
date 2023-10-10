@@ -120,26 +120,19 @@
 @media screen and (max-width:450px) {
   #nav {
     background-color: #ffffff;
-    /* Color de fondo de la barra de navegación */
-    /* border-bottom: 2px solid #e0e0e0; */
-    /* Borde inferior */
-    /* padding: 10px 0; */
-    /* Espaciado interno superior e inferior */
-
     position: static;
+  }
 
-   /*  position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999; */
+  .navbar-toggler-icon {
+    background-image: none !important;
+    /* Eliminar la imagen de fondo predeterminada */
   }
 
   .logo-toyotoshi {
     max-width: 38px;
     margin-right: 2px;
     margin-bottom: 16px;
-    margin-left: -36px;
+    margin-left: -13px;
   }
 
   .titulo-toyotoshi {
@@ -168,6 +161,9 @@
     font-weight: 1000 !important;
     margin-bottom: 11px;
     margin-right: 40px;
+    position: relative;
+    bottom: 54px;
+    right: -198px;
   }
 
 }
