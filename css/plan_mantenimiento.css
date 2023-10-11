@@ -36,3 +36,53 @@
   letter-spacing: 8px;
   margin-left: 8px;
 }
+
+.ancho-columna-1 {
+  width: 440px;
+}
+
+
+.flotar-derecha {
+  float: right;
+}
+
+.imagen-columna-1 {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.pading-columna-1 {
+  padding-right: 25px;
+}
+
+.texto-centrado{
+  text-align: left;
+}
+
+@media screen and (max-width: 450px) {
+  /* #plan_mantenimiento {
+    width: 98% !important;
+  } */
+
+  .texto-centrado{
+    text-align: center;
+  }
+
+  .pading-columna-1 {
+    padding-right: 0%;
+  }
+
+  .flotar-derecha {
+    float: none;
+  }
+
+  .ancho-columna-1 {
+    width: 100%;
+  }
+
+  .imagen-columna-1 {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+}

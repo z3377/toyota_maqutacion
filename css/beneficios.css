@@ -82,13 +82,13 @@
 
   .card {
     margin-right: 0;
-    /* Eliminamos el margen derecho para que las tarjetas se ajusten al ancho completo */
     margin-left: 0;
-    /* Eliminamos el margen izquierdo para que las tarjetas se ajusten al ancho completo */
     margin-bottom: 20px;
-    /* Agregamos espacio entre las tarjetas */
   }
 
-  
+  .card-movile {
+    flex-direction: unset;
+    width: 100%;
+  }
 
 }
