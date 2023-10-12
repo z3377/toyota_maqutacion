@@ -67,9 +67,9 @@ body {
   flex-direction: column;
 }
 
-.container {
+/* .container {
   flex: 1;
-}
+} */
 
 /* Footer main */
 .ft-main {
@@ -223,4 +223,29 @@ input[type="submit"] {
   top: 0px !important;
   font-weight: 1000 !important;
   right: -47px;
+}
+
+
+.container {
+  max-width: 1481px;
+}
+
+.hr-formato {
+  border: 1px solid #433d2f;
+  width: 80.7%;
+  margin-right: 164px;
+  margin-top: -27px;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1159px;
+  }
+
+  .hr-formato {
+    border: 1px solid #433d2f;
+    width: 91.7%;
+    margin-right: 47px;
+    margin-top: -27px;
+  }
 }
