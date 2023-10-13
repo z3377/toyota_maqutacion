@@ -49,12 +49,12 @@
 .logo-toyotoshi-footer {
   max-width: 48px;
   margin-right: 2px;
-  margin-bottom: 26px;
-  margin-left: -36px;
+  margin-bottom: 7px;
+  margin-left: -5px;
 }
 
 .titulo-toyotoshi-footer {
-  font-size: 31px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0;
   line-height: 16px;
@@ -63,13 +63,13 @@
   position: absolute;
   right: 0;
   padding-right: 14px;
-  top: -6px;
+  top: 1px;
 }
 
 .titulo-sociedad-anonima-footer {
-  font-size: 9px;
+  font-size: 7px;
   margin: 0;
-  letter-spacing: 5.1px;
+  letter-spacing: 3.4px;
   margin-left: 6px;
 }
 
