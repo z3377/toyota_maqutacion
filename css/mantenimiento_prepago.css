@@ -5,6 +5,7 @@
 .pading-columna-izquierda {
   padding-left: 30px !important;
   padding-right: 25px !important;
+  text-align: right;
 }
 
 .pading-columna-derecha {
@@ -13,30 +14,5 @@
 
 /* Estilos para pantallas más pequeñas (móviles) */
 @media screen and (max-width:450px) {
-  #mantenimiento-prepago img {
-    max-width: 100% !important;
-    margin-bottom: 50px;
-    margin-top: -65px;
-    /*  padding-left: 8px;
-    padding-right: 8px; */
-  }
-
-  #mantenimiento-prepago {
-
-    width: 94%;
-
-  }
-
-  .pading-columna-derecha {
-    padding-left: 0 !important;
-  }
-
-  .pading-columna-izquierda {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  #titulo-cuanto-ahorro{
-    margin-top: 50px;
-  }
+  
 }

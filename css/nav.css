@@ -150,7 +150,7 @@
     max-width: 31px;
     margin-right: 2px;
     margin-bottom: 10px;
-    margin-left: -32px;
+    margin-left: -46px;
   }
 
   .titulo-toyotoshi {
@@ -161,10 +161,11 @@
     line-height: 16px;
     margin-bottom: 1px;
     font-weight: normal;
+    margin-left: -12px;
   }
 
   .titulo-sociedad-anonima {
-    font-size: 10px;
+    font-size: 6px;
     margin: 0;
     letter-spacing: 2px;
     margin-left: 3px;

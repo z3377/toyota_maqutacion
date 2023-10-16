@@ -17,6 +17,8 @@
 /* estilo de las columnas del footer */
 .formato-columnas {
   background-color: #332e23 !important;
+  line-height: 30px;
+
 }
 
 #div-footer-general {
@@ -37,6 +39,8 @@
   border: 0;
   border-top: 1px solid #433d2f;
   width: 100%;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 /* estilos de 4ta columna del footer */
