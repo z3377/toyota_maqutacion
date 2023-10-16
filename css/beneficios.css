@@ -14,9 +14,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
-  /* Espaciado interno entre las columnas */
-  width: 78%;
+  /* padding: 0px; */
+  width: 79%;
   margin-left: auto;
   margin-right: auto;
 }

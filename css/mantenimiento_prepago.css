@@ -33,11 +33,15 @@
   }
 
   .espacio-titulo-movile{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .espacio-adelantada{
     margin-bottom: 45px;
+  }
+
+  .titulos-movile{
+    font-size: 20px !important;
   }
 
 }

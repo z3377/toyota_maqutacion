@@ -12,6 +12,29 @@
   padding-right: 0;
 }
 
+@media screen and (max-width: 1366px){
+  .texto-toyotoshi-debajo-del-primer-titulo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: normal !important;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1367px) {
+  .texto-toyotoshi-debajo-del-primer-titulo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: normal !important;
+    width: 53% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 @media screen and (max-width:450px) {
   #quiero_info-mantenimiento-prepago {
     font-size: 34px;
@@ -22,6 +45,10 @@
     display: block;
     padding-left: 8px;
     padding-right: 8px;
+  }
+
+  .titulo-mantenimiento-movile {
+    font-size: 31px !important;
   }
 
 }
