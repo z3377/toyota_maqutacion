@@ -69,6 +69,10 @@ body {
   margin-top: 25px;
 }
 
+.espacio-hr{
+  margin-bottom: 40px;
+}
+
 ul,
 ol {
   list-style-type: none;
