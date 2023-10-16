@@ -15,4 +15,29 @@
 /* Estilos para pantallas más pequeñas (móviles) */
 @media screen and (max-width:450px) {
   
+  .pading-columna-izquierda {
+    padding: 0% !important;
+    text-align: center;
+  }
+
+  .pading-columna-derecha {
+    padding-left: 0% !important;
+  }
+
+  .img-movil{
+    margin-top: -83px;
+  }
+
+  .espacio-movil{
+    margin-bottom: 40px;
+  }
+
+  .espacio-titulo-movile{
+    margin-bottom: 30px;
+  }
+
+  .espacio-adelantada{
+    margin-bottom: 45px;
+  }
+
 }
