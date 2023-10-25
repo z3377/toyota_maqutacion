@@ -124,47 +124,13 @@ section#quiero_info .background-style {
   padding-top: 90px;
   padding-bottom: 77px;
 }
-@media screen and (max-width: 1366px) {
-  section#quiero_info .texto-toyotoshi-debajo-del-primer-titulo {
-    font-size: 20px;
-    margin-bottom: 40px;
-    font-weight: normal !important;
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 1440px) and (min-width: 1367px) {
-  section#quiero_info .texto-toyotoshi-debajo-del-primer-titulo {
-    font-size: 20px;
-    margin-bottom: 40px;
-    font-weight: normal !important;
-    width: 53% !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 450px) {
-  section#quiero_info #quiero_info-mantenimiento-prepago {
-    font-size: 34px;
-  }
-  section#quiero_info .cosas-generales {
-    text-align: center;
-    display: block;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-  section#quiero_info .titulo-mantenimiento-movile {
-    font-size: 31px !important;
-  }
-}
 
 section#mantenimiento-prepago {
-  /* Estilos para pantallas más pequeñas (móviles) */
-}
-section#mantenimiento-prepago.pading-general {
   padding-top: 78px;
   padding-bottom: 65px;
+}
+section#mantenimiento-prepago .mant-pre {
+  gap: 30px;
 }
 section#mantenimiento-prepago .pading-columna-izquierda {
   padding-left: 30px !important;
@@ -173,30 +139,6 @@ section#mantenimiento-prepago .pading-columna-izquierda {
 }
 section#mantenimiento-prepago .pading-columna-derecha {
   padding-left: 25px !important;
-}
-@media screen and (max-width: 450px) {
-  section#mantenimiento-prepago .pading-columna-izquierda {
-    padding: 0% !important;
-    text-align: center;
-  }
-  section#mantenimiento-prepago .pading-columna-derecha {
-    padding-left: 0% !important;
-  }
-  section#mantenimiento-prepago .img-movil {
-    margin-top: -83px;
-  }
-  section#mantenimiento-prepago .espacio-movil {
-    margin-bottom: 40px;
-  }
-  section#mantenimiento-prepago .espacio-titulo-movile {
-    margin-bottom: 15px;
-  }
-  section#mantenimiento-prepago .espacio-adelantada {
-    margin-bottom: 45px;
-  }
-  section#mantenimiento-prepago .titulos-movile {
-    font-size: 20px !important;
-  }
 }
 
 section#plan_mantenimiento.background-style {
@@ -255,29 +197,6 @@ section#plan_mantenimiento .pading-columna-1 {
 section#plan_mantenimiento .texto-centrado {
   text-align: left;
 }
-@media screen and (max-width: 450px) {
-  section#plan_mantenimiento {
-    /* #plan_mantenimiento {
-      width: 98% !important;
-    } */
-  }
-  section#plan_mantenimiento .texto-centrado {
-    text-align: center;
-  }
-  section#plan_mantenimiento .pading-columna-1 {
-    padding-right: 0%;
-  }
-  section#plan_mantenimiento .flotar-derecha {
-    float: none;
-  }
-  section#plan_mantenimiento .ancho-columna-1 {
-    width: 100%;
-  }
-  section#plan_mantenimiento .imagen-columna-1 {
-    border-radius: 20px;
-    width: 100%;
-  }
-}
 
 section#beneficios .fondo {
   background-color: #d7dcd5;
@@ -316,43 +235,6 @@ section#beneficios .estilo-imagen {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 35px;
-}
-@media screen and (max-width: 1366px) {
-  section#beneficios .card {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid white;
-    margin-right: 10px;
-    margin-left: 17px;
-    /* Espaciado entre las tarjetas */
-    border-radius: 10px !important;
-    margin-bottom: 76px;
-  }
-  section#beneficios .container-tarjetas {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    /* Espaciado interno entre las columnas */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 450px) {
-  section#beneficios .container-tarjetas {
-    flex-direction: column;
-    /* Cambiamos la dirección de flex a columna */
-  }
-  section#beneficios .card {
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-  section#beneficios .card-movile {
-    flex-direction: unset;
-    width: 100%;
-  }
 }
 
 section#preguntas_frecuentes {
@@ -400,12 +282,29 @@ section#preguntas_frecuentes .panel.show {
   max-height: 500px;
   /* Cambia esto según sea necesario */
 }
-/* 1366 */
+
 @media screen and (max-width: 1366px) {
-  /* BENEFICIOS */
-  /* FOOTER */
+  section#beneficios .card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 17px;
+    /* Espaciado entre las tarjetas */
+    border-radius: 10px !important;
+    margin-bottom: 76px;
+  }
+  section#beneficios .container-tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* Espaciado interno entre las columnas */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-/* 450 */
 @media screen and (max-width: 450px) {
   #relleno {
     display: none;
@@ -418,5 +317,68 @@ section#preguntas_frecuentes .panel.show {
   }
   .espacio-abajo-3-movile {
     margin-bottom: 35px;
+  }
+  section#beneficios .container-tarjetas {
+    flex-direction: column;
+    /* Cambiamos la dirección de flex a columna */
+  }
+  section#beneficios .card {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  section#beneficios .card-movile {
+    flex-direction: unset;
+    width: 100%;
+  }
+  section#plan_mantenimiento .texto-centrado {
+    text-align: center;
+  }
+  section#plan_mantenimiento .pading-columna-1 {
+    padding-right: 0%;
+  }
+  section#plan_mantenimiento .flotar-derecha {
+    float: none;
+  }
+  section#plan_mantenimiento .ancho-columna-1 {
+    width: 100%;
+  }
+  section#plan_mantenimiento .imagen-columna-1 {
+    border-radius: 20px;
+    width: 100%;
+  }
+  section#mantenimiento-prepago .pading-columna-izquierda {
+    padding: 0% !important;
+    text-align: center;
+  }
+  section#mantenimiento-prepago .pading-columna-derecha {
+    padding-left: 0% !important;
+  }
+  section#mantenimiento-prepago .img-movil {
+    margin-top: -83px;
+  }
+  section#mantenimiento-prepago .espacio-movil {
+    margin-bottom: 40px;
+  }
+  section#mantenimiento-prepago .espacio-titulo-movile {
+    margin-bottom: 15px;
+  }
+  section#mantenimiento-prepago .espacio-adelantada {
+    margin-bottom: 45px;
+  }
+  section#mantenimiento-prepago .titulos-movile {
+    font-size: 20px !important;
+  }
+  section#quiero_info #quiero_info-mantenimiento-prepago {
+    font-size: 34px;
+  }
+  section#quiero_info .cosas-generales {
+    text-align: center;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  section#quiero_info .titulo-mantenimiento-movile {
+    font-size: 31px !important;
   }
 }/*# sourceMappingURL=stylesheet.css.map */

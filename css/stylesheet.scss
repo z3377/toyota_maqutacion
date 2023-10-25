@@ -138,55 +138,17 @@ section#quiero_info {
     padding-bottom: 77px;
   }
 
-  @media screen and (max-width: 1366px) {
-    .texto-toyotoshi-debajo-del-primer-titulo {
-      font-size: 20px;
-      margin-bottom: 40px;
-      font-weight: normal !important;
-      width: 55%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  @media screen and (max-width: 1440px) and (min-width: 1367px) {
-    .texto-toyotoshi-debajo-del-primer-titulo {
-      font-size: 20px;
-      margin-bottom: 40px;
-      font-weight: normal !important;
-      width: 53% !important;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-
-  @media screen and (max-width:450px) {
-    #quiero_info-mantenimiento-prepago {
-      font-size: 34px;
-    }
-
-    .cosas-generales {
-      text-align: center;
-      display: block;
-      padding-left: 8px;
-      padding-right: 8px;
-    }
-
-    .titulo-mantenimiento-movile {
-      font-size: 31px !important;
-    }
-
-  }
 }
 
 // ####################################SECCION MANTENIMIENTO PREPAGO##############################################
 
 section#mantenimiento-prepago {
 
-  &.pading-general {
-    padding-top: 78px;
-    padding-bottom: 65px;
+  padding-top: 78px;
+  padding-bottom: 65px;
+
+  .mant-pre {
+    gap: 30px;
   }
 
   .pading-columna-izquierda {
@@ -199,39 +161,6 @@ section#mantenimiento-prepago {
     padding-left: 25px !important;
   }
 
-  /* Estilos para pantallas más pequeñas (móviles) */
-  @media screen and (max-width:450px) {
-
-    .pading-columna-izquierda {
-      padding: 0% !important;
-      text-align: center;
-    }
-
-    .pading-columna-derecha {
-      padding-left: 0% !important;
-    }
-
-    .img-movil {
-      margin-top: -83px;
-    }
-
-    .espacio-movil {
-      margin-bottom: 40px;
-    }
-
-    .espacio-titulo-movile {
-      margin-bottom: 15px;
-    }
-
-    .espacio-adelantada {
-      margin-bottom: 45px;
-    }
-
-    .titulos-movile {
-      font-size: 20px !important;
-    }
-
-  }
 }
 
 // ############################################################SECCION PLAN MANTENIMIENTO##############################################################
@@ -307,33 +236,6 @@ section#plan_mantenimiento {
     text-align: left;
   }
 
-  @media screen and (max-width: 450px) {
-    /* #plan_mantenimiento {
-      width: 98% !important;
-    } */
-
-    .texto-centrado {
-      text-align: center;
-    }
-
-    .pading-columna-1 {
-      padding-right: 0%;
-    }
-
-    .flotar-derecha {
-      float: none;
-    }
-
-    .ancho-columna-1 {
-      width: 100%;
-    }
-
-    .imagen-columna-1 {
-      border-radius: 20px;
-      width: 100%;
-    }
-
-  }
 }
 
 // ################################################################SECCION BENEFICIOS#################################################################
@@ -384,61 +286,13 @@ section#beneficios {
     margin-bottom: 35px;
   }
 
-
-  #beneficios {}
-
-  @media screen and (max-width:1366px) {
-    .card {
-      flex: 1;
-      background-color: #fff;
-      padding: 20px;
-      border: 1px solid white;
-      margin-right: 10px;
-      margin-left: 17px;
-      /* Espaciado entre las tarjetas */
-      border-radius: 10px !important;
-      margin-bottom: 76px;
-    }
-
-    .container-tarjetas {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px;
-      /* Espaciado interno entre las columnas */
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-
-  }
-
-  @media screen and (max-width: 450px) {
-
-    .container-tarjetas {
-      flex-direction: column;
-      /* Cambiamos la dirección de flex a columna */
-    }
-
-    .card {
-      margin-right: 0;
-      margin-left: 0;
-      margin-bottom: 20px;
-    }
-
-    .card-movile {
-      flex-direction: unset;
-      width: 100%;
-    }
-
-  }
 }
 
 // ################################################################SECCION PREGUNTAS FRECUENTES##################################################################
 
 section#preguntas_frecuentes {
 
-  &.espacios-container{
+  &.espacios-container {
     padding-top: 66px;
   }
 
@@ -488,27 +342,59 @@ section#preguntas_frecuentes {
     /* Cambia esto según sea necesario */
   }
 
-  #preguntas_frecuentes {}
 }
 
-// ##################################################SECCION GENERAL DE MEDIA QUERY###########################################################
+// MEDIO QUERYS########################################################################################################
 
-/* 1366 */
+// 1440#######################################################################################################################
+
+@media screen and (max-width:1440px) {
+
+  section#mantenimiento-prepago {
+
+    // div#columna-derecha {
+    //   &.col-md-6 {
+    //     max-width: 570px !important;
+    //   }
+    // }
+
+  }
+
+}
+
+// 1366########################################################################################################################3
 
 @media screen and (max-width: 1366px) {
 
+  // SECCION BENEFICIOS 1366################################################################################################
 
-  /* BENEFICIOS */
+  section#beneficios {
+    .card {
+      flex: 1;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid white;
+      margin-right: 10px;
+      margin-left: 17px;
+      /* Espaciado entre las tarjetas */
+      border-radius: 10px !important;
+      margin-bottom: 76px;
+    }
 
-
-
-  /* FOOTER */
-
-
+    .container-tarjetas {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      /* Espaciado interno entre las columnas */
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
 }
 
-/* 450 */
+// 450##################################################################################################################
 
 @media screen and (max-width: 450px) {
 
@@ -527,4 +413,104 @@ section#preguntas_frecuentes {
   .espacio-abajo-3-movile {
     margin-bottom: 35px;
   }
+
+  // SECCION BENEFICIOS 450###############################################################################################
+
+  section#beneficios {
+
+    .container-tarjetas {
+      flex-direction: column;
+      /* Cambiamos la dirección de flex a columna */
+    }
+
+    .card {
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+
+    .card-movile {
+      flex-direction: unset;
+      width: 100%;
+    }
+
+  }
+
+  // SECCION PLAN MANTENIMINETO 450###########################################################################################3
+
+  section#plan_mantenimiento {
+    .texto-centrado {
+      text-align: center;
+    }
+
+    .pading-columna-1 {
+      padding-right: 0%;
+    }
+
+    .flotar-derecha {
+      float: none;
+    }
+
+    .ancho-columna-1 {
+      width: 100%;
+    }
+
+    .imagen-columna-1 {
+      border-radius: 20px;
+      width: 100%;
+    }
+  }
+
+  // SECCION MANTENIMIETO PREPAGO 450#########################################################################################
+
+  section#mantenimiento-prepago {
+    .pading-columna-izquierda {
+      padding: 0% !important;
+      text-align: center;
+    }
+
+    .pading-columna-derecha {
+      padding-left: 0% !important;
+    }
+
+    .img-movil {
+      margin-top: -83px;
+    }
+
+    .espacio-movil {
+      margin-bottom: 40px;
+    }
+
+    .espacio-titulo-movile {
+      margin-bottom: 15px;
+    }
+
+    .espacio-adelantada {
+      margin-bottom: 45px;
+    }
+
+    .titulos-movile {
+      font-size: 20px !important;
+    }
+  }
+
+  // SECCION QUIERO INFO 450#####################################################################################################
+
+  section#quiero_info {
+    #quiero_info-mantenimiento-prepago {
+      font-size: 34px;
+    }
+
+    .cosas-generales {
+      text-align: center;
+      display: block;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .titulo-mantenimiento-movile {
+      font-size: 31px !important;
+    }
+  }
+
 }
