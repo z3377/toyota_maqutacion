@@ -1,80 +1,35 @@
 @font-face {
-  font-family: "Toyota Type";
-  src: url("/fonts/ToyotaType-Bold.woff2") format("woff2"),
-    url("/fonts/ToyotaType-Bold.woff") format("woff");
+  font-family: 'Toyota-Type';
+  src: url('/fonts/ToyotaType-Bold.woff2') format('woff2'),
+    url('/fonts/ToyotaType-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Toyota Type";
-  src: url("/fonts/ToyotaType-Semibold.woff2") format("woff2"),
-    url("/fonts/ToyotaType-Semibold.woff") format("woff");
+  font-family: 'Toyota-Type';
+  src: url('/fonts/ToyotaType-Semibold.woff2') format('woff2'),
+    url('/fonts/ToyotaType-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
 body {
   background-color: white;
   margin: 0%;
   padding: 0%;
-  font-family: "Toyota Type" !important;
+  font-family: 'Raleway', sans-serif;
+  color: #212529;
 }
 
-.texto-blanco {
-  color: white;
-}
-
-
-
-.contenedor-global {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.margen-entre-divs {
-  margin-bottom: 90px;
-}
-
-.margen-entre-divs-2 {
-  margin-bottom: 180px;
-}
-
-.margen-entre-divs-3 {
-  margin-bottom: 60px;
-}
-
-.margen-entre-divs-4-arriba {
-  margin-top: 60px;
-}
-
-.espacio-abajo {
-  margin-bottom: 20px;
-}
-
-.espacio-abajo-2 {
-  margin-bottom: 70px;
-}
-
-.espacio-abajo-3 {
-  margin-bottom: 35px;
-}
-
-.espacio-arriba {
-  margin-top: 25px;
-}
-
-.espacio-hr-1 {
-  margin-bottom: 53px;
-}
-
-.espacio-hr-2 {
-  margin-bottom: 40px;
+.toy-red {
+  color: #EA2346;
 }
 
 ul,
@@ -149,16 +104,43 @@ section#mantenimiento-prepago {
 
   .mant-pre {
     gap: 30px;
+    flex-wrap: nowrap;
   }
 
-  .pading-columna-izquierda {
-    padding-left: 30px !important;
-    padding-right: 25px !important;
-    text-align: right;
+  .man-pre-img-con {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .man-pre-img {
+      width: 510px;
+      height: 526px;
+      border-radius: 15px;
+      float: right;
+    }
   }
 
-  .pading-columna-derecha {
-    padding-left: 25px !important;
+
+
+  .man-pre-parr {
+    line-height: 27.2px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .man-pre-parr-red {
+    line-height: 27.2px;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  .man-pre-t1-t2 {
+    line-height: 34.22px;
+    font-family: 'Toyota-Type';
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
 }
@@ -348,19 +330,7 @@ section#preguntas_frecuentes {
 
 // 1440#######################################################################################################################
 
-@media screen and (max-width:1440px) {
-
-  section#mantenimiento-prepago {
-
-    // div#columna-derecha {
-    //   &.col-md-6 {
-    //     max-width: 570px !important;
-    //   }
-    // }
-
-  }
-
-}
+@media screen and (max-width:1440px) {}
 
 // 1366########################################################################################################################3
 

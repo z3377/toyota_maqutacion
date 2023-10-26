@@ -1,13 +1,14 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @font-face {
-  font-family: "Toyota Type";
+  font-family: "Toyota-Type";
   src: url("/fonts/ToyotaType-Bold.woff2") format("woff2"), url("/fonts/ToyotaType-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Toyota Type";
+  font-family: "Toyota-Type";
   src: url("/fonts/ToyotaType-Semibold.woff2") format("woff2"), url("/fonts/ToyotaType-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
@@ -17,59 +18,12 @@ body {
   background-color: white;
   margin: 0%;
   padding: 0%;
-  font-family: "Toyota Type" !important;
+  font-family: "Raleway", sans-serif;
+  color: #212529;
 }
 
-.texto-blanco {
-  color: white;
-}
-
-.contenedor-global {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.margen-entre-divs {
-  margin-bottom: 90px;
-}
-
-.margen-entre-divs-2 {
-  margin-bottom: 180px;
-}
-
-.margen-entre-divs-3 {
-  margin-bottom: 60px;
-}
-
-.margen-entre-divs-4-arriba {
-  margin-top: 60px;
-}
-
-.espacio-abajo {
-  margin-bottom: 20px;
-}
-
-.espacio-abajo-2 {
-  margin-bottom: 70px;
-}
-
-.espacio-abajo-3 {
-  margin-bottom: 35px;
-}
-
-.espacio-arriba {
-  margin-top: 25px;
-}
-
-.espacio-hr-1 {
-  margin-bottom: 53px;
-}
-
-.espacio-hr-2 {
-  margin-bottom: 40px;
+.toy-red {
+  color: #EA2346;
 }
 
 ul,
@@ -131,14 +85,36 @@ section#mantenimiento-prepago {
 }
 section#mantenimiento-prepago .mant-pre {
   gap: 30px;
+  flex-wrap: nowrap;
 }
-section#mantenimiento-prepago .pading-columna-izquierda {
-  padding-left: 30px !important;
-  padding-right: 25px !important;
-  text-align: right;
+section#mantenimiento-prepago .man-pre-img-con {
+  padding-left: 15px;
+  padding-right: 15px;
 }
-section#mantenimiento-prepago .pading-columna-derecha {
-  padding-left: 25px !important;
+section#mantenimiento-prepago .man-pre-img-con .man-pre-img {
+  max-width: 510px;
+  max-height: 526px;
+  border-radius: 15px;
+  float: right;
+}
+section#mantenimiento-prepago .man-pre-parr {
+  line-height: 27.2px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+}
+section#mantenimiento-prepago .man-pre-parr-red {
+  line-height: 27.2px;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 16px;
+}
+section#mantenimiento-prepago .man-pre-t1-t2 {
+  line-height: 34.22px;
+  font-family: "Toyota-Type";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 section#plan_mantenimiento.background-style {
