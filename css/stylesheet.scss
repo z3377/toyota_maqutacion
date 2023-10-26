@@ -105,42 +105,41 @@ section#mantenimiento-prepago {
   .mant-pre {
     gap: 30px;
     flex-wrap: nowrap;
-  }
 
-  .man-pre-img-con {
-    padding-left: 15px;
-    padding-right: 15px;
+    .man-pre-img-con {
+      padding-left: 15px;
+      padding-right: 15px;
 
-    .man-pre-img {
-      width: 510px;
-      height: 526px;
-      border-radius: 15px;
-      float: right;
+      .man-pre-img {
+        width: 510px;
+        height: 526px;
+        border-radius: 15px;
+        float: right;
+      }
     }
-  }
 
+    .man-pre-t1-t2 {
+      line-height: 34.22px;
+      font-family: 'Toyota-Type';
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
 
+    .man-pre-parr {
+      line-height: 27.2px;
+      font-family: Raleway;
+      font-weight: 400;
+      font-size: 16px;
 
-  .man-pre-parr {
-    line-height: 27.2px;
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 16px;
-  }
+      .man-pre-parr-red {
+        line-height: 27.2px;
+        font-family: Raleway;
+        font-weight: 800;
+        font-size: 16px;
+      }
+    }
 
-  .man-pre-parr-red {
-    line-height: 27.2px;
-    font-family: Raleway;
-    font-weight: 800;
-    font-size: 16px;
-  }
-
-  .man-pre-t1-t2 {
-    line-height: 34.22px;
-    font-family: 'Toyota-Type';
-    font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 20px;
   }
 
 }
