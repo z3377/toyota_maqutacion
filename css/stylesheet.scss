@@ -30,6 +30,14 @@ body {
   color: #EA2346;
 }
 
+.toy-grey {
+  background-color: #F0F0F0;
+}
+
+.toy-red-btn {
+  background-color: #EB0A1E;
+}
+
 ul,
 ol {
   list-style-type: none;
@@ -60,35 +68,77 @@ ol {
 
 // ############################SECCION QUIERO INFO####################################
 
-section#quiero_info {
+section#quiero-info {
+  .qui-inf-gen {
+    height: 436px;
 
-  /* margin-bottom: 180px;
-  margin-top: 180px; */
+    div#qui-inf-div-1 {
 
-  &.background-style {
-    background-color: #f0f0f0;
-    padding-top: 90px;
-    padding-bottom: 77px;
-  }
+      width: 731px;
+      margin-left: auto;
+      margin-right: auto;
 
-  .button-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    /* Ajusta la altura del botón al 100% del contenedor */
-  }
+      h1 {
+        font-family: 'Toyota-Type';
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 54.19px;
+        text-align: center;
+        padding-top: 80px;
+      }
+    }
 
-  .cosas-generales {
-    text-align: center;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-  }
+    div#qui-inf-div-2 {
 
-  .background-style {
-    background-color: #f0f0f0;
-    padding-top: 90px;
-    padding-bottom: 77px;
+      width: 730px;
+      margin-left: auto;
+      margin-right: auto;
+
+      p {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+      }
+    }
+
+    div#qui-inf-div-btn-cont {
+
+      div#qui-inf-div-btn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        width: 254px;
+        height: 60px;
+        border-radius: 30px;
+        gap: 10px;
+        padding: 15px 40px 15px 40px;
+
+        a:link, a:visited,{
+          font-family: 'Raleway';
+          font-weight: 900;
+          font-size: 14px;
+          line-height: 16.44px;
+          text-align: center;
+          text-decoration: none;
+          color: white;
+
+          img{
+            width: 30px;
+            height: 30px;
+          }
+
+        }
+
+        a:hover{
+          color: white;
+        }
+
+      }
+
+    }
+
   }
 
 }
@@ -159,78 +209,7 @@ section#mantenimiento-prepago {
 
 // ############################################################SECCION PLAN MANTENIMIENTO##############################################################
 
-section#plan_mantenimiento {
 
-  &.background-style {
-    background-color: #f0f0f0;
-    padding-top: 90px;
-    padding-bottom: 77px;
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-
-  .columnas {
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-  }
-
-  .iconos-redes {
-    width: 35px;
-  }
-
-  .div-titulo-principal-footer {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    bottom: 127px;
-  }
-
-  .logo-toyotoshi-footer {
-    max-width: 70px;
-    margin-bottom: 31px;
-    color: white !important;
-  }
-
-  .logo-toyotoshi-footer-img {
-    max-width: 69px;
-    margin-bottom: 54px;
-    margin-right: 10px;
-  }
-
-  .titulo-sociedad-anonima-footer {
-    font-size: 9px;
-    font-weight: normal;
-    letter-spacing: 8px;
-    margin-left: 8px;
-  }
-
-  .ancho-columna-1 {
-    width: 440px;
-  }
-
-
-  .flotar-derecha {
-    float: right;
-  }
-
-  .imagen-columna-1 {
-    border-radius: 20px;
-    width: 100%;
-  }
-
-  .pading-columna-1 {
-    padding-right: 25px;
-  }
-
-  .texto-centrado {
-    text-align: left;
-  }
-
-}
 
 // ################################################################SECCION BENEFICIOS#################################################################
 
