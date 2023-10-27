@@ -178,6 +178,9 @@ section#plan-mantenimiento div#pla-man-t1 h3 {
   line-height: 42.78px;
   text-align: center;
 }
+section#plan-mantenimiento divpla-man-col-cont {
+  flex-wrap: nowrap;
+}
 
 section#beneficios .fondo {
   background-color: #d7dcd5;
