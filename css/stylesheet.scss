@@ -16,9 +16,7 @@
   font-display: swap;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
 
 body {
   background-color: white;
@@ -98,46 +96,61 @@ section#quiero_info {
 // ####################################SECCION MANTENIMIENTO PREPAGO##############################################
 
 section#mantenimiento-prepago {
-
   padding-top: 78px;
   padding-bottom: 65px;
 
-  .mant-pre {
-    gap: 30px;
-    flex-wrap: nowrap;
+  .man-pre-cont-gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .man-pre-img-con {
-      padding-left: 15px;
-      padding-right: 15px;
+    .mant-pre {
+      gap: 30px;
+      flex-wrap: nowrap;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      .man-pre-img {
-        width: 510px;
-        height: 526px;
-        border-radius: 15px;
-        float: right;
+      .man-pre-col {
+        max-width: 540px;
+
+        .man-pre-img-con {
+          padding-left: 15px;
+          padding-right: 15px;
+
+          .man-pre-img {
+            width: 540px;
+            height: 526px;
+            border-radius: 15px;
+            float: right;
+          }
+        }
+
+        .man-pre-t1-t2 {
+          line-height: 34.22px;
+          font-family: 'Toyota-Type';
+          font-weight: 700;
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+
+        .man-pre-parr {
+          line-height: 27.2px;
+          font-family: Raleway;
+          font-weight: 400;
+          font-size: 16px;
+
+          .man-pre-parr-red {
+            line-height: 27.2px;
+            font-family: Raleway;
+            font-weight: 800;
+            font-size: 16px;
+          }
+
+        }
+
       }
-    }
 
-    .man-pre-t1-t2 {
-      line-height: 34.22px;
-      font-family: 'Toyota-Type';
-      font-weight: 700;
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .man-pre-parr {
-      line-height: 27.2px;
-      font-family: Raleway;
-      font-weight: 400;
-      font-size: 16px;
-
-      .man-pre-parr-red {
-        line-height: 27.2px;
-        font-family: Raleway;
-        font-weight: 800;
-        font-size: 16px;
-      }
     }
 
   }

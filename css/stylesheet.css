@@ -83,38 +83,49 @@ section#mantenimiento-prepago {
   padding-top: 78px;
   padding-bottom: 65px;
 }
-section#mantenimiento-prepago .mant-pre {
+section#mantenimiento-prepago .man-pre-cont-gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre {
   gap: 30px;
   flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-section#mantenimiento-prepago .man-pre-img-con {
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col {
+  max-width: 540px;
+}
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con {
   padding-left: 15px;
   padding-right: 15px;
 }
-section#mantenimiento-prepago .man-pre-img-con .man-pre-img {
-  max-width: 510px;
-  max-height: 526px;
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con .man-pre-img {
+  width: 540px;
+  height: 526px;
   border-radius: 15px;
   float: right;
 }
-section#mantenimiento-prepago .man-pre-parr {
-  line-height: 27.2px;
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 16px;
-}
-section#mantenimiento-prepago .man-pre-parr-red {
-  line-height: 27.2px;
-  font-family: Raleway;
-  font-weight: 800;
-  font-size: 16px;
-}
-section#mantenimiento-prepago .man-pre-t1-t2 {
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-t1-t2 {
   line-height: 34.22px;
   font-family: "Toyota-Type";
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 20px;
+}
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-parr {
+  line-height: 27.2px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+}
+section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-parr .man-pre-parr-red {
+  line-height: 27.2px;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 16px;
 }
 
 section#plan_mantenimiento.background-style {
