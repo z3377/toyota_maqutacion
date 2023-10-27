@@ -148,8 +148,8 @@ section#quiero-info {
 // ####################################SECCION MANTENIMIENTO PREPAGO##############################################
 
 section#mantenimiento-prepago {
-  padding-top: 78px;
-  padding-bottom: 65px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .man-pre-cont-gen {
     display: flex;
@@ -212,21 +212,21 @@ section#mantenimiento-prepago {
 // ############################################################SECCION PLAN MANTENIMIENTO##############################################################
 
 section#plan-mantenimiento {
-  div#pla-man-con {
-    div#pla-man-t1 {
-      width: 730px;
-      margin-left: auto;
-      margin-right: auto;
+  div#pla-man-t1 {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
 
-      h1 {
-        font-family: 'Toyota-Type';
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 42.78px;
-        text-align: center;
-      }
+    h3 {
+      font-family: 'Toyota-Type';
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 42.78px;
+      text-align: center;
     }
+
   }
+
 }
 
 

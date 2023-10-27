@@ -118,8 +118,8 @@ section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:
 }
 
 section#mantenimiento-prepago {
-  padding-top: 78px;
-  padding-bottom: 65px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 section#mantenimiento-prepago .man-pre-cont-gen {
   display: flex;
@@ -166,12 +166,12 @@ section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-
   font-size: 16px;
 }
 
-section#plan-mantenimiento div#pla-man-con div#pla-man-t1 {
+section#plan-mantenimiento div#pla-man-t1 {
   width: 730px;
   margin-left: auto;
   margin-right: auto;
 }
-section#plan-mantenimiento div#pla-man-con div#pla-man-t1 h1 {
+section#plan-mantenimiento div#pla-man-t1 h3 {
   font-family: "Toyota-Type";
   font-weight: 700;
   font-size: 30px;
