@@ -98,7 +98,8 @@ section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn {
   gap: 10px;
   padding: 15px 40px 15px 40px;
 }
-section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:link, section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:visited {
+section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:link,
+section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:visited {
   font-family: "Raleway";
   font-weight: 900;
   font-size: 14px;
@@ -107,7 +108,8 @@ section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:
   text-decoration: none;
   color: white;
 }
-section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:link img, section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:visited img {
+section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:link img,
+section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:visited img {
   width: 30px;
   height: 30px;
 }
@@ -162,6 +164,19 @@ section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-
   font-family: Raleway;
   font-weight: 800;
   font-size: 16px;
+}
+
+section#plan-mantenimiento div#pla-man-con div#pla-man-t1 {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#plan-mantenimiento div#pla-man-con div#pla-man-t1 h1 {
+  font-family: "Toyota-Type";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42.78px;
+  text-align: center;
 }
 
 section#beneficios .fondo {
@@ -249,28 +264,6 @@ section#preguntas_frecuentes .panel.show {
   /* Cambia esto según sea necesario */
 }
 
-@media screen and (max-width: 1366px) {
-  section#beneficios .card {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid white;
-    margin-right: 10px;
-    margin-left: 17px;
-    /* Espaciado entre las tarjetas */
-    border-radius: 10px !important;
-    margin-bottom: 76px;
-  }
-  section#beneficios .container-tarjetas {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    /* Espaciado interno entre las columnas */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 450px) {
   #relleno {
     display: none;
