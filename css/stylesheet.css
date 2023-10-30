@@ -178,8 +178,20 @@ section#plan-mantenimiento div#pla-man-t1 h3 {
   line-height: 42.78px;
   text-align: center;
 }
-section#plan-mantenimiento divpla-man-col-cont {
+section#plan-mantenimiento div.pla-man-col-cont {
+  display: flex;
   flex-wrap: nowrap;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col {
+  width: 50%;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
+  text-align: right;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col divimg {
+  width: 444px;
+  height: 466px;
+  border-radius: 15px;
 }
 
 section#beneficios .fondo {

@@ -227,15 +227,29 @@ section#plan-mantenimiento {
 
   }
 
-  div{
-
-    &pla-man-col-cont{
-
+  div {
+    &.pla-man-col-cont {
+      display: flex;
       flex-wrap: nowrap;
 
-    }
+      .pla-man-col {
+        width: 50%;
 
+        div{
+          text-align: right;
+          
+          &img{
+            width: 444px;
+            height: 466px;
+            border-radius: 15px;
+          }
+
+        }
+
+      }
+    }
   }
+
 
 }
 
