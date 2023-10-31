@@ -181,17 +181,27 @@ section#plan-mantenimiento div#pla-man-t1 h3 {
 section#plan-mantenimiento div.pla-man-col-cont {
   display: flex;
   flex-wrap: nowrap;
+  gap: 31px;
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col {
   width: 50%;
 }
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col p.pla-man-c1-tex {
+  width: 445px;
+  float: right;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
+  margin-top: 20px;
+}
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
   text-align: right;
 }
-section#plan-mantenimiento div.pla-man-col-cont .pla-man-col divimg {
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div img {
   width: 444px;
   height: 466px;
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 
 section#beneficios .fondo {

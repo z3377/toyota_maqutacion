@@ -231,17 +231,31 @@ section#plan-mantenimiento {
     &.pla-man-col-cont {
       display: flex;
       flex-wrap: nowrap;
+      gap: 31px;
 
       .pla-man-col {
         width: 50%;
 
+        p{
+          &.pla-man-c1-tex{
+            width: 445px;
+            float: right;
+            font-family: Raleway;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27.2px;
+            margin-top: 20px;
+          }
+
+        }
+
         div{
           text-align: right;
           
-          &img{
+          img{
             width: 444px;
             height: 466px;
-            border-radius: 15px;
+            border-radius: 15px !important;
           }
 
         }
