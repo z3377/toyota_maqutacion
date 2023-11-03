@@ -236,8 +236,8 @@ section#plan-mantenimiento {
       .pla-man-col {
         width: 50%;
 
-        p{
-          &.pla-man-c1-tex{
+        p {
+          &.pla-man-c1-tex {
             width: 445px;
             float: right;
             font-family: Raleway;
@@ -249,15 +249,33 @@ section#plan-mantenimiento {
 
         }
 
-        div{
+        div {
           text-align: right;
-          
-          img{
+
+          img {
             width: 444px;
             height: 466px;
             border-radius: 15px !important;
           }
 
+
+
+        }
+
+        div#plan-man-col2-cont-2 {
+          width: 445px;
+          border-radius: 15px;
+          border: 1px;
+          padding: 20px, 30px, 20px, 30px;
+          gap: 15px;
+
+          h3 {
+            font-family: 'Toyota-Type';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+          }
         }
 
       }
