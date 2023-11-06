@@ -223,6 +223,8 @@ section#plan-mantenimiento {
       font-size: 30px;
       line-height: 42.78px;
       text-align: center;
+      padding-top: 80px;
+      margin-bottom: 60px;
     }
 
   }
@@ -244,7 +246,7 @@ section#plan-mantenimiento {
             font-weight: 400;
             font-size: 16px;
             line-height: 27.2px;
-            margin-top: 20px;
+            // margin-top: 20px;
           }
 
         }
@@ -263,7 +265,45 @@ section#plan-mantenimiento {
           }
         }
 
-        div#plan-man-col2-cont-2 {}
+        div#plan-man-col2 {
+          div#plan-man-col2-cont-2 {
+            width: 445px;
+            height: 382px;
+            border-radius: 15px;
+            border: 1px;
+            padding: 20px 30px 20px 30px;
+            gap: 15px;
+            background-color: white;
+
+            h3 {
+              width: 355px;
+              height: 27px;
+              font-family: 'Toyota-Type';
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 27px;
+              text-align: center;
+            }
+
+            div#list-ul {
+              text-align: left;
+
+              ul {
+                width: 362px;
+                height: 300px;
+                border: 1px 0px 0px 0px;
+
+                li {
+                  img {
+                    width: 40px;
+                    height: 40px;
+                  }
+                }
+              }
+            }
+          }
+
+        }
 
       }
     }

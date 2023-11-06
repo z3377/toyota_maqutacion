@@ -177,6 +177,8 @@ section#plan-mantenimiento div#pla-man-t1 h3 {
   font-size: 30px;
   line-height: 42.78px;
   text-align: center;
+  padding-top: 80px;
+  margin-bottom: 60px;
 }
 section#plan-mantenimiento div.pla-man-col-cont {
   display: flex;
@@ -193,7 +195,6 @@ section#plan-mantenimiento div.pla-man-col-cont .pla-man-col p.pla-man-c1-tex {
   font-weight: 400;
   font-size: 16px;
   line-height: 27.2px;
-  margin-top: 20px;
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
   text-align: right;
@@ -207,6 +208,37 @@ section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div img {
   padding-left: 6px;
   padding-right: 7px;
 }
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 {
+  width: 445px;
+  height: 382px;
+  border-radius: 15px;
+  border: 1px;
+  padding: 20px 30px 20px 30px;
+  gap: 15px;
+  background-color: white;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 h3 {
+  width: 355px;
+  height: 27px;
+  font-family: "Toyota-Type";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul {
+  text-align: left;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul {
+  width: 362px;
+  height: 300px;
+  border: 1px 0px 0px 0px;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul li img {
+  width: 40px;
+  height: 40px;
+}
+
 section#beneficios .fondo {
   background-color: #d7dcd5;
 }
