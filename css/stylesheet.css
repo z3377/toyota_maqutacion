@@ -299,17 +299,19 @@ section#seccion-beneficios h3 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 90px;
-  padding-bottom: 80px;
+  /*  padding-bottom: 80px; */
 }
 section#seccion-beneficios div#tabla-columnas {
   width: auto;
   height: auto;
+  padding-top: 104px;
 }
 section#seccion-beneficios div#tabla-columnas div#cont-columna {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 14%;
-  padding-right: 14%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
 }
 section#seccion-beneficios div#tabla-columnas div#cont-columna .columnas {
   box-sizing: border-box;
@@ -368,4 +370,29 @@ section#seccion-beneficios div#tabla-columnas div#cont-columna .text1-columnas-1
   line-height: 27.2px;
   text-align: center;
   margin-top: -18px;
+}
+
+section#pregunta-frecuente {
+  width: auto;
+  height: 1514px;
+}
+section#pregunta-frecuente h3 {
+  width: 588px;
+  height: 57px;
+  font-family: "Toyota-Type";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57.04px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+section#pregunta-frecuente .cont-acordeon {
+  width: 730px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: aquamarine;
 }/*# sourceMappingURL=stylesheet.css.map */
