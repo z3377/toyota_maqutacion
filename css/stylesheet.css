@@ -234,6 +234,13 @@ section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 d
   height: 300px;
   border: 1px 0px 0px 0px;
 }
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul li {
+  width: 362px;
+  height: 60px;
+  border: 1px 0px 0px 0px;
+  padding: 10px;
+  gap: 10px;
+}
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul li img {
   width: 40px;
   height: 40px;
