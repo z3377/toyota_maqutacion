@@ -303,130 +303,32 @@ section#seccion-beneficios h3 {
 }
 section#seccion-beneficios div#tabla-columnas {
   width: auto;
-  background-color: aquamarine;
-  height: 10px;
+  height: auto;
 }
-
-section#preguntas_frecuentes {
-  /* Estilo para el acordeón */
+section#seccion-beneficios div#tabla-columnas div#cont-columna {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 14%;
+  padding-right: 14%;
 }
-section#preguntas_frecuentes.espacios-container {
-  padding-top: 66px;
-}
-section#preguntas_frecuentes .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-section#preguntas_frecuentes .accordion.active,
-section#preguntas_frecuentes .accordion:hover {
-  background-color: #ddd;
-}
-section#preguntas_frecuentes .accordion:after {
-  content: "➕";
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-section#preguntas_frecuentes .accordion.active:after {
-  content: "➖";
-}
-section#preguntas_frecuentes .panel {
-  padding: 0 18px;
+section#seccion-beneficios div#tabla-columnas div#cont-columna div.columnas {
+  box-sizing: border-box;
   background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.6s ease-in-out;
-  opacity: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 255px;
+  height: 400px;
+  border-radius: 10px;
+  padding: 30px 15px 30px 15px;
+  gap: 26px;
 }
-section#preguntas_frecuentes .panel.show {
-  opacity: 1;
-  max-height: 500px;
-  /* Cambia esto según sea necesario */
-}
-
-@media screen and (max-width: 450px) {
-  #relleno {
-    display: none;
-  }
-  #imagen-header-img {
-    content: url("./img/persona_arreglando_auto_.png");
-  }
-  .espacio-abajo-movile {
-    margin-bottom: 20px;
-  }
-  .espacio-abajo-3-movile {
-    margin-bottom: 35px;
-  }
-  section#beneficios .container-tarjetas {
-    flex-direction: column;
-    /* Cambiamos la dirección de flex a columna */
-  }
-  section#beneficios .card {
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-  section#beneficios .card-movile {
-    flex-direction: unset;
-    width: 100%;
-  }
-  section#plan_mantenimiento .texto-centrado {
-    text-align: center;
-  }
-  section#plan_mantenimiento .pading-columna-1 {
-    padding-right: 0%;
-  }
-  section#plan_mantenimiento .flotar-derecha {
-    float: none;
-  }
-  section#plan_mantenimiento .ancho-columna-1 {
-    width: 100%;
-  }
-  section#plan_mantenimiento .imagen-columna-1 {
-    border-radius: 20px;
-    width: 100%;
-  }
-  section#mantenimiento-prepago .pading-columna-izquierda {
-    padding: 0% !important;
-    text-align: center;
-  }
-  section#mantenimiento-prepago .pading-columna-derecha {
-    padding-left: 0% !important;
-  }
-  section#mantenimiento-prepago .img-movil {
-    margin-top: -83px;
-  }
-  section#mantenimiento-prepago .espacio-movil {
-    margin-bottom: 40px;
-  }
-  section#mantenimiento-prepago .espacio-titulo-movile {
-    margin-bottom: 15px;
-  }
-  section#mantenimiento-prepago .espacio-adelantada {
-    margin-bottom: 45px;
-  }
-  section#mantenimiento-prepago .titulos-movile {
-    font-size: 20px !important;
-  }
-  section#quiero_info #quiero_info-mantenimiento-prepago {
-    font-size: 34px;
-  }
-  section#quiero_info .cosas-generales {
-    text-align: center;
-    display: block;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-  section#quiero_info .titulo-mantenimiento-movile {
-    font-size: 31px !important;
-  }
+section#seccion-beneficios div#tabla-columnas div#cont-columna div.columnas img {
+  width: 120px;
+  height: 120px;
+  padding-top: 30px;
+  padding-left: 67.5px;
+  padding-right: 67.5px;
+  padding-bottom: 26px;
+  z-index: 99999;
 }/*# sourceMappingURL=stylesheet.css.map */
