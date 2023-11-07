@@ -166,6 +166,9 @@ section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-
   font-size: 16px;
 }
 
+section#plan-mantenimiento {
+  padding-bottom: 100px;
+}
 section#plan-mantenimiento div#pla-man-t1 {
   width: 730px;
   margin-left: auto;
@@ -187,6 +190,7 @@ section#plan-mantenimiento div.pla-man-col-cont {
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col {
   width: 50%;
+  padding: 0px;
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col p.pla-man-c1-tex {
   width: 445px;
@@ -201,12 +205,13 @@ section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div img {
   width: 444px;
-  height: 466px;
+  height: 462px;
   border-radius: 15px !important;
-  padding-top: 5px;
+  /* padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 6px;
-  padding-right: 7px;
+  padding-right: 7px; */
+  padding: 0px;
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 {
   width: 445px;
@@ -245,44 +250,61 @@ section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 d
   width: 40px;
   height: 40px;
 }
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman {
+  width: 445px;
+  height: 192px;
+  border-radius: 15px;
+  border: 1px;
+  padding: 20px 30px 20px 30px;
+  gap: 15px;
+  background-color: white;
+  margin-left: -30px;
+  margin-top: 40px;
+  background-color: white;
+  text-align: left;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman h3 {
+  text-align: left;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman ul {
+  width: 385px;
+  height: 110px;
+  border: 1px 0px 0px 0px;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman ul li {
+  width: 385px;
+  height: 50px;
+  border: 1px 0px 0px 0px;
+  padding: 10px;
+  gap: 10px;
+}
+section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman ul li img {
+  width: 25px;
+  height: 30px;
+}
 
-section#beneficios .fondo {
+section#seccion-beneficios {
   background-color: #d7dcd5;
+  width: auto;
+  height: 723px;
 }
-section#beneficios .pading-top {
-  padding-top: 60px;
-}
-section#beneficios .margen-abajo {
-  margin-bottom: 60px;
-}
-section#beneficios .container-tarjetas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* padding: 0px; */
-  width: 79%;
+section#seccion-beneficios h3 {
+  width: 730px;
+  height: 43px;
+  font-family: "Toyota-Type";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42.78px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
-section#beneficios .card {
-  flex: 1;
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid white;
-  margin-right: 17px;
-  margin-left: 17px;
-  /* Espaciado entre las tarjetas */
-  border-radius: 10px !important;
-  margin-bottom: 76px;
-}
-section#beneficios .tamanho-imagen {
-  width: 125px;
-}
-section#beneficios .estilo-imagen {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 35px;
+section#seccion-beneficios div#tabla-columnas {
+  width: auto;
+  background-color: aquamarine;
+  height: 10px;
 }
 
 section#preguntas_frecuentes {
