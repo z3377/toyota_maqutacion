@@ -18,6 +18,7 @@
 .formato-columnas {
   background-color: #332e23 !important;
   line-height: 30px;
+
 }
 
 #div-footer-general {
@@ -43,6 +44,7 @@
 }
 
 /* estilos de 4ta columna del footer */
+
 #logo-footer-toyotoshi {
   margin-top: -25px;
   margin-right: -34px;
@@ -123,4 +125,6 @@
 
 .column-footer:nth-child(even) {
   background-color: #332e23;
-}/*# sourceMappingURL=footer.css.map */
+}
+
+@media screen and (max-width: 450px) {}
