@@ -120,6 +120,9 @@ section#quiero-info .qui-inf-gen div#qui-inf-div-btn-cont div#qui-inf-div-btn a:
 section#mantenimiento-prepago {
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 section#mantenimiento-prepago .man-pre-cont-gen {
   display: flex;
@@ -139,9 +142,12 @@ section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col {
 section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con {
   padding-left: 15px;
   padding-right: 15px;
+  width: 540px;
+  height: 526px;
+  gap: 10px;
 }
 section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con .man-pre-img {
-  width: 540px;
+  width: 510px;
   height: 526px;
   border-radius: 15px;
   float: right;
