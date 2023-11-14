@@ -193,6 +193,7 @@ section#plan-mantenimiento div.pla-man-col-cont {
   display: flex;
   flex-wrap: nowrap;
   gap: 31px;
+  margin-left: -40px;
 }
 section#plan-mantenimiento div.pla-man-col-cont .pla-man-col {
   width: 50%;
