@@ -498,36 +498,75 @@ section#pregunta-frecuente {
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
-    background-color: aquamarine;
+    // border: none;  // Puedes eliminar estas líneas si no son necesarias
+    // border: 0px;
+    // background-color: aquamarine;
 
     .accordion {
       display: flex;
       flex-direction: column;
       width: auto;
+      border: none;
+      /* Añadido para eliminar el borde */
     }
 
     .accordion-item {
       border: none;
-      margin-bottom: 5px;
+      /* Añadido para eliminar el borde */
+      /* border-bottom: 1px solid black; */
+      /* Comentado para eliminar el borde inferior */
+      // margin-bottom: 5px;
     }
 
     .accordion-header {
-      background-color: #f1f1f1;
+      display: flex;
+      align-items: center;
+      background-color: #F0F0F0;
       padding: 10px;
       cursor: pointer;
       position: relative;
+      height: 109px;
+      border: none;
 
-      img{
-        position: absolute;
-        right: 1px;
+      p {
+        height: 29px;
+        width: 635px;
+        font-family: 'Toyota-Type';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28.52px;
       }
 
+      img {
+        position: absolute;
+        right: 1px;
+        transition: transform 0.5s;
+      }
+
+      .rotate180 {
+        transform: rotate(-180deg);
+        /* Inicialmente, la imagen estará rotada 180 grados */
+      }
     }
 
     .accordion-body {
-      display: none;
-      padding: 10px;
-    }
+      background-color: #F0F0F0;
 
+      p {
+        display: flex;
+        align-items: center;
+        width: 635px;
+        height: 121px;
+        padding: 20px 0px 20px 0px;
+        gap: 10px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.2px;
+        margin-left: -7px;
+      }
+    }
   }
+
+
 }
