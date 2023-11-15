@@ -390,34 +390,30 @@
         section.style.display = 'none';
       } else {
         section.style.display = 'block';
+        section.style.transition = 'display .3s ease-in-out';
       }
     }
   </script>
 
-<script>
-  // Función para alternar la visibilidad de la sección y cambiar la imagen
-  function toggleAccordion(sectionId) {
+  <script>
+    // Función para alternar la visibilidad de la sección y cambiar la imagen
+    function toggleAccordion(sectionId) {
       var section = document.getElementById(sectionId);
       var icon = document.getElementById('icon' + sectionId.slice(-1));
 
       if (section.style.display === 'block') {
-          section.style.display = 'none';
-          icon.src = '/img/flecha-icon-arriba.png';
-          icon.alt = 'Contraído';
-          icon.classList.remove('rotate180'); // Elimina la clase rotate180
+        section.style.display = 'none';
+        icon.src = '/img/flecha-icon-arriba.png';
+        icon.alt = 'Contraído';
+        icon.classList.remove('rotate180'); // Elimina la clase rotate180
       } else {
-          section.style.display = 'block';
-          icon.src = '/img/flecha-icon-arriba.png';
-          icon.alt = 'Expandido';
-          icon.classList.add('rotate180'); // Agrega la clase rotate180
+        section.style.display = 'block';
+        icon.src = '/img/flecha-icon-arriba.png';
+        icon.alt = 'Expandido';
+        icon.classList.add('rotate180'); // Agrega la clase rotate180
       }
-  }
-</script>
-
-</body>
-
-</html>
-
+    }
+  </script>
 
 </body>
 
