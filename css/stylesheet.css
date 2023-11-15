@@ -402,4 +402,27 @@ section#pregunta-frecuente .cont-acordeon {
   margin-right: auto;
   margin-top: 150px;
   background-color: aquamarine;
+}
+section#pregunta-frecuente .cont-acordeon .accordion {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+section#pregunta-frecuente .cont-acordeon .accordion-item {
+  border: none;
+  margin-bottom: 5px;
+}
+section#pregunta-frecuente .cont-acordeon .accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+section#pregunta-frecuente .cont-acordeon .accordion-header img {
+  position: absolute;
+  right: 1px;
+}
+section#pregunta-frecuente .cont-acordeon .accordion-body {
+  display: none;
+  padding: 10px;
 }/*# sourceMappingURL=stylesheet.css.map */

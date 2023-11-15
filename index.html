@@ -204,57 +204,21 @@
 
     <div class="cont-acordeon">
 
-      <div class="acordeon-cuerpo">
-        <div class="acordeon">
-          <h1>Preguntas Frecuentes</h1>
-          <div class="contenedor">
-            <div class="label">¿Qué es HTML?</div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex rem quos at,
-              voluptas iste eos qui. Enim distinctio accusantium, adipisci eum voluptas quasi quo ex obcaecati eveniet
-              reprehenderit quibusdam.</div>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion('section1')">
+            Sección 1
+            <img id="icon1" class="icon" src="imagen_contraido.png" alt="Contraído">
           </div>
+          <div class="accordion-body" id="section1">Contenido de la sección 1.</div>
         </div>
-        <hr>
-        <div class="acordeon">
-          <h1>Preguntas Frecuentes</h1>
-          <div class="contenedor">
-            <div class="label">¿Qué es HTML?</div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex rem quos at,
-              voluptas iste eos qui. Enim distinctio accusantium, adipisci eum voluptas quasi quo ex obcaecati eveniet
-              reprehenderit quibusdam.</div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion('section2')">
+            Sección 2
+            <img id="icon2" class="icon" src="imagen_contraido.png" alt="Contraído">
           </div>
+          <div class="accordion-body" id="section2">Contenido de la sección 2.</div>
         </div>
-        <hr>
-        <div class="acordeon">
-          <h1>Preguntas Frecuentes</h1>
-          <div class="contenedor">
-            <div class="label">¿Qué es HTML?</div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex rem quos at,
-              voluptas iste eos qui. Enim distinctio accusantium, adipisci eum voluptas quasi quo ex obcaecati eveniet
-              reprehenderit quibusdam.</div>
-          </div>
-        </div>
-        <hr>
-        <div class="acordeon">
-          <h1>Preguntas Frecuentes</h1>
-          <div class="contenedor">
-            <div class="label">¿Qué es HTML?</div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex rem quos at,
-              voluptas iste eos qui. Enim distinctio accusantium, adipisci eum voluptas quasi quo ex obcaecati eveniet
-              reprehenderit quibusdam.</div>
-          </div>
-        </div>
-        <hr>
-        <div class="acordeon">
-          <h1>Preguntas Frecuentes</h1>
-          <div class="contenedor">
-            <div class="label">¿Qué es HTML?</div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex rem quos at,
-              voluptas iste eos qui. Enim distinctio accusantium, adipisci eum voluptas quasi quo ex obcaecati eveniet
-              reprehenderit quibusdam.</div>
-          </div>
-        </div>
-        <hr>
       </div>
 
     </div>
@@ -399,6 +363,47 @@
     window.onload = cambiarImagenEnMovil;
     window.addEventListener("resize", cambiarImagenEnMovil);
   </script>
+
+
+  <!-- este script es para el tema del acordeon -->
+
+  <script>
+    // Función para alternar la visibilidad de la sección
+    function toggleAccordion(sectionId) {
+      var section = document.getElementById(sectionId);
+      if (section.style.display === 'block') {
+        section.style.display = 'none';
+      } else {
+        section.style.display = 'block';
+      }
+    }
+  </script>
+
+  <script>
+    // Función para alternar la visibilidad de la sección y cambiar la imagen
+    function toggleAccordion(sectionId) {
+      var section = document.getElementById(sectionId);
+      var icon = document.getElementById('icon' + sectionId.slice(-1));
+
+      if (section.style.display === 'block') {
+        section.style.display = 'none';
+        icon.src = 'imagen_contraido.png';
+        icon.alt = 'Contraído';
+      } else {
+        section.style.display = 'block';
+        icon.src = 'imagen_expandido.png';
+        icon.alt = 'Expandido';
+      }
+    }
+  </script>
+
+</body>
+
+</html>
+
+En este ejemplo, he utilizado las etiquetas <img> para mostrar imágenes en lugar de texto. Ajusta los atributos src,
+alt, width, y height según las necesidades de tus imágenes. Asegúrate de tener las imágenes imagen_contraido.png e
+imagen_expandido.png en la misma carpeta que tu archivo HTML o ajusta las rutas de las imágenes según sea necesario.
 
 
 </body>
