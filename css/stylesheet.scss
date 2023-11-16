@@ -16,7 +16,11 @@
   font-display: swap;
 }
 
+$Toyota-Type: 'Toyota-Type';
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+$Raleway: 'Raleway';
 
 body {
   background-color: white;
@@ -600,6 +604,7 @@ section#pregunta-frecuente {
         max-height: 9em;
         transition: all 200ms linear;
         will-change: opacity, max-height;
+        background-color: $toy-grey;
       }
     }
 

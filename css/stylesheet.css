@@ -475,6 +475,7 @@ section#pregunta-frecuente .accordion button[aria-expanded=true] + .accordion-co
   max-height: 9em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
+  background-color: #F0F0F0;
 }
 section#pregunta-frecuente .accordion .accordion-content {
   opacity: 0;
