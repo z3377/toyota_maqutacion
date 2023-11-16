@@ -542,7 +542,7 @@ section#pregunta-frecuente {
         font-weight: 600;
         font-size: 20px;
         line-height: 28.52px;
-        
+
       }
 
       img {
@@ -560,8 +560,7 @@ section#pregunta-frecuente {
     .accordion-body {
       background-color: #F0F0F0;
       height: 121px;
-      // transition: display .3s ease-in-out; 
-      // display: none;
+      display: none;
 
       p {
         display: flex;

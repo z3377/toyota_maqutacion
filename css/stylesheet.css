@@ -451,6 +451,7 @@ section#pregunta-frecuente .cont-acordeon .accordion-header .rotate180 {
 section#pregunta-frecuente .cont-acordeon .accordion-body {
   background-color: #F0F0F0;
   height: 121px;
+  display: none;
 }
 section#pregunta-frecuente .cont-acordeon .accordion-body p {
   display: flex;
