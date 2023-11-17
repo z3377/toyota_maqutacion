@@ -30,6 +30,11 @@ body {
   color: #212529;
 }
 
+$toy-black: #212529;
+
+$toyota-type: 'Toyota-Type';
+$raleway: 'Raleway';
+
 .toy-red {
   color: #EA2346;
 }
@@ -509,6 +514,32 @@ section#pregunta-frecuente {
     padding-top: 80px;
   }
 
- 
+  div#cont-acordeon {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+
+  .accordion-flush .accordion-item .accordion-button,
+  .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background-color: $toy-grey;
+    font-family: $Toyota-Type;
+    color: $toy-black;
+  }
+
+  .accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background-color: $toy-grey;
+    font-family: $raleway;
+  }
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
 
 }

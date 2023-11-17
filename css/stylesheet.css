@@ -394,4 +394,28 @@ section#pregunta-frecuente h3 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
+}
+section#pregunta-frecuente div#cont-acordeon {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+section#pregunta-frecuente .accordion-flush .accordion-item .accordion-button,
+section#pregunta-frecuente .accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  background-color: #F0F0F0;
+  font-family: "Toyota-Type";
+  color: #212529;
+}
+section#pregunta-frecuente .accordion-body {
+  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  background-color: #F0F0F0;
+  font-family: "Raleway";
+}
+section#pregunta-frecuente .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
 }/*# sourceMappingURL=stylesheet.css.map */
