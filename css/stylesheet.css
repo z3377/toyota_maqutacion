@@ -407,11 +407,17 @@ section#pregunta-frecuente .accordion-flush .accordion-item .accordion-button.co
   background-color: #F0F0F0;
   font-family: "Toyota-Type";
   color: #212529;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28.52px;
 }
 section#pregunta-frecuente .accordion-body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
   background-color: #F0F0F0;
   font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
 }
 section#pregunta-frecuente .accordion-button:focus {
   z-index: 3;
