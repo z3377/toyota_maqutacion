@@ -351,39 +351,7 @@
         });
     </script> -->
 
-  <script>
-    // Función para cambiar la imagen en pantalla móvil
-    function cambiarImagenEnMovil() {
-      const imagenHeader = document.getElementById("imagen-header-img");
-      if (window.innerWidth < 451) { // Cambia el número según tu punto de corte para móviles
-        imagenHeader.src = "img/persona_arreglando_auto_.png"; // Ruta de la imagen para móviles
-      } else {
-        imagenHeader.src = "img/header.jpg"; // Ruta de la imagen para escritorio
-      }
-    }
-
-    // Llama a la función cuando la página se carga y cuando cambia el tamaño de la ventana
-    window.onload = cambiarImagenEnMovil;
-    window.addEventListener("resize", cambiarImagenEnMovil);
-  </script>
-
-  <script>
-    const items = document.querySelectorAll(".accordion button");
-
-    function toggleAccordion() {
-      const itemToggle = this.getAttribute('aria-expanded');
-
-      for (i = 0; i < items.length; i++) {
-        items[i].setAttribute('aria-expanded', 'false');
-      }
-
-      if (itemToggle == 'false') {
-        this.setAttribute('aria-expanded', 'true');
-      }
-    }
-
-    items.forEach(item => item.addEventListener('click', toggleAccordion));
-  </script>
+ 
 
 </body>
 
