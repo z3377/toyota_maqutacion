@@ -525,7 +525,27 @@ section#pregunta-frecuente {
     border-top-left-radius: var(--bs-accordion-inner-border-radius);
     border-top-right-radius: var(--bs-accordion-inner-border-radius);
     text-decoration: none;
-    background-color: white;
+    background-color: $toy-grey;
+  }
+
+  button:focus:not(:focus-visible) {
+    outline: 0;
+    background-color: $toy-grey;
+    border-color: $toy-grey;
+    /* border: none; */
+  }
+
+  [type=button]:not(:disabled),
+  [type=reset]:not(:disabled),
+  [type=submit]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+    background-color: $toy-grey;
+  }
+
+  .accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background-color: $toy-grey;
   }
 
 }

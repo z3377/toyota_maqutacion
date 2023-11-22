@@ -405,5 +405,22 @@ section#pregunta-frecuente .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
   border-top-right-radius: var(--bs-accordion-inner-border-radius);
   text-decoration: none;
-  background-color: white;
+  background-color: #F0F0F0;
+}
+section#pregunta-frecuente button:focus:not(:focus-visible) {
+  outline: 0;
+  background-color: #F0F0F0;
+  border-color: #F0F0F0;
+  /* border: none; */
+}
+section#pregunta-frecuente [type=button]:not(:disabled),
+section#pregunta-frecuente [type=reset]:not(:disabled),
+section#pregunta-frecuente [type=submit]:not(:disabled),
+section#pregunta-frecuente button:not(:disabled) {
+  cursor: pointer;
+  background-color: #F0F0F0;
+}
+section#pregunta-frecuente .accordion-body {
+  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  background-color: #F0F0F0;
 }/*# sourceMappingURL=stylesheet.css.map */
