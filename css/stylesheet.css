@@ -423,6 +423,8 @@ section#pregunta-frecuente button:not(:disabled) {
 section#pregunta-frecuente .accordion-body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
   background-color: #F0F0F0;
+  width: 635px;
+  padding: 20px 0px 20px 0px;
 }
 section#pregunta-frecuente .accordion {
   --bs-accordion-color: var(--bs-body-color);
@@ -447,6 +449,16 @@ section#pregunta-frecuente .accordion {
   --bs-accordion-body-padding-y: 1rem;
   /* --bs-accordion-active-color: var(--bs-primary-text-emphasis); */
 }
+section#pregunta-frecuente div#panelsStayOpen-collapseOne {
+  background-color: #F0F0F0;
+  padding-left: 0px;
+}
+section#pregunta-frecuente div#panelsStayOpen-collapseTwo {
+  background-color: #F0F0F0;
+}
+section#pregunta-frecuente div#panelsStayOpen-collapseThree {
+  background-color: #F0F0F0;
+}
 section#pregunta-frecuente .accordion-button::after {
   flex-shrink: 0;
   width: var(--bs-accordion-btn-icon-width);
@@ -465,6 +477,7 @@ section#pregunta-frecuente .accordion-item:first-of-type .accordion-button {
   text-decoration: none;
   background-color: #F0F0F0;
   font-family: "Toyota-Type";
+  padding-left: 0px;
 }
 section#pregunta-frecuente [type=button]:not(:disabled),
 section#pregunta-frecuente [type=reset]:not(:disabled),
@@ -473,4 +486,5 @@ section#pregunta-frecuente button:not(:disabled) {
   cursor: pointer;
   background-color: #F0F0F0;
   font-family: "Toyota-Type";
+  padding-left: 0px;
 }/*# sourceMappingURL=stylesheet.css.map */
