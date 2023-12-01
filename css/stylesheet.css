@@ -388,7 +388,7 @@ section#pregunta-frecuente {
   height: 1514px;
 }
 section#pregunta-frecuente .rotate-img {
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   position: absolute;
   right: 0px;
 }

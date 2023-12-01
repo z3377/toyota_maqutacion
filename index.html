@@ -210,8 +210,8 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
               aria-controls="panelsStayOpen-collapseOne" onclick="rotateImage()">
-              ¿Cuáles son los planes del Mantenimiento Prepago? <img id="arrow-icon"
-                class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
+              ¿Cuáles son los planes del Mantenimiento Prepago? <img id="arrow-icon" class="rotate-img"
+                src="/img/flecha-icon-arriba.png" alt="">
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
@@ -227,9 +227,9 @@
           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo" onclick="rotateImage()">
-              ¿Cuáles son los planes del Mantenimiento Prepago? <img id="arrow-icon"
-                class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
+              aria-controls="panelsStayOpen-collapseTwo" onclick="rotateImage2()">
+              ¿Cuáles son los planes del Mantenimiento Prepago? <img id="arrow-icon-2" class="rotate-img"
+                src="/img/flecha-icon-arriba.png" alt="">
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
@@ -404,6 +404,21 @@
       arrowIcon.classList.toggle('rotate', isOpen);
     }
   </script>
+
+  <!-- Agrega el siguiente script JavaScript -->
+  <script>
+    function rotateImage2() {
+      const arrowIcon = document.getElementById('arrow-icon-2');
+      const accordionButton = document.querySelector('#panelsStayOpen-headingTwo button');
+  
+      // Verifica si el acordeón está abierto o cerrado
+      const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+  
+      // Aplica la rotación según el estado del acordeón
+      arrowIcon.classList.toggle('rotate', isOpen);
+    }
+  </script>
+
 
 </body>
 
