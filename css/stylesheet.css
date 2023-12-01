@@ -389,6 +389,8 @@ section#pregunta-frecuente {
 }
 section#pregunta-frecuente .rotate-img {
   transition: transform 0.5s;
+  position: absolute;
+  right: 0px;
 }
 section#pregunta-frecuente .rotate-img.rotate {
   transform: rotate(-180deg);
@@ -494,6 +496,10 @@ section#pregunta-frecuente .accordion-item:first-of-type .accordion-button {
   font-family: "Toyota-Type";
   padding-left: 0px;
   position: relative;
+}
+section#pregunta-frecuente .accordion-item:first-of-type .accordion-button img#arrow-icon.rotate-img.rotate {
+  position: absolute;
+  right: 0px;
 }
 section#pregunta-frecuente [type=button]:not(:disabled),
 section#pregunta-frecuente [type=reset]:not(:disabled),
