@@ -22,7 +22,7 @@ $Toyota-Type: 'Toyota-Type';
 
 $Raleway: 'Raleway';
 
-html{
+html {
   overflow-x: hidden;
 }
 
@@ -503,6 +503,14 @@ section#pregunta-frecuente {
   width: auto;
   height: 1514px;
 
+  .rotate-img {
+    transition: transform 0.5s;
+  }
+
+  .rotate-img.rotate {
+    transform: rotate(-180deg);
+  }
+
   h3 {
     width: 588px;
     height: 57px;
@@ -528,6 +536,7 @@ section#pregunta-frecuente {
     border-top-right-radius: var(--bs-accordion-inner-border-radius);
     text-decoration: none;
     background-color: $toy-grey;
+    position: relative;
   }
 
   button:focus:not(:focus-visible) {
@@ -594,7 +603,7 @@ section#pregunta-frecuente {
     background-color: $toy-grey;
   }
 
-  
+
 
 
   .accordion-button::after {
@@ -608,6 +617,7 @@ section#pregunta-frecuente {
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
     display: none;
+
   }
 
   .accordion-item:first-of-type .accordion-button {
@@ -617,6 +627,7 @@ section#pregunta-frecuente {
     background-color: #F0F0F0;
     font-family: $Toyota-Type;
     padding-left: 0px;
+    position: relative;
   }
 
   [type=button]:not(:disabled),
@@ -633,6 +644,9 @@ section#pregunta-frecuente {
     color: $toy-black;
     background-color: $toy-grey;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-}
+    position: relative;
+  }
+
+  
 
 }
