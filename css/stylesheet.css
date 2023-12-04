@@ -578,16 +578,49 @@ div#footer-cont div#footer-cont-pri {
   height: 388px;
   padding-bottom: 24px;
   padding-top: 30px;
+  border-bottom: 1px solid red;
+  padding-left: 0%;
+  padding-right: 0%;
 }
-div#footer-cont .card {
+div#footer-cont div#footer-cont-pri row {
+  border-bottom: 1px solid red;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+div#footer-cont div#footer-cont-pri .col-md-3.col-sm-6 {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+div#footer-cont div#footer-cont-pri div #tercera-tarjeta {
+  position: relative;
+}
+div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto {
+  position: absolute;
+  top: 37px;
+  line-height: 25px;
+}
+div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#segundo-texto {
+  position: absolute;
+  bottom: -100px;
+  left: -3px;
+}
+div#footer-cont div#footer-cont-pri div .card {
   color: white;
   background-color: #332e23;
   border: none;
+  padding: 0%;
 }
-div#footer-cont .card ul li a {
+div#footer-cont div#footer-cont-pri div .card .card-body {
+  padding: 0%;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body h6 {
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body ul li a {
   text-decoration: none;
   color: inherit;
 }
-div#footer-cont .card ul li a:hover {
+div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;
 }/*# sourceMappingURL=stylesheet.css.map */
