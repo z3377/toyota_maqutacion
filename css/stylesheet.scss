@@ -533,12 +533,16 @@ section#pregunta-frecuente {
     margin-top: 120px;
   }
 
-  .accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: var(--bs-accordion-inner-border-radius);
-    border-top-right-radius: var(--bs-accordion-inner-border-radius);
-    text-decoration: none;
-    background-color: $toy-grey;
-    position: relative;
+  .accordion-item:first-of-type {
+
+
+    .accordion-button {
+      border-top-left-radius: var(--bs-accordion-inner-border-radius);
+      border-top-right-radius: var(--bs-accordion-inner-border-radius);
+      text-decoration: none;
+      background-color: $toy-grey;
+      position: relative;
+    }
   }
 
   button:focus:not(:focus-visible) {
@@ -631,20 +635,24 @@ section#pregunta-frecuente {
 
   }
 
-  .accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: var(--bs-accordion-inner-border-radius);
-    border-top-right-radius: var(--bs-accordion-inner-border-radius);
-    text-decoration: none;
-    background-color: #F0F0F0;
-    font-family: $Toyota-Type;
-    padding-left: 0px;
-    position: relative;
+  .accordion-item:first-of-type {
+    border-bottom: 1px solid black;
 
-    img#arrow-icon.rotate-img.rotate {
-      position: absolute;
-      right: 0px;
+    .accordion-button {
+      border-top-left-radius: var(--bs-accordion-inner-border-radius);
+      border-top-right-radius: var(--bs-accordion-inner-border-radius);
+      text-decoration: none;
+      background-color: #F0F0F0;
+      font-family: $Toyota-Type;
+      padding-left: 0px;
+      position: relative;
+
+      img#arrow-icon.rotate-img.rotate {
+        position: absolute;
+        right: 0px;
+      }
+
     }
-
   }
 
   [type=button]:not(:disabled),
@@ -664,6 +672,9 @@ section#pregunta-frecuente {
     position: relative;
   }
 
-
+  .accordion-item:not(:first-of-type) {
+    border-top: 0;
+    border-bottom: 1px solid black;
+  }
 
 }
