@@ -385,7 +385,7 @@ section#seccion-beneficios div#tabla-columnas div#cont-columna .text1-columnas-1
 
 section#pregunta-frecuente {
   width: auto;
-  height: 1514px;
+  height: auto;
 }
 section#pregunta-frecuente .rotate-img {
   transition: transform 0.3s;
@@ -393,7 +393,7 @@ section#pregunta-frecuente .rotate-img {
   right: 0px;
 }
 section#pregunta-frecuente .rotate-img.rotate {
-  transform: rotate(-180deg);
+  transform: rotate(180deg);
 }
 section#pregunta-frecuente h3 {
   width: 588px;
@@ -535,4 +535,18 @@ section#pregunta-frecuente div #ultimo-elemento {
 section#pregunta-frecuente div .accordion-item:not(:first-of-type) {
   border-top: 0;
   border-bottom: 1px solid #dbdee1;
+}
+section#pregunta-frecuente div#boton-quiero-info {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+section#pregunta-frecuente div#boton-quiero-info div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 254px;
+  height: 60px;
+  padding: 15px 40px 15px 40px;
+  gap: 10px;
+  background-color: #EB0A1E;
+  border-radius: 40px;
 }/*# sourceMappingURL=stylesheet.css.map */

@@ -501,7 +501,7 @@ section#pregunta-frecuente {
   $blue: #03b5d2;
 
   width: auto;
-  height: 1514px;
+  height: auto;
 
   .rotate-img {
     transition: transform 0.3s;
@@ -510,7 +510,7 @@ section#pregunta-frecuente {
   }
 
   .rotate-img.rotate {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
   }
 
   h3 {
@@ -681,6 +681,21 @@ section#pregunta-frecuente {
     .accordion-item:not(:first-of-type) {
       border-top: 0;
       border-bottom: 1px solid #dbdee1;
+    }
+  }
+
+  div#boton-quiero-info {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 254px;
+      height: 60px;
+      padding: 15px 40px 15px 40px;
+      gap: 10px;
+      background-color: #EB0A1E;
+      border-radius: 40px;
     }
   }
 
