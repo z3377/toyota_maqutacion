@@ -498,7 +498,7 @@ section#pregunta-frecuente .accordion-button::after {
   display: none;
 }
 section#pregunta-frecuente .accordion-item:first-of-type {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dbdee1;
 }
 section#pregunta-frecuente .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
@@ -521,6 +521,7 @@ section#pregunta-frecuente button:not(:disabled) {
   background-color: #F0F0F0;
   font-family: "Toyota-Type";
   padding-left: 0px;
+  height: 109px;
 }
 section#pregunta-frecuente .accordion-button:not(.collapsed) {
   color: #212529;
@@ -528,7 +529,10 @@ section#pregunta-frecuente .accordion-button:not(.collapsed) {
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
   position: relative;
 }
-section#pregunta-frecuente .accordion-item:not(:first-of-type) {
+section#pregunta-frecuente div #ultimo-elemento {
+  border-bottom: none;
+}
+section#pregunta-frecuente div .accordion-item:not(:first-of-type) {
   border-top: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dbdee1;
 }/*# sourceMappingURL=stylesheet.css.map */
