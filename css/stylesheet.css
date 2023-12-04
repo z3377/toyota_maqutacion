@@ -476,6 +476,15 @@ section#pregunta-frecuente div#panelsStayOpen-collapseTwo {
 section#pregunta-frecuente div#panelsStayOpen-collapseThree {
   background-color: #F0F0F0;
 }
+section#pregunta-frecuente div#panelsStayOpen-collapse4 {
+  background-color: #F0F0F0;
+}
+section#pregunta-frecuente div#panelsStayOpen-collapse5 {
+  background-color: #F0F0F0;
+}
+section#pregunta-frecuente div#panelsStayOpen-collapse6 {
+  background-color: #F0F0F0;
+}
 section#pregunta-frecuente .accordion-button::after {
   flex-shrink: 0;
   width: var(--bs-accordion-btn-icon-width);

@@ -228,18 +228,15 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo" onclick="rotateImage2()">
-              ¿Cuáles son los planes del Mantenimiento Prepago? <img id="arrow-icon-2" class="rotate-img"
-                src="/img/flecha-icon-arriba.png" alt="">
+              ¿Quiénes pueden adquirir el plan Mantenimiento Prepago?
+              <img id="arrow-icon-2" class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-              plugin adds the appropriate classes that we use to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-              <code>.accordion-body</code>, though the transition does limit overflow.
+              Los nuevos planes de Mantenimiento Prepago pueden ser adquiridos por todo cliente que esté comprando un
+              Toyota 0KM del Grupo Toyotoshi, desde el 1 de agosto del 2023 en adelante.
             </div>
           </div>
         </div>
@@ -248,24 +245,74 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
               aria-controls="panelsStayOpen-collapseThree" onclick="rotateImage3()">
-              Accordion Item #3 <img id="arrow-icon-3" class="rotate-img"
-              src="/img/flecha-icon-arriba.png" alt="">
+              ¿El Mantenimiento Prepago se asocia al cliente o al vehículo?
+              <img id="arrow-icon-3" class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
             </button>
           </h2>
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingThree">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-              plugin adds the appropriate classes that we use to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-              <code>.accordion-body</code>, though the transition does limit overflow.
+              El plan de Mantenimiento Prepago se asocia al vehículo y no al Cliente, por lo que, en caso de venta o
+              transferencia del vehículo, los derechos y obligaciones del plan serán cedidos al nuevo propietario.
             </div>
           </div>
         </div>
-      </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree" onclick="rotateImage4()">
+              ¿El Mantenimiento Prepago se asocia al cliente o al vehículo?
+              <img id="arrow-icon-4" class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-heading4">
+            <div class="accordion-body">
+              El plan de Mantenimiento Prepago se asocia al vehículo y no al Cliente, por lo que, en caso de venta o
+              transferencia del vehículo, los derechos y obligaciones del plan serán cedidos al nuevo propietario.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapse5" onclick="rotateImage5()">
+                ¿Cómo hago cuando quiero llevar mi vehículo al taller y tengo un plan de mantenimiento prepago
+                contratado?
+                <img id="arrow-icon-5" class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-heading4">
+              <div class="accordion-body">
+                Para utilizar los servicios, se debe agendar una cita en cualquiera de nuestros talleres contactando al
+                +595 21 619 0000. Una vez que acerca su vehículo al taller, procedemos al realizar el mantenimiento
+                correspondiente sin necesidad de que el servicio sea abonado en ese momento.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapse6" onclick="rotateImage6()">
+                ¿Qué pasa si me atraso en las cuotas del plan?
+                <img id="arrow-icon-6" class="rotate-img" src="/img/flecha-icon-arriba.png" alt="">
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-heading4">
+              <div class="accordion-body">
+                El caso de retraso en el pago de una o más cuotas del plan de mantenimiento prepago, ocasionaré la
+                suspensión o cancelación del Plan de Mantenimiento Prepago, debiendo el cliente abonar por separado el
+                mantenimiento que esté llevando a cabo para su vehículo en ese momento.
+              </div>
+            </div>
+          </div>
+        </div>
 
-    </div>
+      </div>
 
   </section>
 
@@ -411,28 +458,66 @@
     function rotateImage2() {
       const arrowIcon = document.getElementById('arrow-icon-2');
       const accordionButton = document.querySelector('#panelsStayOpen-headingTwo button');
-  
+
       // Verifica si el acordeón está abierto o cerrado
       const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
-  
+
       // Aplica la rotación según el estado del acordeón
       arrowIcon.classList.toggle('rotate', isOpen);
     }
   </script>
 
-<script>
-  function rotateImage3() {
-    const arrowIcon = document.getElementById('arrow-icon-3');
-    const accordionButton = document.querySelector('#panelsStayOpen-headingThree button');
+  <script>
+    function rotateImage3() {
+      const arrowIcon = document.getElementById('arrow-icon-3');
+      const accordionButton = document.querySelector('#panelsStayOpen-headingThree button');
 
-    // Verifica si el acordeón está abierto o cerrado
-    const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+      // Verifica si el acordeón está abierto o cerrado
+      const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
 
-    // Aplica la rotación según el estado del acordeón
-    arrowIcon.classList.toggle('rotate', isOpen);
-  }
-</script>
+      // Aplica la rotación según el estado del acordeón
+      arrowIcon.classList.toggle('rotate', isOpen);
+    }
+  </script>
 
+  <script>
+    function rotateImage4() {
+      const arrowIcon = document.getElementById('arrow-icon-4');
+      const accordionButton = document.querySelector('#panelsStayOpen-heading4 button');
+
+      // Verifica si el acordeón está abierto o cerrado
+      const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+
+      // Aplica la rotación según el estado del acordeón
+      arrowIcon.classList.toggle('rotate', isOpen);
+    }
+  </script>
+
+  <script>
+    function rotateImage5() {
+      const arrowIcon = document.getElementById('arrow-icon-5');
+      const accordionButton = document.querySelector('#panelsStayOpen-heading5 button');
+
+      // Verifica si el acordeón está abierto o cerrado
+      const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+
+      // Aplica la rotación según el estado del acordeón
+      arrowIcon.classList.toggle('rotate', isOpen);
+    }
+  </script>
+
+  <script>
+    function rotateImage6() {
+      const arrowIcon = document.getElementById('arrow-icon-6');
+      const accordionButton = document.querySelector('#panelsStayOpen-heading6 button');
+
+      // Verifica si el acordeón está abierto o cerrado
+      const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+
+      // Aplica la rotación según el estado del acordeón
+      arrowIcon.classList.toggle('rotate', isOpen);
+    }
+  </script>
 
 </body>
 
