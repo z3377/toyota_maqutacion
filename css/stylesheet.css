@@ -582,13 +582,34 @@ div#footer-cont div#footer-cont-pri {
   padding-right: 0%;
 }
 div#footer-cont div#footer-cont-pri div#mi-row.row {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #3b362a;
   margin-left: 30px;
   margin-right: 30px;
+}
+div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 {
+  width: 1074px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: white;
+}
+div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 #primera-columna {
+  text-align: left;
+}
+div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 #segunda-columna {
+  text-align: right;
 }
 div#footer-cont div#footer-cont-pri .col-md-3.col-sm-6 {
   padding-left: 0%;
   padding-right: 0%;
+  margin-bottom: 30px;
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta {
   position: relative;
