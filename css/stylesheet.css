@@ -575,9 +575,9 @@ div#footer-cont {
 }
 div#footer-cont div#footer-cont-pri {
   width: 1074px;
-  height: 388px;
+  height: 398px;
   padding-bottom: 24px;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 0%;
   padding-right: 0%;
 }
@@ -654,6 +654,12 @@ div#footer-cont div#footer-cont-pri div .card {
 }
 div#footer-cont div#footer-cont-pri div .card .card-body {
   padding: 0%;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body a img#img-toyota-footer {
+  position: absolute;
+  left: 17px;
+  width: 238px;
+  top: -20px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body h6 {
   font-weight: bolder;
