@@ -669,6 +669,21 @@ div#footer-cont div#footer-cont-pri div .card .card-body div #trabaja-con-nosotr
   font-weight: bold;
   font-size: 15.4px;
 }
+div#footer-cont div#footer-cont-pri div .card .card-body div #formar-parte {
+  position: absolute;
+  top: 96px;
+  right: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body div#boton-formar-parte {
+  position: absolute;
+  top: 174px;
+  right: 0px;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body div#boton-formar-parte div a {
+  border-radius: 40px;
+}
 div#footer-cont div#footer-cont-pri div .card .card-body h6 {
   font-weight: bolder;
   margin-bottom: 16px;
@@ -676,6 +691,8 @@ div#footer-cont div#footer-cont-pri div .card .card-body h6 {
 div#footer-cont div#footer-cont-pri div .card .card-body ul li a {
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
+  font-size: 15px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;

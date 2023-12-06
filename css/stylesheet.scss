@@ -859,6 +859,26 @@ div#footer-cont {
               font-weight: bold;
               font-size: 15.4px;
             }
+
+            #formar-parte {
+              position: absolute;
+              top: 96px;
+              right: 0px;
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
+
+          div#boton-formar-parte {
+            position: absolute;
+            top: 174px;
+            right: 0px;
+
+            div {
+              a {
+                border-radius: 40px;
+              }
+            }
           }
 
           h6 {
@@ -869,6 +889,8 @@ div#footer-cont {
           ul li a {
             text-decoration: none;
             color: inherit;
+            font-weight: bold;
+            font-size: 15px;
           }
 
           ul li a:hover {
