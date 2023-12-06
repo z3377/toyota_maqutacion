@@ -830,6 +830,7 @@ div#footer-cont {
 
       #cuarta-tarjeta {
         text-align: end;
+        text-align: right;
       }
 
       .card {
@@ -847,6 +848,16 @@ div#footer-cont {
               left: 17px;
               width: 238px;
               top: -20px;
+            }
+          }
+
+          div {
+            #trabaja-con-nosotros {
+              position: absolute;
+              top: 44px;
+              right: 0px;
+              font-weight: bold;
+              font-size: 15.4px;
             }
           }
 

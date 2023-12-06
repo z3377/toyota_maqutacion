@@ -645,6 +645,7 @@ div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#segundo-texto {
 }
 div#footer-cont div#footer-cont-pri div #cuarta-tarjeta {
   text-align: end;
+  text-align: right;
 }
 div#footer-cont div#footer-cont-pri div .card {
   color: white;
@@ -660,6 +661,13 @@ div#footer-cont div#footer-cont-pri div .card .card-body a img#img-toyota-footer
   left: 17px;
   width: 238px;
   top: -20px;
+}
+div#footer-cont div#footer-cont-pri div .card .card-body div #trabaja-con-nosotros {
+  position: absolute;
+  top: 44px;
+  right: 0px;
+  font-weight: bold;
+  font-size: 15.4px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body h6 {
   font-weight: bolder;
