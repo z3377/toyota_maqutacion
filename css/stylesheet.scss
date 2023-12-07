@@ -568,6 +568,7 @@ section#pregunta-frecuente {
       text-decoration: none;
       background-color: $toy-grey;
       position: relative;
+      
     }
   }
 
@@ -595,6 +596,7 @@ section#pregunta-frecuente {
     font-family: $Raleway;
     font-size: 16px;
     line-height: 27.2px;
+    margin-top: -26px;
   }
 
   .accordion {
@@ -658,7 +660,7 @@ section#pregunta-frecuente {
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
     display: none;
-
+    
   }
 
   .accordion-item:first-of-type {
@@ -672,6 +674,9 @@ section#pregunta-frecuente {
       font-family: $Toyota-Type;
       padding-left: 0px;
       position: relative;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28.52px;
 
       img#arrow-icon.rotate-img.rotate {
         position: absolute;
@@ -690,6 +695,9 @@ section#pregunta-frecuente {
     font-family: $Toyota-Type;
     padding-left: 0px;
     height: 109px;
+    font-weight: 600;
+      font-size: 20px;
+      line-height: 28.52px;
   }
 
   .accordion-button:not(.collapsed) {
