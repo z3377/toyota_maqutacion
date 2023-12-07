@@ -735,8 +735,8 @@ div#footer-cont {
 
   div#footer-cont-pri {
     width: 1074px;
-    height: 398px;
-    padding-bottom: 24px;
+    height: auto;
+    padding-bottom: 20px;
     padding-top: 50px;
     padding-left: 0%;
     padding-right: 0%;
@@ -745,6 +745,7 @@ div#footer-cont {
       border-bottom: 1px solid #3b362a;
       margin-left: 30px;
       margin-right: 30px;
+      padding-bottom: 4px;
     }
 
     div#footer-atribuciones.container.my-3 {
@@ -799,6 +800,16 @@ div#footer-cont {
       padding-left: 0%;
       padding-right: 0%;
       margin-bottom: 30px;
+
+      div.card {
+        div.card-body {
+          ul {
+            list-style-type: none;
+            padding-left: 0;
+            line-height: 26px;
+          }
+        }
+      }
     }
 
     div {
@@ -842,6 +853,7 @@ div#footer-cont {
         .card-body {
           padding: 0%;
 
+
           a {
             img#img-toyota-footer {
               position: absolute;
@@ -877,6 +889,14 @@ div#footer-cont {
             div {
               a {
                 border-radius: 40px;
+                font-family: "Raleway";
+                font-weight: bolder;
+                font-size: 15px;
+                line-height: 34.44px;
+                text-align: center;
+                text-decoration: none;
+                color: #212529;
+                width: 170px;
               }
             }
           }
@@ -902,3 +922,6 @@ div#footer-cont {
   }
 
 }
+
+// NAV ###############################################################################################
+
