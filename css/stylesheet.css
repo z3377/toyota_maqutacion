@@ -716,9 +716,15 @@ div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;
 }
 
-nav#nav-body {
-  height: 123px;
+div#nav-container {
   width: 100%;
   position: fixed;
   background-color: white;
+}
+div#nav-container nav#nav-body {
+  height: 123px;
+  width: 1117px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=stylesheet.css.map */
