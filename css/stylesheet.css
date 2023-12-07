@@ -14,6 +14,20 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Toyota-Display";
+  src: url("/fonts/ToyotaDisplay-Bold.woff2") format("woff2"), url("/fonts/ToyotaDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Toyota-Display";
+  src: url("/fonts/ToyotaDisplay-Bold.woff2") format("woff2"), url("/fonts/ToyotaDisplay-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   overflow-x: hidden;
 }
@@ -576,7 +590,7 @@ div#footer-cont {
   margin-left: auto;
   margin-right: auto;
   background-color: #332e23;
-  font-family: "Toyota-Type";
+  font-family: "Toyota-Display" !important;
 }
 div#footer-cont div#footer-cont-pri {
   width: 1074px;
@@ -647,7 +661,7 @@ div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto {
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto a span#numero {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#segundo-texto {
   position: absolute;
@@ -755,7 +769,7 @@ div#nav-container nav#nav-body div#boton-header a {
   font-size: 14px;
   line-height: 19.66px;
   text-align: center;
-  font-family: "Toyota-Type";
+  font-family: "Toyota-Display";
 }
 div#nav-container nav#nav-body div#boton-header a:hover {
   text-decoration: none;
