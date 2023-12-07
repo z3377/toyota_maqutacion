@@ -83,6 +83,12 @@ ol {
   font-weight: 1000 !important;
 }
 
+// RELLENO ########################################################################################
+
+div#relleno {
+  height: 123px;
+}
+
 // ############################SECCION QUIERO INFO####################################
 
 section#quiero-info {
@@ -925,3 +931,9 @@ div#footer-cont {
 
 // NAV ###############################################################################################
 
+nav#nav-body{
+  height: 123px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}

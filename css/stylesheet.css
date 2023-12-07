@@ -64,6 +64,10 @@ ol {
   font-weight: 1000 !important;
 }
 
+div#relleno {
+  height: 123px;
+}
+
 section#quiero-info .qui-inf-gen {
   height: 436px;
 }
@@ -710,4 +714,11 @@ div#footer-cont div#footer-cont-pri div .card .card-body ul li a {
 }
 div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;
+}
+
+nav#nav-body {
+  height: 123px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
 }/*# sourceMappingURL=stylesheet.css.map */
