@@ -965,6 +965,12 @@ div#nav-container {
     margin-left: auto;
     margin-right: auto;
 
+    a.navbar-brand {
+      img {
+        width: 256px;
+      }
+    }
+
     div#div-cuerpo-botones {
       margin-right: -100px;
 
@@ -1001,7 +1007,8 @@ div#nav-container {
         text-align: center;
         font-family: $Toyota-Display;
       }
-      a:hover{
+
+      a:hover {
         text-decoration: none;
       }
     }
