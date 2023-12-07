@@ -935,11 +935,54 @@ div#nav-container {
   width: 100%;
   position: fixed;
   background-color: white;
+  z-index: 99;
+
   nav#nav-body {
     height: 123px;
     width: 1117px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+
+    div#div-cuerpo-botones {
+      margin-right: -100px;
+
+      div {
+        ul {
+          li {
+            a {
+              font-family: $Toyota-Type;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 18.9px;
+              align-items: center;
+              margin-right: 23px;
+              padding: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    div#boton-header {
+      a {
+        width: 155px;
+        height: 50px;
+        padding: 15px;
+        gap: 10px;
+        background-color: $toy-red-btn;
+        border-radius: 38px;
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19.66px;
+        text-align: center;
+        font-family: $Toyota-Type;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+    }
   }
 }
