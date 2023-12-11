@@ -28,6 +28,59 @@
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 460px) {
+  div#nav-container {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+    position: relative;
+  }
+  div#nav-container nav#nav-body {
+    height: 123px;
+    width: 1117px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div#nav-container nav#nav-body a.navbar-brand img {
+    width: 256px;
+  }
+  div#nav-container nav#nav-body div#div-cuerpo-botones {
+    margin-right: -100px;
+  }
+  div#nav-container nav#nav-body div#div-cuerpo-botones div ul li a {
+    font-family: "Toyota-Type";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    align-items: center;
+    margin-right: 23px;
+    padding: 0px;
+  }
+  div#nav-container nav#nav-body div#boton-header a {
+    width: 155px;
+    height: 50px;
+    padding: 15px;
+    gap: 10px;
+    background-color: #EB0A1E;
+    border-radius: 38px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19.66px;
+    text-align: center;
+    font-family: "Toyota-Display";
+    position: absolute;
+    z-index: 999999999;
+    left: 353px;
+    top: 40px;
+  }
+  div#nav-container nav#nav-body div#boton-header a:hover {
+    text-decoration: none;
+  }
+}
 html {
   overflow-x: hidden;
 }
