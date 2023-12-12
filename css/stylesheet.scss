@@ -1083,8 +1083,10 @@ div#nav-container {
         width: 155px;
         height: 50px;
         padding: 15px;
+        padding-top: 18px;
+        padding-bottom: 18px;
         gap: 10px;
-        background-color: $toy-red-btn;
+        background-color: #EB0A1E;
         border-radius: 38px;
         text-decoration: none;
         color: white;
@@ -1092,7 +1094,7 @@ div#nav-container {
         font-size: 14px;
         line-height: 19.66px;
         text-align: center;
-        font-family: $Toyota-Display;
+        font-family: "Toyota-Display";
       }
 
       a:hover {
