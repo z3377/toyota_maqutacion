@@ -716,8 +716,8 @@ div#footer-cont div#footer-cont-pri .col-md-3.col-sm-6 div.card div.card-body ul
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto {
   position: absolute;
-  top: 37px;
-  line-height: 25px;
+  top: 43px;
+  line-height: 30px;
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto a span#numero {
   font-weight: 700;
@@ -725,7 +725,7 @@ div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto a sp
 }
 div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#segundo-texto {
   position: absolute;
-  bottom: -100px;
+  bottom: -117px;
   left: -3px;
 }
 div#footer-cont div#footer-cont-pri div #cuarta-tarjeta {
