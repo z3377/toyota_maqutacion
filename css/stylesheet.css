@@ -738,35 +738,121 @@ div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;
 }
 
-div#nav-container {
+/* div#nav-container {
   width: 100%;
   position: fixed;
   background-color: white;
   z-index: 99;
+
+  nav#nav-body {
+    height: 123px;
+    width: 1117px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+    a.navbar-brand {
+      img {
+        width: 256px;
+      }
+    }
+
+    div#div-cuerpo-botones {
+      margin-right: -100px;
+
+      div {
+        ul {
+          li {
+            a {
+              font-family: $Toyota-Type;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 18.9px;
+              align-items: center;
+              margin-right: 23px;
+              padding: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    div#boton-header {
+      a {
+        width: 155px;
+        height: 50px;
+        padding: 15px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        gap: 10px;
+        background-color: #EB0A1E;
+        border-radius: 38px;
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19.66px;
+        text-align: center;
+        font-family: "Toyota-Display";
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+} */
+/* div#menu-cel {
+  display: none;
 }
-div#nav-container nav#nav-body {
-  height: 123px;
-  width: 1117px;
+
+div#nav-container {
+  display: flex;
+} */
+div#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: white;
+  z-index: 99999999999;
+}
+div#navbar nav#nav-bar-pc {
+  width: 1117px;
+  height: 122.79px;
   margin-left: auto;
   margin-right: auto;
 }
-div#nav-container nav#nav-body a.navbar-brand img {
+div#navbar nav#nav-bar-pc div a img {
   width: 256px;
 }
-div#nav-container nav#nav-body div#div-cuerpo-botones {
-  margin-right: -100px;
+div#navbar nav#nav-bar-pc div#navbarNavDropdown {
+  background-color: white;
 }
-div#nav-container nav#nav-body div#div-cuerpo-botones div ul li a {
-  font-family: "Toyota-Type";
+div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link,
+div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link:hover,
+div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link:focus {
+  color: inherit !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-item.active .nav-link {
+  color: inherit !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+div#navbar nav#nav-bar-pc div#navbarNavDropdown ul {
+  font-family: "Toyota-Display";
   font-weight: 400;
   font-size: 14px;
   line-height: 18.9px;
-  align-items: center;
-  margin-right: 23px;
-  padding: 0px;
 }
-div#nav-container nav#nav-body div#boton-header a {
+div#navbar nav#nav-bar-pc div#navbarNavDropdown ul li#ultimo-elemento {
+  margin-right: 24px;
+}
+div#navbar nav#nav-bar-pc div#navbarNavDropdown ul ul.dropdown-menu {
+  text-align: justify;
+}
+div#navbar nav#nav-bar-pc div#boton-header a {
   width: 155px;
   height: 50px;
   padding: 15px;
@@ -783,16 +869,8 @@ div#nav-container nav#nav-body div#boton-header a {
   text-align: center;
   font-family: "Toyota-Display";
 }
-div#nav-container nav#nav-body div#boton-header a:hover {
+div#navbar nav#nav-bar-pc div#boton-header a:hover {
   text-decoration: none;
-}
-
-div#menu-cel {
-  display: none;
-}
-
-div#nav-container {
-  display: flex;
 }
 
 div#imagen-heder {
@@ -804,34 +882,61 @@ div#imagen-heder-2 {
 }
 
 @media (max-width: 460px) {
-  div#nav-container {
-    display: none;
+  div#navbar {
+    position: static;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99999999999;
+    margin-left: 0px;
   }
-  div#imagen-heder {
-    display: none;
-  }
-  div#imagen-heder-2 {
-    display: block;
-  }
-  div#menu-cel {
-    display: flex;
+  div#navbar nav#nav-bar-pc {
     width: 375px;
-    height: 76px;
-    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  div#menu-cel img {
+  div#navbar nav#nav-bar-pc div a img {
     width: 149px;
-    height: 30.27px;
-    margin-top: 21px;
     margin-left: 17px;
-    margin-bottom: 27.73px;
   }
-  div#menu-cel div#boton-header a {
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown {
+    background-color: white;
+  }
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link,
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link:hover,
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-link:focus {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown .navbar-nav .nav-item.active .nav-link {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown ul {
+    font-family: "Toyota-Display";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+  }
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown ul li#ultimo-elemento {
+    margin-right: 24px;
+  }
+  div#navbar nav#nav-bar-pc div#navbarNavDropdown ul ul.dropdown-menu {
+    text-align: justify;
+  }
+  div#navbar nav#nav-bar-pc div#boton-header {
     width: 100px;
     height: 33px;
+  }
+  div#navbar nav#nav-bar-pc div#boton-header a {
+    width: 80px;
+    height: 13px;
     padding: 10px;
-    /*  padding-top: 18px;
-    padding-bottom: 18px; */
+    padding-top: none;
+    padding-bottom: none;
     gap: 10px;
     background-color: #EB0A1E;
     border-radius: 38px;
@@ -842,16 +947,9 @@ div#imagen-heder-2 {
     line-height: 12.64px;
     text-align: center;
     font-family: "Toyota-Display";
-    margin-top: 22px;
-    margin-bottom: 21px;
-    margin-left: 76px;
-    position: absolute;
   }
-  div#menu-cel div#boton-header a:hover {
+  div#navbar nav#nav-bar-pc div#boton-header a:hover {
     text-decoration: none;
-  }
-  div#relleno {
-    display: none;
   }
   section#quiero-info .qui-inf-gen {
     height: 436px;
