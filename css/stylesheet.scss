@@ -1127,6 +1127,18 @@ div#imagen-heder-2 {
 
 @media (max-width: 460px) {
 
+  div#imagen-heder {
+    display: none;
+  }
+
+  div#imagen-heder-2 {
+    display: block;
+  }
+
+  div#relleno {
+    display: none;
+  }
+
   // NAV BAR ######################################################################################
 
   div#navbar {
@@ -1136,6 +1148,19 @@ div#imagen-heder-2 {
     background-color: white;
     z-index: 99999999999;
     margin-left: 0px;
+
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 20px;
+      height: 17.33px;
+      vertical-align: middle;
+      background-image: url('/img/burger-bar.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      border: none !important;
+      outline: none !important;
+    }
 
     nav#nav-bar-pc {
       width: 375px;
@@ -1220,35 +1245,35 @@ div#imagen-heder-2 {
 
   section#quiero-info {
     .qui-inf-gen {
-      height: 436px;
+      height: 443px;
 
       div#qui-inf-div-1 {
 
-        width: 731px;
+        width: 345px;
         margin-left: auto;
         margin-right: auto;
 
         h1 {
           font-family: 'Toyota-Type';
           font-weight: 700;
-          font-size: 38px;
-          line-height: 54.19px;
+          font-size: 30px;
+          line-height: 42.78px;
           text-align: center;
-          padding-top: 80px;
+          padding-top: 59px;
         }
       }
 
       div#qui-inf-div-2 {
 
-        width: 730px;
+        width: 345px;
         margin-left: auto;
         margin-right: auto;
 
         p {
           font-family: 'Raleway';
           font-weight: 400;
-          font-size: 20px;
-          line-height: 34px;
+          font-size: 16px;
+          line-height: 27.2px;
           text-align: center;
         }
       }
@@ -1295,6 +1320,80 @@ div#imagen-heder-2 {
 
 }
 
+// ####################################SECCION MANTENIMIENTO PREPAGO##############################################
+
+section#mantenimiento-prepago {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .man-pre-cont-gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mant-pre {
+      gap: 30px;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .man-pre-col {
+        max-width: 540px;
+
+        .man-pre-img-con {
+          padding-left: 15px;
+          padding-right: 15px;
+          width: 540px;
+          height: 526px;
+          gap: 10px;
+
+          .man-pre-img {
+            width: 347px;
+            height: 313px;
+            border-radius: 15px;
+            float: unset;
+            margin-left: 73px;
+            margin-top: -60px;
+          }
+        }
+
+        .man-pre-t1-t2 {
+          line-height: 34.22px;
+          font-family: 'Toyota-Type';
+          font-weight: 700;
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+
+        .man-pre-parr {
+          line-height: 27.2px;
+          font-family: Raleway;
+          font-weight: 400;
+          font-size: 16px;
+
+          .man-pre-parr-red {
+            line-height: 27.2px;
+            font-family: Raleway;
+            font-weight: 800;
+            font-size: 16px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
 }
+
+}
+
+
 
 // #################################################################################################
