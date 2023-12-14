@@ -1347,26 +1347,31 @@ section#mantenimiento-prepago {
         .man-pre-img-con {
           padding-left: 15px;
           padding-right: 15px;
-          width: 540px;
-          height: 526px;
+          width: auto;
+          height: auto;
           gap: 10px;
+
 
           .man-pre-img {
             width: 347px;
             height: 313px;
             border-radius: 15px;
             float: unset;
-            margin-left: 73px;
+            margin-left: 0px;
             margin-top: -60px;
           }
         }
 
         .man-pre-t1-t2 {
-          line-height: 34.22px;
+          line-height: 31.37px;
           font-family: 'Toyota-Type';
           font-weight: 700;
-          font-size: 24px;
+          font-size: 22px;
           margin-bottom: 20px;
+          width: auto;
+          // text-align: justify;
+          margin-left: 15px;
+          // margin-top: 40px;
         }
 
         .man-pre-parr {
@@ -1374,6 +1379,8 @@ section#mantenimiento-prepago {
           font-family: Raleway;
           font-weight: 400;
           font-size: 16px;
+          width: 349px;
+          margin-left: 15px;
 
           .man-pre-parr-red {
             line-height: 27.2px;
