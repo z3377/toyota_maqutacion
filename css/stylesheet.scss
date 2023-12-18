@@ -51,7 +51,7 @@ body {
   background-color: white;
   margin: 0%;
   padding: 0%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   color: #212529;
 }
 
@@ -138,6 +138,10 @@ section#quiero-info {
       margin-left: auto;
       margin-right: auto;
 
+      span#br-quiero-info {
+        display: none;
+      }
+
       p {
         font-family: 'Raleway';
         font-weight: 400;
@@ -217,11 +221,11 @@ section#mantenimiento-prepago {
           padding-left: 15px;
           padding-right: 15px;
           width: 540px;
-          height: 526px;
+          // height: 526px;
           gap: 10px;
 
           .man-pre-img {
-            width: 510px;
+            width: 540px;
             height: 526px;
             border-radius: 15px;
             float: right;
@@ -234,9 +238,17 @@ section#mantenimiento-prepago {
           font-weight: 700;
           font-size: 24px;
           margin-bottom: 20px;
+          margin-top: 17px;
         }
 
         .man-pre-parr {
+          line-height: 27.2px;
+          font-family: Raleway;
+          font-weight: 400;
+          font-size: 16px;
+        }
+
+        .man-pre-parr-1 {
           line-height: 27.2px;
           font-family: Raleway;
           font-weight: 400;
@@ -348,6 +360,8 @@ section#plan-mantenimiento {
                 width: 362px;
                 height: 300px;
                 border: 1px 0px 0px 0px;
+                margin-top: 30px;
+                margin-left: -15px;
 
                 li {
                   width: 362px;
@@ -1245,7 +1259,7 @@ div#imagen-heder-2 {
 
   section#quiero-info {
     .qui-inf-gen {
-      height: 443px;
+      height: 420px;
 
       div#qui-inf-div-1 {
 
@@ -1265,9 +1279,13 @@ div#imagen-heder-2 {
 
       div#qui-inf-div-2 {
 
-        width: 345px;
+        width: 360px;
         margin-left: auto;
         margin-right: auto;
+
+        span#br-quiero-info {
+          display: contents;
+        }
 
         p {
           font-family: 'Raleway';
@@ -1358,7 +1376,8 @@ section#mantenimiento-prepago {
             border-radius: 15px;
             float: unset;
             margin-left: 0px;
-            margin-top: -60px;
+            margin-top: -40px;
+            margin-bottom: -30px;
           }
         }
 
@@ -1367,11 +1386,11 @@ section#mantenimiento-prepago {
           font-family: 'Toyota-Type';
           font-weight: 700;
           font-size: 22px;
-          margin-bottom: 20px;
-          width: auto;
+          // margin-bottom: 20px;
+          width: 345px;
           // text-align: justify;
           margin-left: 15px;
-          // margin-top: 40px;
+          margin-top: 40px;
         }
 
         .man-pre-parr {
@@ -1379,8 +1398,23 @@ section#mantenimiento-prepago {
           font-family: Raleway;
           font-weight: 400;
           font-size: 16px;
-          width: 349px;
+          width: 346px;
           margin-left: 15px;
+
+        }
+
+        .man-pre-parr-1 {
+          line-height: 27.2px;
+          font-family: Raleway;
+          font-weight: 400;
+          font-size: 16px;
+          width: 346px;
+          margin-left: 15px;
+          margin-bottom: -40px;
+
+          span#man-pre-text-no-wrap {
+            white-space: nowrap;
+          }
 
           .man-pre-parr-red {
             line-height: 27.2px;
@@ -1398,6 +1432,174 @@ section#mantenimiento-prepago {
   }
 
 }
+
+// ############################################################SECCION PLAN MANTENIMIENTO##############################################################
+
+section#plan-mantenimiento {
+  padding-bottom: 100px;
+
+  div#pla-man-t1 {
+    width: 346px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h3 {
+      font-family: "Toyota-Type";
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 39.93px;
+      text-align: center;
+      padding-top: 60px;
+      margin-bottom: 60px;
+    }
+
+  }
+
+  div {
+    &.pla-man-col-cont {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 31px;
+      margin-left: -40px;
+
+      .pla-man-col {
+        width: 50%;
+        padding: 0px;
+
+        p {
+          &.pla-man-c1-tex {
+            width: 341px;
+            float: none;
+            font-family: "Raleway";
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27.2px;
+            text-align: center;
+            margin-left: 44px;
+            /* margin-right: auto;*/
+          }
+
+        }
+
+        div {
+          text-align: center;
+          width: 345px;
+          margin-left: 43px;
+          // margin-right: auto;
+
+          img {
+            width: 345px;
+            height: auto;
+            border-radius: 15px !important;
+            /* padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 6px;
+            padding-right: 7px; */
+            padding: 0px;
+          }
+        }
+
+        div#plan-man-col2 {
+          div#plan-man-col2-cont-2 {
+            width: 345px;
+            height: 382px;
+            border-radius: 15px;
+            border: 1px;
+            padding: 20px 30px 20px 30px;
+            gap: 15px;
+            background-color: white;
+            margin-left: 0px;
+            
+
+            h3 {
+              width: 345px;
+              height: 27px;
+              font-family: 'Toyota-Type';
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 27px;
+              text-align: left;
+              margin-left: -15px;
+            }
+
+            div#list-ul {
+              text-align: left;
+              margin-left: 0px;
+
+              // margin-bottom: 20px;
+              ul {
+                width: 362px;
+                height: 300px;
+                border: 1px 0px 0px 0px;
+
+                li {
+                  width: 362px;
+                  height: 60px;
+                  border: 1px 0px 0px 0px;
+                  padding: 10px;
+                  gap: 10px;
+                  // margin-top: 30px;
+
+                  img {
+                    width: 40px;
+                    height: 40px;
+                  }
+                }
+              }
+            }
+
+
+          }
+
+          div#modelos-suman-cont {
+
+            div#modelos-suman {
+              h3 {
+                text-align: left;
+              }
+
+              width: 445px;
+              height: 192px;
+              border-radius: 15px;
+              border: 1px;
+              padding: 20px 30px 20px 30px;
+              gap: 15px;
+              background-color: white;
+              margin-left: -30px;
+              margin-top: 40px;
+              background-color: white;
+              text-align: left;
+
+              ul {
+                width: 385px;
+                height: 110px;
+                border: 1px 0px 0px 0px;
+
+                li {
+                  width: 385px;
+                  height: 50px;
+                  border: 1px 0px 0px 0px;
+                  padding: 10px;
+                  gap: 10px;
+
+                  img {
+                    width: 25px;
+                    height: 30px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+
+}
+
+// PEGAR POR ENCIMA DE ESTA LLAVE PARA LOS ATRIBUTOS 450PX ###################################################
 
 }
 
