@@ -1451,7 +1451,7 @@ section#plan-mantenimiento {
       line-height: 39.93px;
       text-align: center;
       padding-top: 60px;
-      margin-bottom: 60px;
+      margin-bottom: 0px;
     }
 
   }
@@ -1478,6 +1478,8 @@ section#plan-mantenimiento {
             text-align: center;
             margin-left: 44px;
             /* margin-right: auto;*/
+            margin-top: 30px;
+            margin-bottom: 30px;
           }
 
         }
@@ -1566,21 +1568,21 @@ section#plan-mantenimiento {
           div#modelos-suman-cont {
 
             div#modelos-suman {
-              h3 {
-                text-align: left;
-              }
-
-              width: 445px;
+              width: 345px;
               height: 192px;
               border-radius: 15px;
               border: 1px;
               padding: 20px 30px 20px 30px;
               gap: 15px;
               background-color: white;
-              margin-left: -30px;
-              margin-top: 40px;
+              margin-left: -72px;
+              margin-top: 88px;
               background-color: white;
               text-align: left;
+
+              h3 {
+                text-align: left;
+              }
 
               ul {
                 width: 385px;
