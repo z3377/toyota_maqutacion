@@ -400,21 +400,25 @@ section#plan-mantenimiento {
               background-color: white;
               text-align: left;
 
-              ul {
-                width: 385px;
-                height: 110px;
-                border: 1px 0px 0px 0px;
+              div#modelos-suman-ul-cont {
+                text-align: left;
 
-                li {
+                ul {
                   width: 385px;
-                  height: 50px;
+                  height: 110px;
                   border: 1px 0px 0px 0px;
-                  padding: 10px;
-                  gap: 10px;
 
-                  img {
-                    width: 25px;
-                    height: 30px;
+                  li {
+                    width: 385px;
+                    height: 50px;
+                    border: 1px 0px 0px 0px;
+                    padding: 10px;
+                    gap: 10px;
+
+                    img {
+                      width: 25px;
+                      height: 30px;
+                    }
                   }
                 }
               }
@@ -1584,24 +1588,39 @@ section#plan-mantenimiento {
                 text-align: left;
               }
 
-              ul {
-                width: 385px;
-                height: 110px;
-                border: 1px 0px 0px 0px;
+              div#modelos-suman-ul-cont {
+                text-align: left;
+                margin-left: -14px;
 
-                li {
+                ul {
                   width: 385px;
-                  height: 50px;
-                  border: 1px 0px 0px 0px;
-                  padding: 10px;
-                  gap: 10px;
+                  height: 110px;
+                  // border: 1px solid #000;
+                  /* Asegúrate de especificar el estilo del borde */
 
-                  img {
-                    width: 25px;
-                    height: 30px;
+                  li {
+                    width: 320px;
+                    height: 50px;
+                    // border: 1px solid #000;
+                    /* Asegúrate de especificar el estilo del borde */
+                    padding: 10px;
+                    gap: 10px;
+
+                    span#img1{
+                      span#palabra1{
+                        margin-left: 40px;
+                      }
+                    }
+
+                    img {
+                      width: 25px;
+                      height: 30px;
+                      margin-right: 16px;
+                    }
                   }
                 }
               }
+
             }
           }
         }
