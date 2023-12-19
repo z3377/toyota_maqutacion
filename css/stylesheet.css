@@ -893,6 +893,14 @@ div#imagen-heder-2 {
   display: none;
 }
 
+section#seccion-beneficios {
+  display: block;
+}
+
+section#seccion-beneficios-1 {
+  display: none;
+}
+
 @media (max-width: 460px) {
   div#imagen-heder {
     display: none;
@@ -902,6 +910,12 @@ div#imagen-heder-2 {
   }
   div#relleno {
     display: none;
+  }
+  section#seccion-beneficios {
+    display: none;
+  }
+  section#seccion-beneficios-1 {
+    display: block;
   }
   div#navbar {
     position: static;
@@ -1277,5 +1291,84 @@ div#imagen-heder-2 {
     width: 25px;
     height: 30px;
     margin-right: 0px;
+  }
+  section#seccion-beneficios-1 {
+    background-color: #d7dcd5;
+    width: auto;
+    height: 1187px;
+  }
+  section#seccion-beneficios-1 h3 {
+    width: 346px;
+    height: 43px;
+    font-family: "Toyota-Type";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39.23px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    /* padding-bottom: 80px;*/
+  }
+  section#seccion-beneficios-1 div#tabla-columnas {
+    width: auto;
+    height: auto;
+    padding-top: 104px;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna {
+    display: unset;
+    flex-wrap: nowrap;
+    margin-right: 0;
+    margin-left: 0;
+    width: auto;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .columnas {
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 346px;
+    height: 204px;
+    border-radius: 10px;
+    padding: 30px 15px 30px 15px;
+    margin-bottom: 15px;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .img-col {
+    width: 100px;
+    height: auto;
+    border-radius: 65px;
+    padding: 0px;
+    gap: 10px;
+    margin-top: 0px;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .tex-columnas {
+    width: 190px;
+    height: 62px;
+    font-family: "Toyota-Type";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31.37px;
+    text-align: left;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .text1-columnas {
+    width: 190px;
+    height: 72px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.8px;
+    text-align: left;
+    margin-top: 0px;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .text1-columnas-1 {
+    width: 225px;
+    height: 81px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-align: center;
+    margin-top: -18px;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
