@@ -1334,6 +1334,30 @@ section#seccion-beneficios-1 {
     padding: 30px 15px 30px 15px;
     margin-bottom: 15px;
   }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .columnas-1 {
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 346px;
+    height: 228px;
+    border-radius: 10px;
+    padding: 30px 15px 30px 15px;
+    margin-bottom: 15px;
+  }
+  section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .columnas-2 {
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 346px;
+    height: 252px;
+    border-radius: 10px;
+    padding: 30px 15px 30px 15px;
+    margin-bottom: 15px;
+  }
   section#seccion-beneficios-1 div#tabla-columnas div#cont-columna .img-col {
     width: 100px;
     height: auto;
