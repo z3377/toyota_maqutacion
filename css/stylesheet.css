@@ -1218,6 +1218,10 @@ div#imagen-heder-2 {
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul li span {
     width: 240px;
     display: inline-block;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 div#list-ul ul li img {
     width: 40px;
@@ -1225,19 +1229,24 @@ div#imagen-heder-2 {
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman {
     width: 345px;
-    height: 192px;
+    height: 207px;
     border-radius: 15px;
     border: 1px;
     padding: 20px 30px 20px 30px;
     gap: 15px;
     background-color: white;
     margin-left: -72px;
-    margin-top: 88px;
+    margin-top: 80px;
     background-color: white;
     text-align: left;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman h3 {
     text-align: left;
+    margin-bottom: 20px;
+    font-family: "Toyota-Type";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman div#modelos-suman-ul-cont {
     text-align: left;
@@ -1249,18 +1258,24 @@ div#imagen-heder-2 {
     /* Asegúrate de especificar el estilo del borde */
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman div#modelos-suman-ul-cont ul li {
-    width: 320px;
+    width: 322px;
     height: 50px;
-    /* Asegúrate de especificar el estilo del borde */
     padding: 10px;
     gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman div#modelos-suman-ul-cont ul li span#img1 span#palabra1 {
-    margin-left: 40px;
+    margin-left: 0px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman div#modelos-suman-ul-cont ul li img {
     width: 25px;
     height: 30px;
-    margin-right: 16px;
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
