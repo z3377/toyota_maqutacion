@@ -1784,4 +1784,8 @@ div#footer-cont {
     line-height: 12.32px;
     text-align: right;
   }
+  div#footer-cont-1 div#footer-cont-pri div.container div.row div.col-6 div .boton-footer-aplicaciones {
+    width: 142px;
+    height: 39px;
+  }
 }/*# sourceMappingURL=stylesheet.css.map */

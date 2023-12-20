@@ -2272,7 +2272,7 @@ div#footer-cont-1 {
       margin-top: 27.11px;
       width: 295px;
       height: 39px;
-      
+
       div.row {
         div.col-6 {
           p#trabaja-con-nosotros {
@@ -2284,6 +2284,14 @@ div#footer-cont-1 {
             font-size: 11px;
             line-height: 12.32px;
             text-align: right;
+          }
+
+          div{
+            .boton-footer-aplicaciones{
+              width: 142px;
+              height: 39px;
+              
+            }
           }
         }
       }
