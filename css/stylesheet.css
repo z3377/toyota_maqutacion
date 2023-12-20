@@ -1077,7 +1077,7 @@ section#seccion-beneficios-1 {
     align-items: center;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col {
-    max-width: 540px;
+    max-width: 345px;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con {
     padding-left: 15px;
@@ -1173,7 +1173,7 @@ section#seccion-beneficios-1 {
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
     text-align: center;
-    width: 345px;
+    width: 280px;
     margin-left: 43px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div img {
@@ -1267,7 +1267,7 @@ section#seccion-beneficios-1 {
     margin-left: -14px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman div#modelos-suman-ul-cont ul {
-    width: 385px;
+    width: 340px;
     height: 110px;
     /* Asegúrate de especificar el estilo del borde */
   }
@@ -1541,8 +1541,9 @@ section#seccion-beneficios-1 {
     padding-left: 0px;
     height: 109px;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 28.52px;
+    font-size: 18px;
+    line-height: 25.67px;
+    /* width: 274px;*/
   }
   section#pregunta-frecuente .accordion-button:not(.collapsed) {
     color: #212529;
@@ -1586,6 +1587,150 @@ section#seccion-beneficios-1 {
     height: 30px;
   }
   section#pregunta-frecuente div#qui-inf-div-btn-cont div#qui-inf-div-btn a:hover {
+    color: white;
+  }
+  div#footer-cont {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #332e23;
+    font-family: "Toyota-Display" !important;
+  }
+  div#footer-cont div#footer-cont-pri {
+    width: 376px;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  div#footer-cont div#footer-cont-pri div#mi-row.row {
+    border-bottom: 1px solid #3b362a;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 4px;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 {
+    width: 376px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    position: relative;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 p a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 11.7px;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 p a:hover {
+    color: white;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 p span a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 11.7px;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 p span a:hover {
+    color: white;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 #primera-columna {
+    text-align: left;
+  }
+  div#footer-cont div#footer-cont-pri div#footer-atribuciones.container.my-3 div.row div.col-md-6 #segunda-columna {
+    text-align: right;
+  }
+  div#footer-cont div#footer-cont-pri .col-md-3.col-sm-6 {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 30px;
+  }
+  div#footer-cont div#footer-cont-pri .col-md-3.col-sm-6 div.card div.card-body ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 26px;
+  }
+  div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto {
+    position: absolute;
+    top: 43px;
+    line-height: 30px;
+  }
+  div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#primer-texto a span#numero {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  div#footer-cont div#footer-cont-pri div #tercera-tarjeta ul li#segundo-texto {
+    position: absolute;
+    bottom: -117px;
+    left: -3px;
+  }
+  div#footer-cont div#footer-cont-pri div #cuarta-tarjeta {
+    text-align: end;
+    text-align: right;
+  }
+  div#footer-cont div#footer-cont-pri div .card {
+    color: white;
+    background-color: #332e23;
+    border: none;
+    padding: 0%;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body {
+    padding: 0%;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body a img#img-toyota-footer {
+    position: absolute;
+    left: 17px;
+    width: 238px;
+    top: -20px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body div #trabaja-con-nosotros {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 15.4px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body div #formar-parte {
+    position: absolute;
+    top: 96px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body div#boton-formar-parte {
+    position: absolute;
+    top: 174px;
+    right: 0px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body div#boton-formar-parte div a {
+    border-radius: 40px;
+    font-family: "Raleway";
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 34.44px;
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+    width: 170px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body h6 {
+    font-weight: bolder;
+    margin-bottom: 16px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
     color: white;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
