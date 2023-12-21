@@ -54,6 +54,7 @@ body {
   font-family: 'Raleway';
   color: #212529;
   overflow-x: hidden;
+  width: 100%;
 }
 
 $toy-black: #212529;
@@ -1191,6 +1192,16 @@ div#footer-cont {
     display: none;
   }
 
+  body {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway';
+    color: #212529;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   // NAV BAR ######################################################################################
 
   div#navbar {
@@ -1448,12 +1459,10 @@ section#mantenimiento-prepago {
         padding-right: 0px;
 
         .man-pre-img-con {
-          padding-left: 15px;
-          padding-right: 15px;
+          padding-left: 0px;
+          padding-right: 0px;
           width: auto;
           height: auto;
-          gap: 10px;
-
 
           .man-pre-img {
             width: 100%;

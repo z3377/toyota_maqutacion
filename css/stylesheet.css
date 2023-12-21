@@ -39,6 +39,7 @@ body {
   font-family: "Raleway";
   color: #212529;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .toy-red {
@@ -932,6 +933,15 @@ div#footer-cont {
   div#footer-cont {
     display: none;
   }
+  body {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway";
+    color: #212529;
+    overflow-x: hidden;
+    width: 100%;
+  }
   div#navbar {
     position: static;
     top: 0;
@@ -1139,11 +1149,10 @@ div#footer-cont {
     padding-right: 0px;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     width: auto;
     height: auto;
-    gap: 10px;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con .man-pre-img {
     width: 100%;
