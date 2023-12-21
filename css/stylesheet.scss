@@ -2336,6 +2336,8 @@ div#footer-cont-1 {
     }
 
     ul {
+      text-align: center;
+
       li#primer-texto {
         font-family: "Toyota-Display";
         font-weight: 700;
@@ -2358,6 +2360,9 @@ div#footer-cont-1 {
         text-align: center;
         width: 94.79px;
         height: 24.78px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15.6px;
 
         img {
           width: 28px;
