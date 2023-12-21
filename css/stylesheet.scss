@@ -2252,7 +2252,7 @@ div#footer-cont-1 {
   div#footer-cont-pri {
     width: 345px;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0%;
     padding-right: 0%;
@@ -2309,9 +2309,49 @@ div#footer-cont-1 {
             }
           }
         }
+
       }
     }
 
+  }
+
+  div#footer-contacto {
+    text-align: center;
+
+    h6 {
+      font-family: "Toyota-Display";
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 14.56px;
+      text-align: center;
+      color: white;
+      margin-top: 29px;
+      margin-bottom: 14px;
+    }
+
+    a {
+      // color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+      text-decoration: none;
+      color: white;
+    }
+
+    li#primer-texto {
+      font-family: "Toyota-Display";
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 17.76px;
+      text-align: center;
+      // letter-spacing: 42.6%;
+
+      span#segundo-texto {
+        font-family: $Toyota-Display;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15.68px;
+        text-align: center;
+        color: #FFFDFB;
+      }
+    }
   }
 
 }

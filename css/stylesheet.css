@@ -1757,7 +1757,7 @@ div#footer-cont {
   div#footer-cont-1 div#footer-cont-pri {
     width: 345px;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0%;
     padding-right: 0%;
@@ -1804,5 +1804,37 @@ div#footer-cont {
     text-align: center;
     margin-top: -10px;
     margin-left: 2px;
+  }
+  div#footer-cont-1 div#footer-contacto {
+    text-align: center;
+  }
+  div#footer-cont-1 div#footer-contacto h6 {
+    font-family: "Toyota-Display";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14.56px;
+    text-align: center;
+    color: white;
+    margin-top: 29px;
+    margin-bottom: 14px;
+  }
+  div#footer-cont-1 div#footer-contacto a {
+    text-decoration: none;
+    color: white;
+  }
+  div#footer-cont-1 div#footer-contacto li#primer-texto {
+    font-family: "Toyota-Display";
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 17.76px;
+    text-align: center;
+  }
+  div#footer-cont-1 div#footer-contacto li#primer-texto span#segundo-texto {
+    font-family: "Toyota-Display";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15.68px;
+    text-align: center;
+    color: #FFFDFB;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
