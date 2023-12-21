@@ -1091,7 +1091,10 @@ div#footer-cont {
     align-items: center;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col {
-    max-width: 345px;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-img-con {
     padding-left: 15px;
@@ -1115,8 +1118,10 @@ div#footer-cont {
     font-weight: 700;
     font-size: 22px;
     width: 345px;
-    margin-left: 15px;
+    margin-left: auto;
     margin-top: 40px;
+    text-align: left;
+    margin-right: auto;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-parr {
     line-height: 27.2px;
@@ -1124,7 +1129,9 @@ div#footer-cont {
     font-weight: 400;
     font-size: 16px;
     width: 346px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-parr-1 {
     line-height: 27.2px;
@@ -1132,8 +1139,9 @@ div#footer-cont {
     font-weight: 400;
     font-size: 16px;
     width: 346px;
-    margin-left: 15px;
-    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
   section#mantenimiento-prepago .man-pre-cont-gen .mant-pre .man-pre-col .man-pre-parr-1 span#man-pre-text-no-wrap {
     white-space: nowrap;
@@ -1166,10 +1174,11 @@ div#footer-cont {
     display: flex;
     flex-wrap: wrap;
     gap: 31px;
-    margin-left: -40px;
+    margin-left: auto;
+    margin-right: auto;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col {
-    width: 50%;
+    width: 100%;
     padding: 0px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col p.pla-man-c1-tex {
@@ -1180,15 +1189,15 @@ div#footer-cont {
     font-size: 16px;
     line-height: 27.2px;
     text-align: center;
-    margin-left: 44px;
-    /* margin-right: auto;*/
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div {
     text-align: center;
-    width: 280px;
-    margin-left: 43px;
+    width: 100%;
+    margin-left: 0px;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div img {
     width: 345px;
@@ -1208,7 +1217,8 @@ div#footer-cont {
     padding: 20px 30px 20px 30px;
     gap: 15px;
     background-color: white;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#plan-man-col2-cont-2 h3 {
     width: 345px;
@@ -1263,10 +1273,11 @@ div#footer-cont {
     padding: 20px 30px 20px 30px;
     gap: 15px;
     background-color: white;
-    margin-left: -72px;
+    /* margin-left: 0px; */
     margin-top: 80px;
     background-color: white;
     text-align: left;
+    margin-right: auto;
   }
   section#plan-mantenimiento div.pla-man-col-cont .pla-man-col div#plan-man-col2 div#modelos-suman-cont div#modelos-suman h3 {
     text-align: left;
