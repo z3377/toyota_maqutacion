@@ -1822,19 +1822,31 @@ div#footer-cont {
     text-decoration: none;
     color: white;
   }
-  div#footer-cont-1 div#footer-contacto li#primer-texto {
+  div#footer-cont-1 div#footer-contacto ul li#primer-texto {
     font-family: "Toyota-Display";
     font-weight: 700;
     font-size: 23px;
     line-height: 17.76px;
     text-align: center;
   }
-  div#footer-cont-1 div#footer-contacto li#primer-texto span#segundo-texto {
+  div#footer-cont-1 div#footer-contacto ul li#primer-texto span#segundo-texto {
     font-family: "Toyota-Display";
     font-weight: 700;
     font-size: 14px;
     line-height: 15.68px;
     text-align: center;
     color: #FFFDFB;
+  }
+  div#footer-cont-1 div#footer-contacto ul li#segundo-texto {
+    text-align: center;
+    width: 94.79px;
+    height: 24.78px;
+  }
+  div#footer-cont-1 div#footer-contacto ul li#segundo-texto img {
+    width: 28px;
+  }
+  div#footer-cont-1 div#footer-contacto ul li#segundo-texto img#segunda-img {
+    margin-right: 4px;
+    margin-left: 4px;
   }
 }/*# sourceMappingURL=stylesheet.css.map */

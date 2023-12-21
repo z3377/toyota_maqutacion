@@ -2335,21 +2335,38 @@ div#footer-cont-1 {
       color: white;
     }
 
-    li#primer-texto {
-      font-family: "Toyota-Display";
-      font-weight: 700;
-      font-size: 23px;
-      line-height: 17.76px;
-      text-align: center;
-      // letter-spacing: 42.6%;
-
-      span#segundo-texto {
-        font-family: $Toyota-Display;
+    ul {
+      li#primer-texto {
+        font-family: "Toyota-Display";
         font-weight: 700;
-        font-size: 14px;
-        line-height: 15.68px;
+        font-size: 23px;
+        line-height: 17.76px;
         text-align: center;
-        color: #FFFDFB;
+        // letter-spacing: 42.6%;
+
+        span#segundo-texto {
+          font-family: $Toyota-Display;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 15.68px;
+          text-align: center;
+          color: #FFFDFB;
+        }
+      }
+
+      li#segundo-texto {
+        text-align: center;
+        width: 94.79px;
+        height: 24.78px;
+
+        img {
+          width: 28px;
+        }
+
+        img#segunda-img {
+          margin-right: 4px;
+          margin-left: 4px;
+        }
       }
     }
   }
