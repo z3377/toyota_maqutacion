@@ -607,6 +607,7 @@ section#pregunta-frecuente {
     background-color: $toy-grey;
   }
 
+
   .accordion-body {
     padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
     background-color: $toy-grey;
@@ -1213,11 +1214,50 @@ div#footer-cont {
       outline: none !important;
     }
 
+    [type=button]:not(:disabled),
+    [type=reset]:not(:disabled),
+    [type=submit]:not(:disabled),
+    button:not(:disabled) {
+      cursor: pointer;
+      border: none;
+      margin-right: 5px;
+      box-shadow: none
+    }
+
+    /* [type=button]:not(:disabled),
+    [type=reset]:not(:disabled),
+    [type=submit]:not(:disabled),
+    button:not(:disabled) {
+      cursor: pointer;
+      border: none;
+      margin-right: 5px;
+    } */
+
+    [type=button]:focus,
+    [type=reset]:focus,
+    [type=submit]:focus,
+    button:focus {
+      outline: none;
+      border: none;
+      outline: none;
+      box-shadow: none
+    }
+
+    [type=button]:active,
+    [type=reset]:active,
+    [type=submit]:active,
+    button:active {
+      border: none;
+      outline: none;
+      box-shadow: none
+    }
+
     nav#nav-bar-pc {
       width: 100%;
       height: auto;
       margin-left: auto;
       margin-right: auto;
+      position: relative;
 
       div {
         a {
@@ -1265,6 +1305,9 @@ div#footer-cont {
       div#boton-header {
         width: 100px;
         height: 33px;
+        position: absolute;
+        top: 16px;
+        right: 42px;
 
         a {
           width: 80px;
@@ -1379,7 +1422,7 @@ div#footer-cont {
 
 section#mantenimiento-prepago {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 45px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1480,8 +1523,8 @@ section#mantenimiento-prepago {
 // ############################################################SECCION PLAN MANTENIMIENTO##############################################################
 
 section#plan-mantenimiento {
-  padding-bottom: 100px;
-  height: 1466px;
+  padding-bottom: 300px;
+  height: auto;
 
   div#pla-man-t1 {
     width: 346px;
@@ -1868,6 +1911,7 @@ section#pregunta-frecuente {
     background-color: $toy-grey;
     border-color: $toy-grey;
     /* border: none; */
+    border: none;
   }
 
   [type=button]:not(:disabled),
