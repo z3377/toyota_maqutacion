@@ -2337,6 +2337,7 @@ div#footer-cont-1 {
 
     ul {
       text-align: center;
+      margin-bottom: 0px;
 
       li#primer-texto {
         font-family: "Toyota-Display";
@@ -2371,6 +2372,49 @@ div#footer-cont-1 {
         img#segunda-img {
           margin-right: 4px;
           margin-left: 4px;
+        }
+      }
+    }
+  }
+
+  div#atribuciones {
+    color: #FFFDFB;
+
+
+    div {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 40.62px;
+
+      p#texto-1 {
+        width: auto;
+        height: 15px;
+        font-family: $Toyota-Type;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14.85px;
+
+
+        a {
+          text-decoration: none;
+          color: #FFFDFB;
+        }
+
+      }
+
+      p#texto-2 {
+        width: auto;
+        height: 15px;
+        font-family: $Toyota-Type;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14.85px;
+
+
+        a {
+          text-decoration: none;
+          color: #FFFDFB;
         }
       }
     }
