@@ -1286,11 +1286,11 @@ div#footer-cont {
         }
 
         ul {
-          font-family: $Toyota-Display;
+          font-family: "Toyota-Display";
           font-weight: 400;
           font-size: 14px;
           line-height: 18.9px;
-          // text-align: center;
+          padding-left: 20px;
 
           li#ultimo-elemento {
             margin-right: 24px;
@@ -1298,6 +1298,7 @@ div#footer-cont {
 
           ul.dropdown-menu {
             text-align: justify;
+            border: none;
           }
         }
       }

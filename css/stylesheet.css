@@ -1017,12 +1017,14 @@ div#footer-cont {
     font-weight: 400;
     font-size: 14px;
     line-height: 18.9px;
+    padding-left: 20px;
   }
   div#navbar nav#nav-bar-pc div#navbarNavDropdown ul li#ultimo-elemento {
     margin-right: 24px;
   }
   div#navbar nav#nav-bar-pc div#navbarNavDropdown ul ul.dropdown-menu {
     text-align: justify;
+    border: none;
   }
   div#navbar nav#nav-bar-pc div#boton-header {
     width: 100px;
