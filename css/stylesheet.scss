@@ -2024,6 +2024,10 @@ section#pregunta-frecuente {
       font-size: 20px;
       line-height: 28.52px;
 
+      &.margin-top{
+        padding-top: 55px;
+      }
+
       img#arrow-icon.rotate-img.rotate {
         position: absolute;
         right: 0px;
