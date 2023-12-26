@@ -1632,6 +1632,12 @@ div#footer-cont {
   section#pregunta-frecuente button:not(:disabled) div {
     width: 286px;
   }
+  section#pregunta-frecuente [type=button]:not(:disabled) div span,
+  section#pregunta-frecuente [type=reset]:not(:disabled) div span,
+  section#pregunta-frecuente [type=submit]:not(:disabled) div span,
+  section#pregunta-frecuente button:not(:disabled) div span {
+    display: none;
+  }
   section#pregunta-frecuente [type=button]:not(:disabled).padding-custom,
   section#pregunta-frecuente [type=reset]:not(:disabled).padding-custom,
   section#pregunta-frecuente [type=submit]:not(:disabled).padding-custom,

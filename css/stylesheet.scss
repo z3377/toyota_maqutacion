@@ -2055,6 +2055,10 @@ section#pregunta-frecuente {
 
     div{
       width: 286px;
+
+      span{
+        display: none;
+      }
     }
 
     &.padding-custom{
