@@ -686,7 +686,7 @@ section#pregunta-frecuente {
   }
 
   .accordion-item:first-of-type {
-    border-bottom: 1px solid #dbdee1;
+    border-bottom: 2px solid #dbdee1;
 
     .accordion-button {
       border-top-left-radius: var(--bs-accordion-inner-border-radius);
@@ -736,7 +736,7 @@ section#pregunta-frecuente {
 
     .accordion-item:not(:first-of-type) {
       border-top: 0;
-      border-bottom: 1px solid #dbdee1;
+      border-bottom: 2px solid #dbdee1;
     }
   }
 
