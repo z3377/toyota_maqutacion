@@ -2022,8 +2022,13 @@ section#pregunta-frecuente {
       padding-left: 0px;
       position: relative;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 28.52px;
+
+      div{
+        width: 286px;
+        // height: 104px;
+      }
 
       img#arrow-icon.rotate-img.rotate {
         position: absolute;
@@ -2043,10 +2048,14 @@ section#pregunta-frecuente {
     padding-left: 0px;
     height: 109px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28.52px;
     padding-top: 70px;
     padding-bottom: 70px;
+
+    div{
+      width: 286px;
+    }
 
     &.padding-custom{
       padding-top: 90px;

@@ -1601,8 +1601,11 @@ div#footer-cont {
     padding-left: 0px;
     position: relative;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28.52px;
+  }
+  section#pregunta-frecuente .accordion-item:first-of-type .accordion-button div {
+    width: 286px;
   }
   section#pregunta-frecuente .accordion-item:first-of-type .accordion-button img#arrow-icon.rotate-img.rotate {
     position: absolute;
@@ -1618,10 +1621,16 @@ div#footer-cont {
     padding-left: 0px;
     height: 109px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28.52px;
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  section#pregunta-frecuente [type=button]:not(:disabled) div,
+  section#pregunta-frecuente [type=reset]:not(:disabled) div,
+  section#pregunta-frecuente [type=submit]:not(:disabled) div,
+  section#pregunta-frecuente button:not(:disabled) div {
+    width: 286px;
   }
   section#pregunta-frecuente [type=button]:not(:disabled).padding-custom,
   section#pregunta-frecuente [type=reset]:not(:disabled).padding-custom,
