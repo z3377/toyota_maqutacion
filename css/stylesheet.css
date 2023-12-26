@@ -1592,7 +1592,7 @@ div#footer-cont {
     display: none;
   }
   section#pregunta-frecuente .accordion-item:first-of-type {
-    border-bottom: 1px solid #dbdee1;
+    border-bottom: 2px solid #dbdee1;
   }
   section#pregunta-frecuente .accordion-item:first-of-type .accordion-button {
     border-top-left-radius: var(--bs-accordion-inner-border-radius);
@@ -1637,11 +1637,11 @@ div#footer-cont {
     padding-bottom: 42px;
   }
   section#pregunta-frecuente div #ultimo-elemento {
-    border-bottom: 1px solid #dbdee1;
+    border-bottom: 2px solid #dbdee1;
   }
   section#pregunta-frecuente div .accordion-item:not(:first-of-type) {
     border-top: 0;
-    border-bottom: 1px solid #dbdee1;
+    border-bottom: 2px solid #dbdee1;
   }
   section#pregunta-frecuente div .accordion-item:not(:first-of-type).margin-botom {
     margin-bottom: 20px;
