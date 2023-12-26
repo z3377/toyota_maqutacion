@@ -882,6 +882,7 @@ div#navbar nav#nav-bar-pc div#boton-header a {
   line-height: 19.66px;
   text-align: center;
   font-family: "Toyota-Display";
+  display: block;
 }
 div#navbar nav#nav-bar-pc div#boton-header a:hover {
   text-decoration: none;
