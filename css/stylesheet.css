@@ -713,7 +713,7 @@ div#footer-cont div#footer-cont-pri div .card .card-body div #trabaja-con-nosotr
   top: 44px;
   right: 0px;
   font-weight: bold;
-  font-size: 15.4px;
+  font-size: 14.4px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body div #formar-parte {
   position: absolute;
@@ -741,12 +741,13 @@ div#footer-cont div#footer-cont-pri div .card .card-body div#boton-formar-parte 
 div#footer-cont div#footer-cont-pri div .card .card-body h6 {
   font-weight: bolder;
   margin-bottom: 16px;
+  font-size: 14px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body ul li a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
 }
 div#footer-cont div#footer-cont-pri div .card .card-body ul li a:hover {
   color: white;
