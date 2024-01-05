@@ -290,8 +290,7 @@
               aria-controls="panelsStayOpen-collapseOne" onclick="rotateImage()">
               <div>
                 ¿Cuáles son los planes del Mantenimiento Prepago?
-              </div> <img id="arrow-icon" class="rotate-img"
-                src="/img/flecha-icon-abajo.png" alt="">
+              </div> <img id="arrow-icon" class="rotate-img" src="/img/flecha-icon-abajo.png" alt="">
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
@@ -364,8 +363,9 @@
               data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5"
               onclick="rotateImage5()">
               <div>
-                ¿Cómo hago cuando quiero llevar mi vehículo al taller y tengo un <span><br></span>plan de mantenimiento prepago
-              contratado?
+                ¿Cómo hago cuando quiero llevar mi vehículo al taller y tengo un <span><br></span>plan de mantenimiento
+                prepago
+                contratado?
               </div>
               <img id="arrow-icon-5" class="rotate-img" src="/img/flecha-icon-abajo.png" alt="">
             </button>
@@ -373,7 +373,8 @@
           <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-heading4">
             <div class="accordion-body">
-              Para utilizar los servicios, se debe agendar una cita en cualquiera de nuestros talleres contactando al +595 21 619 0000. Una vez que acerca su vehículo al taller, procedemos al realizar el mantenimiento
+              Para utilizar los servicios, se debe agendar una cita en cualquiera de nuestros talleres contactando al
+              +595 21 619 0000. Una vez que acerca su vehículo al taller, procedemos al realizar el mantenimiento
               correspondiente sin necesidad de que el servicio sea abonado en ese momento.
             </div>
           </div>
@@ -610,6 +611,32 @@
       // Aplica la rotación según el estado del acordeón
       arrowIcon.classList.toggle('rotate', isOpen);
     }
+  </script>
+
+  <button onclick="scrollToTop()" id="scrollBtn" title="Ir arriba">
+    <img src="/img/scrollup-icon.png" alt="Scroll Up">
+  </button>
+
+  <script>
+    // Obtener el botón y el contenido de la página
+    var scrollButton = document.getElementById("scrollBtn");
+    var content = document.getElementById("content");
+
+    // Mostrar u ocultar el botón de scroll up según la posición de desplazamiento
+    window.onscroll = function () {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollButton.style.display = "block";
+      } else {
+        scrollButton.style.display = "none";
+      }
+    };
+
+    // Función para desplazarse hacia arriba al hacer clic en el botón
+    function scrollToTop() {
+      document.body.scrollTop = 0; // Para Safari
+      document.documentElement.scrollTop = 0; // Para otros navegadores
+    }
+
   </script>
 
 </body>

@@ -2235,4 +2235,22 @@ div#footer-cont {
     text-decoration: none;
     color: #FFFDFB;
   }
+}
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#scrollBtn img {
+  width: 50px;
+  /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+#scrollBtn:hover img {
+  /* Puedes agregar estilos adicionales al hacer hover sobre la imagen si lo deseas */
 }/*# sourceMappingURL=stylesheet.css.map */
