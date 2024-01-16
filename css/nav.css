@@ -1,0 +1,188 @@
+/* Estilos generales para la barra de navegación */
+#nav {
+  background-color: #ffffff;
+  /* Color de fondo de la barra de navegación */
+  /* border-bottom: 2px solid #e0e0e0; */
+  /* Borde inferior */
+  padding: 10px 0;
+  /* Espaciado interno superior e inferior */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Estilos para el logotipo y el título */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Estilos para centrar verticalmente el botón */
+.boton-cuotas {
+  color: #ffffff;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 186px !important;
+  padding: 16px 20px !important;
+  /* position: relative !important; */
+  /* top: -9px !important; */
+  font-weight: 1000 !important;
+}
+
+
+.logo-toyotoshi {
+  max-width: 64px;
+  margin-right: 2px;
+  margin-bottom: 21px;
+  margin-left: -71px;
+}
+
+.titulo-toyotoshi {
+  font-size: 36px;
+  /* Tamaño de fuente para el título */
+  font-weight: bold;
+  /* Peso de la fuente */
+  margin: 0;
+  /* Eliminar el margen superior e inferior del título */
+  line-height: 16px;
+  /* Espaciado entre líneas */
+
+  font-weight: normal;
+}
+
+.titulo-sociedad-anonima {
+  font-size: 11px;
+  margin: 0;
+  letter-spacing: 5.5px;
+  margin-left: 6px;
+}
+
+/* Estilos para los enlaces del menú */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  font-size: 15px;
+  /* Espacio entre elementos del menú */
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  /* Color del texto del enlace */
+  font-weight: bold;
+  /* Peso de la fuente para los enlaces */
+  /* text-transform: uppercase; */
+  /* Convertir el texto a mayúsculas */
+  transition: color 0.3s;
+  /* Transición suave del color del texto */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dc3545;
+  /* Cambio de color al pasar el mouse sobre el enlace */
+}
+
+/* Estilos para el botón de "PAGO DE CUOTAS" */
+.boton-cuota {
+  font-weight: bolder !important;
+  width: 191px;
+  border-radius: 18px !important;
+  height: 50px;
+
+  /* Peso de la fuente para el botón */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+  background-color: #ffffff;
+  /* Color de fondo del menú desplegable */
+  border: none;
+  /* Sin borde en el menú desplegable */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+}
+
+.dropdown-item {
+  color: #333;
+  /* Color del texto del elemento del menú desplegable */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  /* Cambio de color al pasar el mouse sobre el elemento */
+  color: black;
+  /* Color del texto al pasar el mouse sobre el elemento */
+}
+
+@media screen and (max-width:450px) {
+  #nav {
+    background-color: #ffffff;
+    position: static;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none !important;
+    /* Eliminar la imagen de fondo predeterminada */
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    /* Elimina el contorno al enfocar */
+    box-shadow: none;
+    /* Elimina la sombra al hacer clic */
+  }
+
+  .nav-toggler-icon-custom {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    width: 24px;
+    z-index: 999;
+    text-decoration: none;
+    border-color: none;
+  }
+
+  .logo-toyotoshi {
+    max-width: 31px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    margin-left: -46px;
+  }
+
+  .titulo-toyotoshi {
+    font-size: 17px;
+    font-weight: bold;
+    /* margin: 0; */
+    line-height: 8px !important;
+    line-height: 16px;
+    margin-bottom: 1px;
+    font-weight: normal;
+    margin-left: -12px;
+  }
+
+  .titulo-sociedad-anonima {
+    font-size: 6px;
+    margin: 0;
+    letter-spacing: 2px;
+    margin-left: 3px;
+  }
+
+  .boton-cuotas {
+    color: #ffffff;
+    border-radius: 40px !important;
+    padding: 8px 0px !important;
+    font-size: 10px !important;
+    width: 111px !important;
+    font-weight: 1000 !important;
+    margin-bottom: 11px;
+    margin-right: 40px;
+    position: absolute;
+    top: 14px;
+    right: 7px;
+  }
+
+}

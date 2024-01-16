@@ -1,0 +1,126 @@
+/* estilos del footer */
+#columnas-del-footer {
+  background-color: #332e23;
+  color: white;
+  width: 100%;
+  bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+/* estilos del container de las columnas */
+.container {
+  max-width: 76%;
+}
+
+/* estilo de las columnas del footer */
+.formato-columnas {
+  background-color: #332e23 !important;
+  line-height: 30px;
+}
+
+#div-footer-general {
+  background-color: #332e23;
+}
+
+#div-footer-general a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* estilos del hr */
+.hr-formato {
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  /* padding-bottom: 0%; */
+  /* margin-bottom: 0%; */
+  border: 0;
+  border-top: 1px solid #433d2f;
+  width: 100%;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+/* estilos de 4ta columna del footer */
+#logo-footer-toyotoshi {
+  margin-top: -25px;
+  margin-right: -34px;
+}
+
+.logo-toyotoshi-footer {
+  max-width: 57px;
+  margin-right: 156px;
+  margin-bottom: -30px;
+  margin-left: -5px;
+  position: absolute;
+  top: -26px;
+  right: 57px;
+}
+
+.titulo-toyotoshi-footer {
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 16px;
+  font-weight: normal;
+  margin-right: 0%;
+  position: absolute;
+  right: 0;
+  padding-right: 14px;
+  top: -10px;
+}
+
+.titulo-sociedad-anonima-footer {
+  font-size: 8px;
+  margin: 0;
+  letter-spacing: 6.4px;
+  margin-left: 5px;
+}
+
+#trabaja-con-nosotros {
+  font-size: 16px;
+  margin-right: 0%;
+  margin-top: 44px;
+}
+
+.forma-parte-de-nosotros {
+  text-align: right;
+  font-size: 14.6px;
+  margin-top: 10px;
+  margin-right: 0%;
+}
+
+.boton-footer-aplicaciones {
+  color: black !important;
+  border-radius: 40px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  width: 186px !important;
+  padding: 16px 0px !important;
+  position: relative !important;
+  top: 0px !important;
+  font-weight: 1000 !important;
+  right: 0px;
+}
+
+.container-columnas-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-footer {
+  flex: 50%;
+  /* Para dividir el espacio en dos columnas iguales */
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.column-footer:nth-child(odd) {
+  background-color: #332e23;
+}
+
+.column-footer:nth-child(even) {
+  background-color: #332e23;
+}/*# sourceMappingURL=footer.css.map */
