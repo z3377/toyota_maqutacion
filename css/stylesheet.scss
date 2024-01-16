@@ -1231,7 +1231,7 @@ nav#navbar-pc {
       width: 20px;
       height: 17.33px;
       vertical-align: middle;
-      background-image: url('img/burger-bar.png');
+      background-image: url('/img/burger-bar.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
@@ -1353,10 +1353,28 @@ nav#navbar-pc {
 
     nav#navbar-pc.navbar.bg-body-tertiary {
       div.container-fluid {
+        position: relative;
         a.navbar-brand {
           img {
             width: 149px;
+            height: 30.27px;
           }
+        }
+        a.boton{
+          position: absolute;
+          width: 100px;
+          height: 33px;
+          border-radius: 38px;
+          background-color: #EA2346;
+          font-family: $Toyota-Display;
+          font-weight: 900;
+          font-size: 9px;
+          // line-height: 12.64px;
+          text-align: center;
+          line-height: 36px;
+          text-decoration: none;
+          color: white;
+          right: 60px;
         }
       }
     }
