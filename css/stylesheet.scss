@@ -1237,6 +1237,7 @@ nav#navbar-pc {
       background-size: 100%;
       border: none !important;
       outline: none !important;
+      margin-right: -16px;
     }
 
     [type=button]:not(:disabled),
@@ -1374,7 +1375,7 @@ nav#navbar-pc {
           line-height: 36px;
           text-decoration: none;
           color: white;
-          right: 60px;
+          right: 46px;
         }
       }
     }

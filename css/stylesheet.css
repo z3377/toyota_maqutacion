@@ -973,6 +973,7 @@ nav#navbar-pc {
     background-size: 100%;
     border: none !important;
     outline: none !important;
+    margin-right: -16px;
   }
   div#navbar [type=button]:not(:disabled),
   div#navbar [type=reset]:not(:disabled),
@@ -1087,7 +1088,7 @@ nav#navbar-pc {
     line-height: 36px;
     text-decoration: none;
     color: white;
-    right: 60px;
+    right: 46px;
   }
   div#navbar .navbar > .container,
   div#navbar .navbar > .container-fluid,
